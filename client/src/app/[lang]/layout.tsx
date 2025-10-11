@@ -6,14 +6,16 @@ import RightSidebar from '../../components/rightSidebar';
 const supportedLangs = ["en", "zh", "si"] as const;
 type Lang = (typeof supportedLangs)[number];
 
+type LocaleLayoutProps = {
+  children: ReactNode;
+  params: { lang: Lang };
+};
+
 export default function LocaleLayout({
   children,
   params,
-}: {
-  children: ReactNode;
-  params: { lang: string };
-}) {
-  const lang = params.lang as Lang; // Removed unnecessary Promise.resolve
+}: LocaleLayoutProps) {
+  const lang = params.lang;
 
   if (!supportedLangs.includes(lang)) notFound();
 
