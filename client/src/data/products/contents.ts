@@ -6,10 +6,10 @@ export const productContents = {
       {
         category: "Vegetables & Roots",
         items: [
-          { imagePath: "/images/vegetables/big-onion.jpg", imageName: "Big Onion", origins: ["China", "India", "Pakistan", "Egypt", "Netherlands", "Spain"] },
-          { imagePath: "/images/vegetables/potato.jpg", imageName: "Potato", origins: ["India", "Bangladesh", "Pakistan", "China", "Holland"] },
-          { imagePath: "/images/vegetables/red-onion.jpg", imageName: "Red Onion", origins: ["Thailand", "China", "India"] },
-          { imagePath: "/images/vegetables/garlic.jpg", imageName: "Garlic", origins: ["China", "Pakistan", "Iran", "India"] },
+          { imagePath: "/assets/products/vegetables/big-onion.png", imageName: "Big Onion", origins: ["China", "India", "Pakistan", "Egypt", "Netherlands", "Spain"] },
+          { imagePath: "/assets/products/vegetables/potato.jpg", imageName: "Potato", origins: ["India", "Bangladesh", "Pakistan", "China", "Holland"] },
+          { imagePath: "/assets/products/vegetables/red-onion.jpg", imageName: "Red Onion", origins: ["Thailand", "China", "India"] },
+          { imagePath: "/assets/products/vegetables/garlic.jpg", imageName: "Garlic", origins: ["China", "Pakistan", "Iran", "India"] },
         ],
       },
       {
@@ -85,10 +85,10 @@ export const productContents = {
       {
         category: "蔬菜和根茎类",
         items: [
-          { imagePath: "/images/vegetables/big-onion.jpg", imageName: "大洋葱", origins: ["中国", "印度", "巴基斯坦", "埃及", "荷兰", "西班牙"] },
-          { imagePath: "/images/vegetables/potato.jpg", imageName: "土豆", origins: ["印度", "孟加拉国", "巴基斯坦", "中国", "荷兰"] },
-          { imagePath: "/images/vegetables/red-onion.jpg", imageName: "红洋葱", origins: ["泰国", "中国", "印度"] },
-          { imagePath: "/images/vegetables/garlic.jpg", imageName: "大蒜", origins: ["中国", "巴基斯坦", "伊朗", "印度"] },
+          { imagePath: "/assets/products/vegetables/big-onion.png", imageName: "大洋葱", origins: ["中国", "印度", "巴基斯坦", "埃及", "荷兰", "西班牙"] },
+          { imagePath: "/assets/products/vegetables/potato.jpg", imageName: "土豆", origins: ["印度", "孟加拉国", "巴基斯坦", "中国", "荷兰"] },
+          { imagePath: "/assets/products/vegetables/red-onion.jpg", imageName: "红洋葱", origins: ["泰国", "中国", "印度"] },
+          { imagePath: "/assets/products/vegetables/garlic.jpg", imageName: "大蒜", origins: ["中国", "巴基斯坦", "伊朗", "印度"] },
         ],
       },
       {
@@ -165,9 +165,9 @@ export const productContents = {
         category: "එළවළු සහ මූල",
         items: [
           { imagePath: "/images/vegetables/big-onion.jpg", imageName: "ලොකු ලූනු", origins: ["චීනය", "ඉන්දියාව", "පාකිස්තානය", "ඊජිප්තුව", "නෙදර්ලන්තය", "ස්පාඤ්ඤය"] },
-          { imagePath: "/images/vegetables/potato.jpg", imageName: "අල", origins: ["ඉන්දියාව", "බංග්ලාදේශය", "පාකිස්තානය", "චීනය", "හොලන්තය"] },
-          { imagePath: "/images/vegetables/red-onion.jpg", imageName: "රතු ලූනු", origins: ["තායිලන්තය", "චීනය", "ඉන්දියාව"] },
-          { imagePath: "/images/vegetables/garlic.jpg", imageName: "සුදු ලූනු", origins: ["චීනය", "පාකිස්තානය", "ඉරානය", "ඉන්දියාව"] },
+          { imagePath: "/assets/products/vegetables/potato.jpg", imageName: "අල", origins: ["ඉන්දියාව", "බංග්ලාදේශය", "පාකිස්තානය", "චීනය", "හොලන්තය"] },
+          { imagePath: "/assets/products/vegetables/red-onion.jpg", imageName: "රතු ලූනු", origins: ["තායිලන්තය", "චීනය", "ඉන්දියාව"] },
+          { imagePath: "/assets/products/vegetables/garlic.jpg", imageName: "සුදු ලූනු", origins: ["චීනය", "පාකිස්තානය", "ඉරානය", "ඉන්දියාව"] },
         ],
       },
       {
@@ -230,6 +230,5 @@ export const productContents = {
           { imagePath: "/images/grains/chickpeas.jpg", imageName: "චික්පීස්", origins: ["විවිධ ආශ්‍රිතයන්"] },
         ],
       },
-    ],
-  },
+    png  },
 };
