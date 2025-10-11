@@ -6,7 +6,7 @@ import RightSidebar from '../../components/rightSidebar';
 const supportedLangs = ["en", "zh", "si"] as const;
 type Lang = (typeof supportedLangs)[number];
 
-export default async function LocaleLayout({
+export default function LocaleLayout({
   children,
   params,
 }: {
