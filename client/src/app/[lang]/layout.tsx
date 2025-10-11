@@ -1,4 +1,4 @@
-// app/[lang]/layout.tsx
+// src/app/[lang]/layout.tsx
 import { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import "../globals.css";
@@ -7,16 +7,20 @@ import RightSidebar from "../../components/rightSidebar";
 const supportedLangs = ["en", "zh", "si"] as const;
 type Lang = (typeof supportedLangs)[number];
 
-export default function LocaleLayout({
+function isSupportedLang(lang: string): lang is Lang {
+  return (supportedLangs as readonly string[]).includes(lang);
+}
+
+export default async function LocaleLayout({
   children,
   params,
 }: {
   children: ReactNode;
-  params: { lang: Lang };
+  params: Promise<{ lang: string }>;
 }) {
-  const { lang } = params;
+  const { lang } = await params;
 
-  if (!supportedLangs.includes(lang)) {
+  if (!isSupportedLang(lang)) {
     notFound();
   }
 
