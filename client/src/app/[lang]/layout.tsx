@@ -1,29 +1,31 @@
-import { ReactNode } from 'react';
-import { notFound } from 'next/navigation';
-import '../../app/globals.css';
-import RightSidebar from '../../components/rightSidebar';
+// app/[lang]/layout.tsx
+import { ReactNode } from "react";
+import { notFound } from "next/navigation";
+import "../globals.css";
+import RightSidebar from "../../components/rightSidebar";
 
 const supportedLangs = ["en", "zh", "si"] as const;
 type Lang = (typeof supportedLangs)[number];
 
-type LocaleLayoutProps = {
-  children: ReactNode;
-  params: { lang: Lang };
-};
-
 export default function LocaleLayout({
   children,
   params,
-}: LocaleLayoutProps) {
-  const lang = params.lang;
+}: {
+  children: ReactNode;
+  params: { lang: Lang };
+}) {
+  const { lang } = params;
 
-  if (!supportedLangs.includes(lang)) notFound();
+  if (!supportedLangs.includes(lang)) {
+    notFound();
+  }
 
   return (
-    <>
-      {/* Client component */}
-      <RightSidebar initialLang={lang} />
-      {children}
-    </>
+    <html lang={lang}>
+      <body>
+        <RightSidebar initialLang={lang} />
+        {children}
+      </body>
+    </html>
   );
 }
