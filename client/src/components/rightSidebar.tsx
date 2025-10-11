@@ -7,9 +7,9 @@ const supportedLangs = ["en", "zh", "si"] as const;
 type Lang = (typeof supportedLangs)[number];
 
 // --- Flags ---
-const EnglishFlag = ({ size = 32 }: { size?: number }) => <div>🇬🇧</div>;
-const ChineseFlag = ({ size = 32 }: { size?: number }) => <div>🇨🇳</div>;
-const SinhalaFlag = ({ size = 32 }: { size?: number }) => <div>🇱🇰</div>;
+const EnglishFlag = () => <div>🇬🇧</div>;
+const ChineseFlag = () => <div>🇨🇳</div>;
+const SinhalaFlag = () => <div>🇱🇰</div>;
 
 // --- Sidebar ---
 export default function RightSidebar({ initialLang }: { initialLang: Lang }) {
@@ -22,7 +22,7 @@ export default function RightSidebar({ initialLang }: { initialLang: Lang }) {
   useEffect(() => {
     const currentLang = pathname.split("/")[1] as Lang;
     if (supportedLangs.includes(currentLang) && currentLang !== lang) setLang(currentLang);
-  }, [pathname]);
+  }, [pathname, lang]);
 
   const changeLanguage = (newLang: Lang) => {
     const parts = pathname.split("/");

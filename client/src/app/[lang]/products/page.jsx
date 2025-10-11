@@ -2,7 +2,7 @@ import { productContents } from '../../../data/products/contents';
 
 export default function ProductsPage({ params }) {
   const lang = params.lang || 'en';
-  const content = productContents[lang] || productContents['en']; // Fallback to English if lang is invalid
+  const content = productContents[lang] || productContents['en'];
 
   return (
     <main className="p-8">
@@ -66,3 +66,4 @@ export default function ProductsPage({ params }) {
     </main>
   );
 }
+

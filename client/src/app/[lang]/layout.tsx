@@ -13,14 +13,14 @@ export default async function LocaleLayout({
   children: ReactNode;
   params: { lang: string };
 }) {
-  const { lang } = await Promise.resolve(params); 
+  const lang = params.lang as Lang; // Removed unnecessary Promise.resolve
 
-  if (!supportedLangs.includes(lang as Lang)) notFound();
+  if (!supportedLangs.includes(lang)) notFound();
 
   return (
     <>
       {/* Client component */}
-      <RightSidebar initialLang={lang as Lang} />
+      <RightSidebar initialLang={lang} />
       {children}
     </>
   );
