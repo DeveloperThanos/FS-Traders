@@ -1,7 +1,7 @@
 import { productContents } from '../../../data/products/contents';
 
-export default function ProductsPage({ params }) {
-  const lang = params.lang || 'en';
+export default async function ProductsPage({ params }) {
+  const { lang } = await params;
   const content = productContents[lang] || productContents['en'];
 
   return (
