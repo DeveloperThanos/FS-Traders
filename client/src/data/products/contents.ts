@@ -85,14 +85,14 @@ export const productContents = {
       },
     ],
   },
-
+  
   zh: {
     heading: "我们的产品",
     subheadingImport: "进口产品",
     importCategories: [
       {
-        category: "蔬菜和根茎类",
-        assetName: "Vegetables",
+        category: "蔬菜与根茎",
+        assetName: "蔬菜",
         items: [
           { imagePath: "/assets/products/Import/Vegetables/big-onion.png", imageName: "大洋葱", origins: ["中国", "印度", "巴基斯坦", "埃及", "荷兰", "西班牙"] },
           { imagePath: "/assets/products/Import/Vegetables/potato.jpg", imageName: "土豆", origins: ["印度", "孟加拉国", "巴基斯坦", "中国", "荷兰"] },
@@ -101,43 +101,43 @@ export const productContents = {
         ],
       },
       {
-        category: "谷物、豆类和扁豆",
-        assetName: "Grains",
+        category: "谷物、豆类与扁豆",
+        assetName: "谷物",
         items: [
           { imagePath: "/assets/products/Import/Grains/red-split-lentils.jpg", imageName: "红扁豆", origins: ["澳大利亚", "加拿大"] },
           { imagePath: "/assets/products/Import/Grains/yellow-split-lentils.jpg", imageName: "黄扁豆", origins: ["澳大利亚", "土耳其"] },
-          { imagePath: "/assets/products/Import/Grains/green-mung.jpg", imageName: "绿 mung 豆", origins: ["多个来源"] },
-          { imagePath: "/assets/products/Import/Grains/urud-dhal.jpg", imageName: "乌鲁德达尔", origins: ["多个来源"] },
+          { imagePath: "/assets/products/Import/Grains/green-mung.jpg", imageName: "绿豆", origins: ["多种来源"] },
+          { imagePath: "/assets/products/Import/Grains/urud-dhal.jpg", imageName: "乌豆", origins: ["多种来源"] },
         ],
       },
       {
-        category: "香料和种子",
-        assetName: "Spices",
+        category: "香料与种子",
+        assetName: "香料",
         items: [
-          { imagePath: "/assets/products/Import/Spices/coriander-seeds.jpg", imageName: "香菜种子", origins: ["印度", "阿根廷", "加拿大", "保加利亚", "罗马尼亚", "乌克兰", "俄罗斯"] },
-          { imagePath: "/assets/products/Import/Spices/cumin-seeds.jpg", imageName: "孜然种子", origins: ["多个来源"] },
-          { imagePath: "/assets/products/Import/Spices/fennel-seeds.jpg", imageName: "茴香种子", origins: ["多个来源"] },
-          { imagePath: "/assets/products/Import/Spices/mustard-seeds.jpg", imageName: "芥菜种子", origins: ["多个来源"] },
+          { imagePath: "/assets/products/Import/Spices/coriander-seeds.jpg", imageName: "芫荽种子", origins: ["印度", "阿根廷", "加拿大", "保加利亚", "罗马尼亚", "乌克兰", "俄罗斯"] },
+          { imagePath: "/assets/products/Import/Spices/cumin-seeds.jpg", imageName: "孜然", origins: ["多种来源"] },
+          { imagePath: "/assets/products/Import/Spices/fennel-seeds.jpg", imageName: "茴香", origins: ["多种来源"] },
+          { imagePath: "/assets/products/Import/Spices/mustard-seeds.jpg", imageName: "芥菜籽", origins: ["多种来源"] },
         ],
       },
       {
         category: "其他食品",
-        assetName: "Other Food",
+        assetName: "其他食品",
         items: [
           { imagePath: "/assets/products/Import/Other Food/sugar.jpg", imageName: "糖", origins: ["印度", "巴西", "泰国", "欧洲"] },
           { imagePath: "/assets/products/Import/Other Food/dry-sprats.jpg", imageName: "干小鱼", origins: ["泰国", "伊朗"] },
-          { imagePath: "/assets/products/Import/Other Food/canned-fish.jpg", imageName: "罐头鱼", origins: ["多个来源"] },
-          { imagePath: "/assets/products/Import/Other Food/dry-chilli.jpg", imageName: "干辣椒", origins: ["多个来源"] },
+          { imagePath: "/assets/products/Import/Other Food/canned-fish.jpg", imageName: "罐装鱼", origins: ["多种来源"] },
+          { imagePath: "/assets/products/Import/Other Food/dry-chilli.jpg", imageName: "干辣椒", origins: ["多种来源"] },
         ],
       },
       {
-        category: "食品添加剂、化学品和其他",
-        assetName: "Additives",
+        category: "食品添加剂及化学品和杂项",
+        assetName: "添加剂",
         items: [
-          { imagePath: "/assets/products/Import/Additives/sodium-bicarbonate.jpg", imageName: "碳酸氢钠", origins: ["多个来源"] },
-          { imagePath: "/assets/products/Import/Additives/ammonium-bicarbonate.jpg", imageName: "碳酸铵", origins: ["多个来源"] },
-          { imagePath: "/assets/products/Import/Additives/citric-acid.jpg", imageName: "柠檬酸", origins: ["多个来源"] },
-          { imagePath: "/assets/products/Import/Additives/used-newspaper.jpg", imageName: "旧报纸", origins: ["多个来源"] },
+          { imagePath: "/assets/products/Import/Additives/sodium-bicarbonate.jpg", imageName: "碳酸氢钠", origins: ["多种来源"] },
+          { imagePath: "/assets/products/Import/Additives/ammonium-bicarbonate.jpg", imageName: "碳酸氢铵", origins: ["多种来源"] },
+          { imagePath: "/assets/products/Import/Additives/citric-acid.jpg", imageName: "柠檬酸", origins: ["多种来源"] },
+          { imagePath: "/assets/products/Import/Additives/used-newspaper.jpg", imageName: "废旧报纸", origins: ["多种来源"] },
         ],
       },
     ],
@@ -145,115 +145,119 @@ export const productContents = {
     exportCategories: [
       {
         category: "香料",
-        assetName: "Spices",
+        assetName: "香料",
         items: [
-          { imagePath: "/assets/products/Export/Spices/black-pepper.jpg", imageName: "黑胡椒", origins: ["多个来源"] },
-          { imagePath: "/assets/products/Export/Spices/cinnamon.jpg", imageName: "肉桂", origins: ["多个来源"] },
-          { imagePath: "/assets/products/Export/Spices/cumin-seeds.jpg", imageName: "孜然种子", origins: ["多个来源"] },
-          { imagePath: "/assets/products/Export/Spices/fenugreek-seeds.jpg", imageName: "葫芦巴种子", origins: ["多个来源"] },
+          { imagePath: "/assets/products/Export/Spices/black-pepper.jpg", imageName: "黑胡椒", origins: ["多种来源"] },
+          { imagePath: "/assets/products/Export/Spices/cinnamon.jpg", imageName: "肉桂", origins: ["多种来源"] },
+          { imagePath: "/assets/products/Export/Spices/cumin-seeds.jpg", imageName: "孜然", origins: ["多种来源"] },
+          { imagePath: "/assets/products/Export/Spices/fenugreek-seeds.jpg", imageName: "葫芦巴种子", origins: ["多种来源"] },
         ],
       },
       {
-        category: "农业和种植产品",
-        assetName: "Agriculture",
+        category: "农业及种植产品",
+        assetName: "农业",
         items: [
-          { imagePath: "/assets/products/Export/Agriculture/king-coconut.jpg", imageName: "王椰子", origins: ["多个来源"] },
-          { imagePath: "/assets/products/Export/Agriculture/coconut.jpg", imageName: "椰子", origins: ["多个来源"] },
-          { imagePath: "/assets/products/Export/Agriculture/papaya.jpg", imageName: "木瓜", origins: ["多个来源"] },
-          { imagePath: "/assets/products/Export/Agriculture/tapioca.jpg", imageName: "木薯", origins: ["多个来源"] },
+          { imagePath: "/assets/products/Export/Agriculture/king-coconut.jpg", imageName: "国王椰子", origins: ["多种来源"] },
+          { imagePath: "/assets/products/Export/Agriculture/coconut.jpg", imageName: "椰子", origins: ["多种来源"] },
+          { imagePath: "/assets/products/Export/Agriculture/papaya.jpg", imageName: "木瓜", origins: ["多种来源"] },
+          { imagePath: "/assets/products/Export/Agriculture/tapioca.jpg", imageName: "木薯", origins: ["多种来源"] },
         ],
       },
       {
-        category: "豆类和谷物",
-        assetName: "Grains",
+        category: "豆类与谷物",
+        assetName: "谷物",
         items: [
-          { imagePath: "/assets/products/Export/Grains/chickpeas.jpg", imageName: "鹰嘴豆", origins: ["多个来源"] },
+          { imagePath: "/assets/products/Export/Grains/chickpeas.jpg", imageName: "鹰嘴豆", origins: ["多种来源"] },
         ],
       },
     ],
   },
-
+  
   si: {
-    heading: "අපේ නිෂ්පාදන",
-    subheadingImport: "ආනයන නිෂ්පාදන",
-    importCategories: [
-      {
-        category: "එළවළු සහ මූල",
-        assetName: "Vegetables",
-        items: [
-          { imagePath: "/assets/products/Import/Vegetables/big-onion.png", imageName: "ලොකු ලූනු", origins: ["චීනය", "ඉන්දියාව", "පාකිස්තානය", "ඊජිප්තුව", "නෙදර්ලන්තය", "ස්පාඤ්ඤය"] },
-          { imagePath: "/assets/products/Import/Vegetables/potato.jpg", imageName: "අල", origins: ["ඉන්දියාව", "බංග්ලාදේශය", "පාකිස්තානය", "චීනය", "හොලන්තය"] },
-          { imagePath: "/assets/products/Import/Vegetables/red-onion.jpg", imageName: "රතු ලූනු", origins: ["තායිලන්තය", "චීනය", "ඉන්දියාව"] },
-          { imagePath: "/assets/products/Import/Vegetables/garlic.jpg", imageName: "සුදු ලූනු", origins: ["චීනය", "පාකිස්තානය", "ඉරානය", "ඉන්දියාව"] },
-        ],
-      },
-      {
-        category: "ධාන්‍ය, පර්වත සහ කුඩු",
-        assetName: "Grains",
-        items: [
-          { imagePath: "/assets/products/Import/Grains/red-split-lentils.jpg", imageName: "රතු කුඩු", origins: ["ඕස්ට්‍රේලියාව", "කැනඩාව"] },
-          { imagePath: "/assets/products/Import/Grains/yellow-split-lentils.jpg", imageName: "කහ කුඩු", origins: ["ඕස්ට්‍රේලියාව", "තුර්කිය"] },
-          { imagePath: "/assets/products/Import/Grains/green-mung.jpg", imageName: "කොළ මංගු", origins: ["විවිධ ආශ්‍රිතයන්"] },
-          { imagePath: "/assets/products/Import/Grains/urud-dhal.jpg", imageName: "උරුදු ඩාල්", origins: ["විවිධ ආශ්‍රිතයන්"] },
-        ],
-      },
-      {
-        category: "මිරිස් සහ බීජ",
-        assetName: "Spices",
-        items: [
-          { imagePath: "/assets/products/Import/Spices/coriander-seeds.jpg", imageName: "කොත්තමල්ලි බීජ", origins: ["ඉන්දියාව", "අර්ජෙන්ටීනාව", "කැනඩාව", "බල්ගේරියාව", "රෝමානියාව", "යුක්රේනය", "රුසියාව"] },
-          { imagePath: "/assets/products/Import/Spices/cumin-seeds.jpg", imageName: "ජීර බීජ", origins: ["විවිධ ආශ්‍රිතයන්"] },
-          { imagePath: "/assets/products/Import/Spices/fennel-seeds.jpg", imageName: "සීනි බීජ", origins: ["විවිධ ආශ්‍රිතයන්"] },
-          { imagePath: "/assets/products/Import/Spices/mustard-seeds.jpg", imageName: "කැරට් බීජ", origins: ["විවිධ ආශ්‍රිතයන්"] },
-        ],
-      },
-      {
-        category: "අනෙකුත් ආහාර නිෂ්පාදන",
-        assetName: "Other Food",
-        items: [
-          { imagePath: "/assets/products/Import/Other Food/sugar.jpg", imageName: "සීනි", origins: ["ඉන්දියාව", "බ්‍රසීලය", "තායිලන්තය", "යුරෝපය"] },
-          { imagePath: "/assets/products/Import/Other Food/dry-sprats.jpg", imageName: "ඇණුම් මී පැණි (මාළු)", origins: ["තායිලන්තය", "ඉරානය"] },
-          { imagePath: "/assets/products/Import/Other Food/canned-fish.jpg", imageName: "කෑමට සුදානම් කළ මාළු", origins: ["විවිධ ආශ්‍රිතයන්"] },
-          { imagePath: "/assets/products/Import/Other Food/dry-chilli.jpg", imageName: "ඇණුම් මිරිස්", origins: ["විවිධ ආශ්‍රිතයන්"] },
-        ],
-      },
-      {
-        category: "ආහාර අතිරේක, රසායනික සහ විවිධ",
-        assetName: "Additives",
-        items: [
-          { imagePath: "/assets/products/Import/Additives/sodium-bicarbonate.jpg", imageName: "සෝඩියම් බයිකාර්බොනේට්", origins: ["විවිධ ආශ්‍රිතයන්"] },
-          { imagePath: "/assets/products/Import/Additives/ammonium-bicarbonate.jpg", imageName: "අමෝනියම් බයිකාර්බොනේට්", origins: ["විවිධ ආශ්‍රිතයන්"] },
-          { imagePath: "/assets/products/Import/Additives/citric-acid.jpg", imageName: "සිට්‍රික් අම්ලය", origins: ["විවිධ ආශ්‍රිතයන්"] },
-          { imagePath: "/assets/products/Import/Additives/used-newspaper.jpg", imageName: "පැරණි පුවත්පත", origins: ["විවිධ ආශ්‍රිතයන්"] },
-        ],
-      },
-      {
-        category: "අපනයන නිෂ්පාදන",
-        assetName: "Spices",
-        items: [
-          { imagePath: "/assets/products/Export/Spices/black-pepper.jpg", imageName: "කළු මිරිස්", origins: ["විවිධ ආශ්‍රිතයන්"] },
-          { imagePath: "/assets/products/Export/Spices/cinnamon.jpg", imageName: "දාලචින්නමල්", origins: ["විවිධ ආශ්‍රිතයන්"] },
-          { imagePath: "/assets/products/Export/Spices/cumin-seeds.jpg", imageName: "ජීර බීජ", origins: ["විවිධ ආශ්‍රිතයන්"] },
-          { imagePath: "/assets/products/Export/Spices/fenugreek-seeds.jpg", imageName: "කැළෑ මිරිස් බීජ", origins: ["විවිධ ආශ්‍රිතයන්"] },
-        ],
-      },
-      {
-        category: "කෘෂිකර්ම සහ වගා නිෂ්පාදන",
-        assetName: "Agriculture",
-        items: [
-          { imagePath: "/assets/products/Export/Agriculture/king-coconut.jpg", imageName: "රජ මැදුර", origins: ["විවිධ ආශ්‍රිතයන්"] },
-          { imagePath: "/assets/products/Export/Agriculture/coconut.jpg", imageName: "පොල්", origins: ["විවිධ ආශ්‍රිතයන්"] },
-          { imagePath: "/assets/products/Export/Agriculture/papaya.jpg", imageName: "පපේය", origins: ["විවිධ ආශ්‍රිතයන්"] },
-          { imagePath: "/assets/products/Export/Agriculture/tapioca.jpg", imageName: "කසාවා", origins: ["විවිධ ආශ්‍රිතයන්"] },
-        ],
-      },
-      {
-        category: "පර්වත සහ ධාන්‍ය",
-        assetName: "Grains",
-        items: [
-          { imagePath: "/assets/products/Export/Grains/chickpeas.jpg", imageName: "චික්පීස්", origins: ["විවිධ ආශ්‍රිතයන්"] },
-        ],
-      },
-    ],
-  },
+  heading: "අපගේ නිෂ්පාදන",
+  subheadingImport: "ආනයන නිෂ්පාදන",
+  importCategories: [
+    {
+      category: "එළවළු සහ වර්ග මුල්",
+      assetName: "එළවළු",
+      items: [
+        { imagePath: "/assets/products/Import/Vegetables/big-onion.png", imageName: "විශාල ලූනු", origins: ["චීන", "ඉන්දියාව", "පාකිස්තානය", "ඊජිප්තු", "නෙදර්ලන්තය", "ස්පාඤ්ඤය"] },
+        { imagePath: "/assets/products/Import/Vegetables/potato.jpg", imageName: "අල", origins: ["ඉන්දියාව", "බංගලාදේශය", "පාකිස්තානය", "චීන", "හොලන්තය"] },
+        { imagePath: "/assets/products/Import/Vegetables/red-onion.jpg", imageName: "රතු ලූනු", origins: ["තායිලන්තය", "චීන", "ඉන්දියාව"] },
+        { imagePath: "/assets/products/Import/Vegetables/garlic.jpg", imageName: "සුදුලූණු", origins: ["චීන", "පාකිස්තානය", "ඉරානය", "ඉන්දියාව"] },
+      ],
+    },
+    {
+      category: "ධාන්‍ය, පළිබීජ සහ පලාන්තු",
+      assetName: "ධාන්‍ය",
+      items: [
+        { imagePath: "/assets/products/Import/Grains/red-split-lentils.jpg", imageName: "රතු බිඳුණු පලාන්තු", origins: ["ඕස්ට්‍රේලියාව", "කැනඩාව"] },
+        { imagePath: "/assets/products/Import/Grains/yellow-split-lentils.jpg", imageName: "කහ බිඳුණු පලාන්තු", origins: ["ඕස්ට්‍රේලියාව", "ටර්කි"] },
+        { imagePath: "/assets/products/Import/Grains/green-mung.jpg", imageName: "කොළ මුං", origins: ["විවිධ මූලාශ්‍ර"] },
+        { imagePath: "/assets/products/Import/Grains/urud-dhal.jpg", imageName: "උරුද් පලාන්තු", origins: ["විවිධ මූලාශ්‍ර"] },
+      ],
+    },
+    {
+      category: "මසාලා සහ බීජ",
+      assetName: "මසාලා",
+      items: [
+        { imagePath: "/assets/products/Import/Spices/coriander-seeds.jpg", imageName: "ධානු බීජ", origins: ["ඉන්දියාව", "ඇජන්ටිනා", "කැනඩාව", "බල්ගේරියාව", "රොමේනියාව", "යුක්රේනය", "රුසියාව"] },
+        { imagePath: "/assets/products/Import/Spices/cumin-seeds.jpg", imageName: "කුමුන් බීජ", origins: ["විවිධ මූලාශ්‍ර"] },
+        { imagePath: "/assets/products/Import/Spices/fennel-seeds.jpg", imageName: "සාදු බීජ", origins: ["විවිධ මූලාශ්‍ර"] },
+        { imagePath: "/assets/products/Import/Spices/mustard-seeds.jpg", imageName: "අලිගැටලු බීජ", origins: ["විවිධ මූලාශ්‍ර"] },
+      ],
+    },
+    {
+      category: "වෙනත් ආහාර නිෂ්පාදන",
+      assetName: "වෙනත් ආහාර",
+      items: [
+        { imagePath: "/assets/products/Import/Other Food/sugar.jpg", imageName: "සීනි", origins: ["ඉන්දියාව", "බ්‍රසීලය", "තායිලන්තය", "යුරෝපය"] },
+        { imagePath: "/assets/products/Import/Other Food/dry-sprats.jpg", imageName: "ආහාර දියර මැස්සා", origins: ["තායිලන්තය", "ඉරානය"] },
+        { imagePath: "/assets/products/Import/Other Food/canned-fish.jpg", imageName: "කෑන් මසුන්", origins: ["විවිධ මූලාශ්‍ර"] },
+        { imagePath: "/assets/products/Import/Other Food/dry-chilli.jpg", imageName: "වියළි මිරිස්", origins: ["විවිධ මූලාශ්‍ර"] },
+      ],
+    },
+    {
+      category: "ආහාර ඇඩ්ඩිටිව්ස්, රසායනික සහ විවිධ",
+      assetName: "ඇඩ්ඩිටිව්ස්",
+      items: [
+        { imagePath: "/assets/products/Import/Additives/sodium-bicarbonate.jpg", imageName: "සෝඩියම් බයිකාබෝනේට්", origins: ["විවිධ මූලාශ්‍ර"] },
+        { imagePath: "/assets/products/Import/Additives/ammonium-bicarbonate.jpg", imageName: "ඇමෝනියම් බයිකාබෝනේට්", origins: ["විවිධ මූලාශ්‍ර"] },
+        { imagePath: "/assets/products/Import/Additives/citric-acid.jpg", imageName: "ලෙමන් අම්ලය", origins: ["විවිධ මූලාශ්‍ර"] },
+        { imagePath: "/assets/products/Import/Additives/used-newspaper.jpg", imageName: "පැරණි පත්තර", origins: ["විවිධ මූලාශ්‍ර"] },
+      ],
+    },
+  ],
+  subheadingExport: "අපනයන නිෂ්පාදන",
+  exportCategories: [
+    {
+      category: "මසාලා",
+      assetName: "මසාලා",
+      items: [
+        { imagePath: "/assets/products/Export/Spices/black-pepper.jpg", imageName: "කළු ගම්මිරිස්", origins: ["විවිධ මූලාශ්‍ර"] },
+        { imagePath: "/assets/products/Export/Spices/cinnamon.jpg", imageName: "දරුකුරුඳු", origins: ["විවිධ මූලාශ්‍ර"] },
+        { imagePath: "/assets/products/Export/Spices/cumin-seeds.jpg", imageName: "කුමුන් බීජ", origins: ["විවිධ මූලාශ්‍ර"] },
+        { imagePath: "/assets/products/Export/Spices/fenugreek-seeds.jpg", imageName: "මොලු බීජ", origins: ["විවිධ මූලාශ්‍ර"] },
+      ],
+    },
+    {
+      category: "කෘෂිකාර්මික සහ වගා නිෂ්පාදන",
+      assetName: "කෘෂිකාර්මික",
+      items: [
+        { imagePath: "/assets/products/Export/Agriculture/king-coconut.jpg", imageName: "කින්ග් නාරික්ක", origins: ["විවිධ මූලාශ්‍ර"] },
+        { imagePath: "/assets/products/Export/Agriculture/coconut.jpg", imageName: "නාරික්ක", origins: ["විවිධ මූලාශ්‍ර"] },
+        { imagePath: "/assets/products/Export/Agriculture/papaya.jpg", imageName: "පපොයි", origins: ["විවිධ මූලාශ්‍ර"] },
+        { imagePath: "/assets/products/Export/Agriculture/tapioca.jpg", imageName: "තප්පියොක", origins: ["විවිධ මූලාශ්‍ර"] },
+      ],
+    },
+    {
+      category: "පලාන්තු සහ ධාන්‍ය",
+      assetName: "ධාන්‍ය",
+      items: [
+        { imagePath: "/assets/products/Export/Grains/chickpeas.jpg", imageName: "චික්පීස්", origins: ["විවිධ මූලාශ්‍ර"] },
+      ],
+    },
+  ],
+}
+
 };
