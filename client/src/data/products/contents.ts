@@ -55,6 +55,14 @@ export const productContents = {
               "China"
             ],
             "imagePath": "/assets/products/Import/Vegetables/Pineapple.png"
+          },
+          {
+            "imagePath": "/assets/products/Import/Vegetables/Gold.webp",
+            "imageName": "Gold",
+            "origins": [
+              "USA",
+              "China"
+            ]
           }
         ]
       },
@@ -348,6 +356,14 @@ export const productContents = {
               "中国"
             ],
             "imagePath": "/assets/products/Import/Vegetables/Pineapple.png"
+          },
+          {
+            "imagePath": "/assets/products/Import/Vegetables/Gold.webp",
+            "imageName": "黄金",
+            "origins": [
+              "美国",
+              "中国"
+            ]
           }
         ]
       },
@@ -641,6 +657,14 @@ export const productContents = {
               "චීනය"
             ],
             "imagePath": "/assets/products/Import/Vegetables/Pineapple.png"
+          },
+          {
+            "imagePath": "/assets/products/Import/Vegetables/Gold.webp",
+            "imageName": "රන්",
+            "origins": [
+              "අමෙරිකා එක්සත් ජනපදය",
+              "චීනය"
+            ]
           }
         ]
       },
