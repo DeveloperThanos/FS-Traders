@@ -8,14 +8,6 @@ export const productContents = {
         "assetName": "Vegetables",
         "items": [
           {
-            "imagePath": "/assets/products/Import/Vegetables/Big Onion.webp",
-            "imageName": "Big Onion",
-            "origins": [
-              "China",
-              "India"
-            ]
-          },
-          {
             "imagePath": "/assets/products/Import/Vegetables/potato.jpg",
             "imageName": "Potato",
             "origins": [
@@ -298,14 +290,6 @@ export const productContents = {
         "category": "蔬菜与根茎",
         "assetName": "Vegetables",
         "items": [
-          {
-            "imagePath": "/assets/products/Import/Vegetables/Big Onion.webp",
-            "imageName": "大洋葱",
-            "origins": [
-              "中国",
-              "印度"
-            ]
-          },
           {
             "imagePath": "/assets/products/Import/Vegetables/potato.jpg",
             "imageName": "土豆",
@@ -638,13 +622,6 @@ export const productContents = {
               "ඉන්දියාව",
               "ජපානය",
               "තායිලන්තය"
-            ]
-          },
-          {
-            "imagePath": "/assets/products/Import/Vegetables/Big Onion.webp",
-            "imageName": "ලොකු ලූණු",
-            "origins": [
-              "චීනය"
             ]
           },
           {
