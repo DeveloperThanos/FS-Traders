@@ -22,12 +22,10 @@ export const productContents = {
             ]
           },
           {
-            "imagePath": "/assets/products/Import/Vegetables/red-onion.jpg",
+            "imagePath": "/assets/products/Import/Vegetables/Red Onion.png",
             "imageName": "Red Onion",
             "origins": [
-              "Thailand",
-              "China",
-              "India"
+              "Thailand"
             ]
           },
           {
@@ -303,7 +301,7 @@ export const productContents = {
             ]
           },
           {
-            "imagePath": "/assets/products/Import/Vegetables/red-onion.jpg",
+            "imagePath": "/assets/products/Import/Vegetables/Red Onion.png",
             "imageName": "红洋葱",
             "origins": [
               "泰国",
