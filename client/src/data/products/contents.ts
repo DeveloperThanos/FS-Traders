@@ -36,15 +36,6 @@ export const productContents = {
               "Iran",
               "India"
             ]
-          },
-          {
-            "imagePath": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/products/Import/Vegetables/Avengers.jpeg",
-            "imageName": "Avengers",
-            "origins": [
-              "India",
-              "Japan",
-              "Thailand"
-            ]
           }
         ]
       },
@@ -318,15 +309,6 @@ export const productContents = {
               "巴基斯坦",
               "伊朗",
               "印度"
-            ]
-          },
-          {
-            "imagePath": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/products/Import/Vegetables/Avengers.jpeg",
-            "imageName": "复仇者联盟",
-            "origins": [
-              "印度",
-              "日本",
-              "泰国"
             ]
           }
         ]
@@ -613,15 +595,6 @@ export const productContents = {
               "පාකිස්තානය",
               "ඉරානය",
               "ඉන්දියාව"
-            ]
-          },
-          {
-            "imagePath": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/products/Import/Vegetables/Avengers.jpeg",
-            "imageName": "ඇවෙන්ජර්ස්",
-            "origins": [
-              "ඉන්දියාව",
-              "ජපානය",
-              "තායිලන්තය"
             ]
           },
           {
