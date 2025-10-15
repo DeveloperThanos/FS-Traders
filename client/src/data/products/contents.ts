@@ -15,14 +15,10 @@ export const productContents = {
             ]
           },
           {
-            "imagePath": "/assets/products/Import/Vegetables/Potato.webp",
+            "imagePath": "/assets/products/Import/Vegetables/Potato.png",
             "imageName": "Potato",
             "origins": [
-              "India",
-              "Bangladesh",
-              "Pakistan",
-              "China",
-              "Holland"
+              "India"
             ]
           },
           {
