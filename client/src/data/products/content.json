@@ -1,0 +1,117 @@
+{
+  "headings": {
+    "en": { "heading": "Our Product", "subheadingImport": "Import Product", "subheadingExport": "Export Product" },
+    "zh": { "heading": "我们的产品", "subheadingImport": "进口产品", "subheadingExport": "出口产品" },
+    "si": { "heading": "අපගේ නිෂ්පාදන", "subheadingImport": "ආනයන නිෂ්පාදන", "subheadingExport": "අපනයන නිෂ්පාදන" }
+  },
+  "import": {
+    "vegetables": {
+      "en": { "category": "Vegetables & Roots", "assetName": "Vegetables" },
+      "zh": { "category": "蔬菜与根茎", "assetName": "Vegetables" },
+      "si": { "category": "එළවළු සහ වර්ග මුල්", "assetName": "Vegetables" },
+      "items": [
+        { 
+          "imagePath": "/assets/products/Import/Vegetables/big-onion.png", 
+          "en": { "imageName": "Big Onion", "origins": ["China", "India", "Pakistan", "Egypt", "Netherlands", "Spain"] },
+          "zh": { "imageName": "大洋葱", "origins": ["中国", "印度", "巴基斯坦", "埃及", "荷兰", "西班牙"] },
+          "si": { "imageName": "විශාල ලූනු", "origins": ["චීන", "ඉන්දියාව", "පාකිස්තානය", "ඊජිප්තු", "නෙදර්ලන්තය", "ස්පාඤ්ඤය"] }
+        },
+        { 
+          "imagePath": "/assets/products/Import/Vegetables/potato.jpg", 
+          "en": { "imageName": "Potato", "origins": ["India", "Bangladesh", "Pakistan", "China", "Holland"] },
+          "zh": { "imageName": "土豆", "origins": ["印度", "孟加拉国", "巴基斯坦", "中国", "荷兰"] },
+          "si": { "imageName": "අල", "origins": ["ඉන්දියාව", "බංගලාදේශය", "පාකිස්තානය", "චීන", "හොලන්තය"] }
+        },
+        { 
+          "imagePath": "/assets/products/Import/Vegetables/red-onion.jpg", 
+          "en": { "imageName": "Red Onion", "origins": ["Thailand", "China", "India"] },
+          "zh": { "imageName": "红洋葱", "origins": ["泰国", "中国", "印度"] },
+          "si": { "imageName": "රතු ලූනු", "origins": ["තායිලන්තය", "චීන", "ඉන්දියාව"] }
+        },
+        { 
+          "imagePath": "/assets/products/Import/Vegetables/garlic.jpg", 
+          "en": { "imageName": "Garlic", "origins": ["China", "Pakistan", "Iran", "India"] },
+          "zh": { "imageName": "大蒜", "origins": ["中国", "巴基斯坦", "伊朗", "印度"] },
+          "si": { "imageName": "සුදුලූණු", "origins": ["චීන", "පාකිස්තානය", "ඉරානය", "ඉන්දියාව"] }
+        }
+      ]
+    },
+    "grains": {
+      "en": { "category": "Grains, Pulses & Lentils", "assetName": "Grains" },
+      "zh": { "category": "谷物、豆类与扁豆", "assetName": "Grains" },
+      "si": { "category": "ධාන්‍ය, පළිබීජ සහ පලාන්තු", "assetName": "Grains" },
+      "items": [
+        { 
+          "imagePath": "/assets/products/Import/Grains/red-split-lentils.jpg", 
+          "en": { "imageName": "Red Split Lentils", "origins": ["Australia", "Canada"] },
+          "zh": { "imageName": "红扁豆", "origins": ["澳大利亚", "加拿大"] },
+          "si": { "imageName": "රතු බිඳුණු පලාන්තු", "origins": ["ඕස්ට්‍රේලියාව", "කැනඩාව"] }
+        },
+        { 
+          "imagePath": "/assets/products/Import/Grains/yellow-split-lentils.jpg", 
+          "en": { "imageName": "Yellow Split Lentils", "origins": ["Australia", "Turkey"] },
+          "zh": { "imageName": "黄扁豆", "origins": ["澳大利亚", "土耳其"] },
+          "si": { "imageName": "කහ බිඳුණු පලාන්තු", "origins": ["ඕස්ට්‍රේලියාව", "ටර්කි"] }
+        },
+        { 
+          "imagePath": "/assets/products/Import/Grains/green-mung.jpg", 
+          "en": { "imageName": "Green Mung", "origins": ["Various origins"] },
+          "zh": { "imageName": "绿豆", "origins": ["多种来源"] },
+          "si": { "imageName": "කොළ මුං", "origins": ["විවිධ මූලාශ්‍ර"] }
+        },
+        { 
+          "imagePath": "/assets/products/Import/Grains/urud-dhal.jpg", 
+          "en": { "imageName": "Urud Dhal", "origins": ["Various origins"] },
+          "zh": { "imageName": "乌豆", "origins": ["多种来源"] },
+          "si": { "imageName": "උරුද් පලාන්තු", "origins": ["විවිධ මූලාශ්‍ර"] }
+        }
+      ]
+    },
+    "spicesSeeds": {
+      "en": { "category": "Spices & Seeds", "assetName": "Spices Seeds" },
+      "zh": { "category": "香料与种子", "assetName": "Spices Seeds" },
+      "si": { "category": "මසාලා සහ බීජ", "assetName": "Spices Seeds" },
+      "items": [
+        { 
+          "imagePath": "/assets/products/Import/Spices/coriander-seeds.jpg", 
+          "en": { "imageName": "Coriander Seeds", "origins": ["India", "Argentina", "Canada", "Bulgaria", "Romania", "Ukraine", "Russia"] },
+          "zh": { "imageName": "芫荽种子", "origins": ["印度", "阿根廷", "加拿大", "保加利亚", "罗马尼亚", "乌克兰", "俄罗斯"] },
+          "si": { "imageName": "ධානු බීජ", "origins": ["ඉන්දියාව", "ඇජන්ටිනා", "කැනඩාව", "බල්ගේරියාව", "රොමේනියාව", "යුක්රේනය", "රුසියාව"] }
+        },
+        { 
+          "imagePath": "/assets/products/Import/Spices/cumin-seeds.jpg", 
+          "en": { "imageName": "Cumin Seeds", "origins": ["Various origins"] },
+          "zh": { "imageName": "孜然", "origins": ["多种来源"] },
+          "si": { "imageName": "කුමුන් බීජ", "origins": ["විවිධ මූලාශ්‍ර"] }
+        },
+        { 
+          "imagePath": "/assets/products/Import/Spices/fennel-seeds.jpg", 
+          "en": { "imageName": "Fennel Seeds", "origins": ["Various origins"] },
+          "zh": { "imageName": "茴香", "origins": ["多种来源"] },
+          "si": { "imageName": "සාදු බීජ", "origins": ["විවිධ මූලාශ්‍ර"] }
+        },
+        { 
+          "imagePath": "/assets/products/Import/Spices/mustard-seeds.jpg", 
+          "en": { "imageName": "Mustard Seeds", "origins": ["Various origins"] },
+          "zh": { "imageName": "芥菜籽", "origins": ["多种来源"] },
+          "si": { "imageName": "අලිගැටලු බීජ", "origins": ["විවිධ මූලාශ්‍ර"] }
+        }
+      ]
+    }
+  },
+  "export": {
+    "spices": {
+      "en": { "category": "Spices", "assetName": "Spices" },
+      "zh": { "category": "香料", "assetName": "Spices" },
+      "si": { "category": "මසාලා", "assetName": "Spices" },
+      "items": [
+        { 
+          "imagePath": "/assets/products/Export/Spices/black-pepper.jpg", 
+          "en": { "imageName": "Black Pepper", "origins": ["Various origins"] },
+          "zh": { "imageName": "黑胡椒", "origins": ["多种来源"] },
+          "si": { "imageName": "කළු ගම්මිරිස්", "origins": ["විවිධ මූලාශ්‍ර"] }
+        }
+      ]
+    }
+  }
+}
