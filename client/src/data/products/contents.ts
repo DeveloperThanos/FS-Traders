@@ -15,7 +15,7 @@ export const productContents = {
             ]
           },
           {
-            "imagePath": "/assets/products/Import/Vegetables/potato.jpg",
+            "imagePath": "/assets/products/Import/Vegetables/Potato.webp",
             "imageName": "Potato",
             "origins": [
               "India",
@@ -296,7 +296,7 @@ export const productContents = {
             ]
           },
           {
-            "imagePath": "/assets/products/Import/Vegetables/potato.jpg",
+            "imagePath": "/assets/products/Import/Vegetables/Potato.webp",
             "imageName": "土豆",
             "origins": [
               "印度",
@@ -582,7 +582,7 @@ export const productContents = {
             ]
           },
           {
-            "imagePath": "/assets/products/Import/Vegetables/potato.jpg",
+            "imagePath": "/assets/products/Import/Vegetables/Potato.webp",
             "imageName": "අල",
             "origins": [
               "ඉන්දියාව",
