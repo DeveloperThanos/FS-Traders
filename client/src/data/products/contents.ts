@@ -8,15 +8,10 @@ export const productContents = {
         "assetName": "Vegetables",
         "items": [
           {
-            "imagePath": "/assets/products/Import/Vegetables/big-onion.png",
+            "imagePath": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/products/Import/Vegetables/big-onion.png",
             "imageName": "Big Onion",
             "origins": [
-              "China",
-              "India",
-              "Pakistan",
-              "Egypt",
-              "Netherlands",
-              "Spain"
+              "China"
             ]
           },
           {
@@ -303,15 +298,10 @@ export const productContents = {
         "assetName": "Vegetables",
         "items": [
           {
-            "imagePath": "/assets/products/Import/Vegetables/big-onion.png",
+            "imagePath": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/products/Import/Vegetables/big-onion.png",
             "imageName": "大洋葱",
             "origins": [
-              "中国",
-              "印度",
-              "巴基斯坦",
-              "埃及",
-              "荷兰",
-              "西班牙"
+              "中国"
             ]
           },
           {
@@ -646,6 +636,13 @@ export const productContents = {
               "ඉන්දියාව",
               "ජපානය",
               "තායිලන්තය"
+            ]
+          },
+          {
+            "imagePath": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/products/Import/Vegetables/big-onion.png",
+            "imageName": "ලොකු ලූණු",
+            "origins": [
+              "චීනය"
             ]
           }
         ]
