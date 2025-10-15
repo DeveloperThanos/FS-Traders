@@ -79,16 +79,10 @@ export const productContents = {
         "assetName": "Spices",
         "items": [
           {
-            "imagePath": "/assets/products/Import/Spices/coriander-seeds.jpg",
+            "imagePath": "/assets/products/Import/Spices/Coriander Seeds.png",
             "imageName": "Coriander Seeds",
             "origins": [
-              "India",
-              "Argentina",
-              "Canada",
-              "Bulgaria",
-              "Romania",
-              "Ukraine",
-              "Russia"
+              "India"
             ]
           },
           {
