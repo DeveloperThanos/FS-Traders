@@ -92,10 +92,10 @@ export const productContents = {
             ]
           },
           {
-            "imagePath": "/assets/products/Import/Spices/cumin-seeds.jpg",
+            "imagePath": "/assets/products/Import/Spices/Cumin Seeds.png",
             "imageName": "Cumin Seeds",
             "origins": [
-              "Various origins"
+              "Andhra"
             ]
           },
           {
