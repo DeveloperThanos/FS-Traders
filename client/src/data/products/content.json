@@ -499,27 +499,31 @@
           }
         },
         {
-          "imagePath": "/assets/products/Export/Spices/Apple.png",
+          "imagePath": "/assets/products/Export/Spices/Apple.webp",
           "en": {
             "imageName": "Apple",
             "origins": [
-              "India"
+              "India",
+              "China"
             ]
           },
           "si": {
             "imageName": "ඇපල්",
             "origins": [
-              "ඉන්දියාව"
+              "ඉන්දියාව",
+              "චීනය"
             ]
           },
           "zh": {
             "imageName": "苹果",
             "origins": [
-              "印度"
+              "印度",
+              "中国"
             ]
           }
         }
-      ]
+      ],
+      "assetName": "Spices"
     },
     "tea": {
       "en": {
