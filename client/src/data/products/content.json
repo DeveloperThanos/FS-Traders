@@ -518,8 +518,17 @@
               "中国"
             ]
           }
+        },
+        {
+          "imagePath": "/assets/products/Export/Spices/Orange.png",
+          "imageName": "Orange",
+          "origins": [
+            "China",
+            "India"
+          ]
         }
-      ]
+      ],
+      "assetName": "Spices"
     },
     "tea": {
       "en": {
