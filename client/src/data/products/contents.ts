@@ -151,13 +151,6 @@ export const productContents = {
         "assetName": "Additives",
         "items": [
           {
-            "imagePath": "/assets/products/Import/Additives/Sodium Bicarbonate.png",
-            "imageName": "Sodium Bicarbonate",
-            "origins": [
-              "India"
-            ]
-          },
-          {
             "imagePath": "/assets/products/Import/Additives/ammonium-bicarbonate.jpg",
             "imageName": "Ammonium Bicarbonate",
             "origins": [
@@ -429,13 +422,6 @@ export const productContents = {
         "category": "食品添加剂及化学品和杂项",
         "assetName": "Additives",
         "items": [
-          {
-            "imagePath": "/assets/products/Import/Additives/Sodium Bicarbonate.png",
-            "imageName": "碳酸氢钠",
-            "origins": [
-              "印度"
-            ]
-          },
           {
             "imagePath": "/assets/products/Import/Additives/ammonium-bicarbonate.jpg",
             "imageName": "碳酸氢铵",
@@ -741,13 +727,6 @@ export const productContents = {
             "imageName": "පැරණි පත්තර",
             "origins": [
               "විවිධ මූලාශ්‍ර"
-            ]
-          },
-          {
-            "imagePath": "/assets/products/Import/Additives/Sodium Bicarbonate.png",
-            "imageName": "සෝඩියම් බයිකාබනේට්",
-            "origins": [
-              "ඉන්දියාව"
             ]
           }
         ]
