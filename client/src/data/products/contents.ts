@@ -59,10 +59,10 @@ export const productContents = {
             ]
           },
           {
-            "imagePath": "/assets/products/Import/Grains/green-mung.jpg",
+            "imagePath": "/assets/products/Import/Grains/Green Mung.png",
             "imageName": "Green Mung",
             "origins": [
-              "Various origins"
+              "banglore"
             ]
           },
           {
@@ -338,10 +338,10 @@ export const productContents = {
             ]
           },
           {
-            "imagePath": "/assets/products/Import/Grains/green-mung.jpg",
+            "imagePath": "/assets/products/Import/Grains/Green Mung.png",
             "imageName": "绿豆",
             "origins": [
-              "多种来源"
+              "班加罗尔"
             ]
           },
           {
