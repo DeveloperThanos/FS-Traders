@@ -45,11 +45,10 @@ export const productContents = {
         "assetName": "Grains",
         "items": [
           {
-            "imagePath": "/assets/products/Import/Grains/red-split-lentils.jpg",
+            "imagePath": "/assets/products/Import/Grains/Red Split Lentils.jpeg",
             "imageName": "Red Split Lentils",
             "origins": [
-              "Australia",
-              "Canada"
+              "Australia"
             ]
           },
           {
@@ -326,11 +325,10 @@ export const productContents = {
         "assetName": "Grains",
         "items": [
           {
-            "imagePath": "/assets/products/Import/Grains/red-split-lentils.jpg",
+            "imagePath": "/assets/products/Import/Grains/Red Split Lentils.jpeg",
             "imageName": "红扁豆",
             "origins": [
-              "澳大利亚",
-              "加拿大"
+              "澳大利亚"
             ]
           },
           {
