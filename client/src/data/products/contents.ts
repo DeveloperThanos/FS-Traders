@@ -52,10 +52,9 @@ export const productContents = {
             ]
           },
           {
-            "imagePath": "/assets/products/Import/Grains/yellow-split-lentils.jpg",
+            "imagePath": "/assets/products/Import/Grains/Yellow Split Lentils.jpeg",
             "imageName": "Yellow Split Lentils",
             "origins": [
-              "Australia",
               "Turkey"
             ]
           },
@@ -332,10 +331,9 @@ export const productContents = {
             ]
           },
           {
-            "imagePath": "/assets/products/Import/Grains/yellow-split-lentils.jpg",
+            "imagePath": "/assets/products/Import/Grains/Yellow Split Lentils.jpeg",
             "imageName": "黄扁豆",
             "origins": [
-              "澳大利亚",
               "土耳其"
             ]
           },
