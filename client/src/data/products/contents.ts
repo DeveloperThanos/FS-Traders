@@ -11,7 +11,8 @@ export const productContents = {
             "imagePath": "/assets/products/Import/Vegetables/Big Onion.webp",
             "imageName": "Big Onion",
             "origins": [
-              "China"
+              "China",
+              "India"
             ]
           },
           {
@@ -301,7 +302,8 @@ export const productContents = {
             "imagePath": "/assets/products/Import/Vegetables/Big Onion.webp",
             "imageName": "大洋葱",
             "origins": [
-              "中国"
+              "中国",
+              "印度"
             ]
           },
           {
@@ -643,6 +645,14 @@ export const productContents = {
             "imageName": "ලොකු ලූණු",
             "origins": [
               "චීනය"
+            ]
+          },
+          {
+            "imagePath": "/assets/products/Import/Vegetables/Big Onion.png",
+            "imageName": "ලොකු ළූණු",
+            "origins": [
+              "චීනය",
+              "ඉන්දියාව"
             ]
           }
         ]
