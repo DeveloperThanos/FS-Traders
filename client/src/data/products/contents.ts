@@ -66,10 +66,10 @@ export const productContents = {
             ]
           },
           {
-            "imagePath": "/assets/products/Import/Grains/urud-dhal.jpg",
+            "imagePath": "/assets/products/Import/Grains/Urud Dhal.png",
             "imageName": "Urud Dhal",
             "origins": [
-              "Various origins"
+              "Various"
             ]
           }
         ]
