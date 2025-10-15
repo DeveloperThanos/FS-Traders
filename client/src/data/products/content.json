@@ -1,746 +1,197 @@
 {
   "headings": {
-    "en": {
-      "heading": "Our Product",
-      "subheadingImport": "Import Product",
-      "subheadingExport": "Export Product"
-    },
-    "zh": {
-      "heading": "我们的产品",
-      "subheadingImport": "进口产品",
-      "subheadingExport": "出口产品"
-    },
-    "si": {
-      "heading": "අපගේ නිෂ්පාදන",
-      "subheadingImport": "ආනයන නිෂ්පාදන",
-      "subheadingExport": "අපනයන නිෂ්පාදන"
-    }
+    "en": { "heading": "Our Product", "subheadingImport": "Import Product", "subheadingExport": "Export Product" },
+    "zh": { "heading": "我们的产品", "subheadingImport": "进口产品", "subheadingExport": "出口产品" },
+    "si": { "heading": "අපගේ නිෂ්පාදන", "subheadingImport": "ආනයන නිෂ්පාදන", "subheadingExport": "අපනයන නිෂ්පාදන" }
   },
   "import": {
     "vegetables": {
-      "en": {
-        "category": "Vegetables & Roots",
-        "assetName": "Vegetables"
-      },
-      "zh": {
-        "category": "蔬菜与根茎",
-        "assetName": "Vegetables"
-      },
-      "si": {
-        "category": "එළවළු සහ වර්ග මුල්",
-        "assetName": "Vegetables"
-      },
+      "en": { "category": "Vegetables & Roots", "assetName": "Vegetables" },
+      "zh": { "category": "蔬菜与根茎", "assetName": "Vegetables" },
+      "si": { "category": "එළවළු සහ වර්ග මුල්", "assetName": "Vegetables" },
       "items": [
-        {
-          "imagePath": "/assets/products/Import/Vegetables/big-onion.png",
-          "en": {
-            "imageName": "Big Onion",
-            "origins": [
-              "China",
-              "India",
-              "Pakistan",
-              "Egypt",
-              "Netherlands",
-              "Spain"
-            ]
-          },
-          "zh": {
-            "imageName": "大洋葱",
-            "origins": [
-              "中国",
-              "印度",
-              "巴基斯坦",
-              "埃及",
-              "荷兰",
-              "西班牙"
-            ]
-          },
-          "si": {
-            "imageName": "විශාල ලූනු",
-            "origins": [
-              "චීන",
-              "ඉන්දියාව",
-              "පාකිස්තානය",
-              "ඊජිප්තු",
-              "නෙදර්ලන්තය",
-              "ස්පාඤ්ඤය"
-            ]
-          }
+        { 
+          "imagePath": "/assets/products/Import/Vegetables/big-onion.png", 
+          "en": { "imageName": "Big Onion", "origins": ["China", "India", "Pakistan", "Egypt", "Netherlands", "Spain"] },
+          "zh": { "imageName": "大洋葱", "origins": ["中国", "印度", "巴基斯坦", "埃及", "荷兰", "西班牙"] },
+          "si": { "imageName": "විශාල ලූනු", "origins": ["චීන", "ඉන්දියාව", "පාකිස්තානය", "ඊජිප්තු", "නෙදර්ලන්තය", "ස්පාඤ්ඤය"] }
         },
-        {
-          "imagePath": "/assets/products/Import/Vegetables/potato.jpg",
-          "en": {
-            "imageName": "Potato",
-            "origins": [
-              "India",
-              "Bangladesh",
-              "Pakistan",
-              "China",
-              "Holland"
-            ]
-          },
-          "zh": {
-            "imageName": "土豆",
-            "origins": [
-              "印度",
-              "孟加拉国",
-              "巴基斯坦",
-              "中国",
-              "荷兰"
-            ]
-          },
-          "si": {
-            "imageName": "අල",
-            "origins": [
-              "ඉන්දියාව",
-              "බංගලාදේශය",
-              "පාකිස්තානය",
-              "චීන",
-              "හොලන්තය"
-            ]
-          }
+        { 
+          "imagePath": "/assets/products/Import/Vegetables/potato.jpg", 
+          "en": { "imageName": "Potato", "origins": ["India", "Bangladesh", "Pakistan", "China", "Holland"] },
+          "zh": { "imageName": "土豆", "origins": ["印度", "孟加拉国", "巴基斯坦", "中国", "荷兰"] },
+          "si": { "imageName": "අල", "origins": ["ඉන්දියාව", "බංගලාදේශය", "පාකිස්තානය", "චීන", "හොලන්තය"] }
         },
-        {
-          "imagePath": "/assets/products/Import/Vegetables/red-onion.jpg",
-          "en": {
-            "imageName": "Red Onion",
-            "origins": [
-              "Thailand",
-              "China",
-              "India"
-            ]
-          },
-          "zh": {
-            "imageName": "红洋葱",
-            "origins": [
-              "泰国",
-              "中国",
-              "印度"
-            ]
-          },
-          "si": {
-            "imageName": "රතු ලූනු",
-            "origins": [
-              "තායිලන්තය",
-              "චීන",
-              "ඉන්දියාව"
-            ]
-          }
+        { 
+          "imagePath": "/assets/products/Import/Vegetables/red-onion.jpg", 
+          "en": { "imageName": "Red Onion", "origins": ["Thailand", "China", "India"] },
+          "zh": { "imageName": "红洋葱", "origins": ["泰国", "中国", "印度"] },
+          "si": { "imageName": "රතු ලූනු", "origins": ["තායිලන්තය", "චීන", "ඉන්දියාව"] }
         },
-        {
-          "imagePath": "/assets/products/Import/Vegetables/garlic.jpg",
-          "en": {
-            "imageName": "Garlic",
-            "origins": [
-              "China",
-              "Pakistan",
-              "Iran",
-              "India"
-            ]
-          },
-          "zh": {
-            "imageName": "大蒜",
-            "origins": [
-              "中国",
-              "巴基斯坦",
-              "伊朗",
-              "印度"
-            ]
-          },
-          "si": {
-            "imageName": "සුදුලූණු",
-            "origins": [
-              "චීන",
-              "පාකිස්තානය",
-              "ඉරානය",
-              "ඉන්දියාව"
-            ]
-          }
+        { 
+          "imagePath": "/assets/products/Import/Vegetables/garlic.jpg", 
+          "en": { "imageName": "Garlic", "origins": ["China", "Pakistan", "Iran", "India"] },
+          "zh": { "imageName": "大蒜", "origins": ["中国", "巴基斯坦", "伊朗", "印度"] },
+          "si": { "imageName": "සුදුලූණු", "origins": ["චීන", "පාකිස්තානය", "ඉරානය", "ඉන්දියාව"] }
         }
       ]
     },
     "grains": {
-      "en": {
-        "category": "Grains, Pulses & Lentils",
-        "assetName": "Grains"
-      },
-      "zh": {
-        "category": "谷物、豆类与扁豆",
-        "assetName": "Grains"
-      },
-      "si": {
-        "category": "ධාන්‍ය, පළිබීජ සහ පලාන්තු",
-        "assetName": "Grains"
-      },
+      "en": { "category": "Grains, Pulses & Lentils", "assetName": "Grains" },
+      "zh": { "category": "谷物、豆类与扁豆", "assetName": "Grains" },
+      "si": { "category": "ධාන්‍ය, පළිබීජ සහ පලාන්තු", "assetName": "Grains" },
       "items": [
-        {
-          "imagePath": "/assets/products/Import/Grains/red-split-lentils.jpg",
-          "en": {
-            "imageName": "Red Split Lentils",
-            "origins": [
-              "Australia",
-              "Canada"
-            ]
-          },
-          "zh": {
-            "imageName": "红扁豆",
-            "origins": [
-              "澳大利亚",
-              "加拿大"
-            ]
-          },
-          "si": {
-            "imageName": "රතු බිඳුණු පලාන්තු",
-            "origins": [
-              "ඕස්ට්‍රේලියාව",
-              "කැනඩාව"
-            ]
-          }
+        { 
+          "imagePath": "/assets/products/Import/Grains/red-split-lentils.jpg", 
+          "en": { "imageName": "Red Split Lentils", "origins": ["Australia", "Canada"] },
+          "zh": { "imageName": "红扁豆", "origins": ["澳大利亚", "加拿大"] },
+          "si": { "imageName": "රතු බිඳුණු පලාන්තු", "origins": ["ඕස්ට්‍රේලියාව", "කැනඩාව"] }
         },
-        {
-          "imagePath": "/assets/products/Import/Grains/yellow-split-lentils.jpg",
-          "en": {
-            "imageName": "Yellow Split Lentils",
-            "origins": [
-              "Australia",
-              "Turkey"
-            ]
-          },
-          "zh": {
-            "imageName": "黄扁豆",
-            "origins": [
-              "澳大利亚",
-              "土耳其"
-            ]
-          },
-          "si": {
-            "imageName": "කහ බිඳුණු පලාන්තු",
-            "origins": [
-              "ඕස්ට්‍රේලියාව",
-              "ටර්කි"
-            ]
-          }
+        { 
+          "imagePath": "/assets/products/Import/Grains/yellow-split-lentils.jpg", 
+          "en": { "imageName": "Yellow Split Lentils", "origins": ["Australia", "Turkey"] },
+          "zh": { "imageName": "黄扁豆", "origins": ["澳大利亚", "土耳其"] },
+          "si": { "imageName": "කහ බිඳුණු පලාන්තු", "origins": ["ඕස්ට්‍රේලියාව", "ටර්කි"] }
         },
-        {
-          "imagePath": "/assets/products/Import/Grains/green-mung.jpg",
-          "en": {
-            "imageName": "Green Mung",
-            "origins": [
-              "Various origins"
-            ]
-          },
-          "zh": {
-            "imageName": "绿豆",
-            "origins": [
-              "多种来源"
-            ]
-          },
-          "si": {
-            "imageName": "කොළ මුං",
-            "origins": [
-              "විවිධ මූලාශ්‍ර"
-            ]
-          }
+        { 
+          "imagePath": "/assets/products/Import/Grains/green-mung.jpg", 
+          "en": { "imageName": "Green Mung", "origins": ["Various origins"] },
+          "zh": { "imageName": "绿豆", "origins": ["多种来源"] },
+          "si": { "imageName": "කොළ මුං", "origins": ["විවිධ මූලාශ්‍ර"] }
         },
-        {
-          "imagePath": "/assets/products/Import/Grains/urud-dhal.jpg",
-          "en": {
-            "imageName": "Urud Dhal",
-            "origins": [
-              "Various origins"
-            ]
-          },
-          "zh": {
-            "imageName": "乌豆",
-            "origins": [
-              "多种来源"
-            ]
-          },
-          "si": {
-            "imageName": "උරුද් පලාන්තු",
-            "origins": [
-              "විවිධ මූලාශ්‍ර"
-            ]
-          }
+        { 
+          "imagePath": "/assets/products/Import/Grains/urud-dhal.jpg", 
+          "en": { "imageName": "Urud Dhal", "origins": ["Various origins"] },
+          "zh": { "imageName": "乌豆", "origins": ["多种来源"] },
+          "si": { "imageName": "උරුද් පලාන්තු", "origins": ["විවිධ මූලාශ්‍ර"] }
         }
       ]
     },
     "spicesSeeds": {
-      "en": {
-        "category": "Spices & Seeds",
-        "assetName": "Spices Seeds"
-      },
-      "zh": {
-        "category": "香料与种子",
-        "assetName": "Spices Seeds"
-      },
-      "si": {
-        "category": "මසාලා සහ බීජ",
-        "assetName": "Spices Seeds"
-      },
+      "en": { "category": "Spices & Seeds", "assetName": "Spices Seeds" },
+      "zh": { "category": "香料与种子", "assetName": "Spices Seeds" },
+      "si": { "category": "මසාලා සහ බීජ", "assetName": "Spices Seeds" },
       "items": [
-        {
-          "imagePath": "/assets/products/Import/Spices/coriander-seeds.jpg",
-          "en": {
-            "imageName": "Coriander Seeds",
-            "origins": [
-              "India",
-              "Argentina",
-              "Canada",
-              "Bulgaria",
-              "Romania",
-              "Ukraine",
-              "Russia"
-            ]
-          },
-          "zh": {
-            "imageName": "芫荽种子",
-            "origins": [
-              "印度",
-              "阿根廷",
-              "加拿大",
-              "保加利亚",
-              "罗马尼亚",
-              "乌克兰",
-              "俄罗斯"
-            ]
-          },
-          "si": {
-            "imageName": "ධානු බීජ",
-            "origins": [
-              "ඉන්දියාව",
-              "ඇජන්ටිනා",
-              "කැනඩාව",
-              "බල්ගේරියාව",
-              "රොමේනියාව",
-              "යුක්රේනය",
-              "රුසියාව"
-            ]
-          }
+        { 
+          "imagePath": "/assets/products/Import/Spices/coriander-seeds.jpg", 
+          "en": { "imageName": "Coriander Seeds", "origins": ["India", "Argentina", "Canada", "Bulgaria", "Romania", "Ukraine", "Russia"] },
+          "zh": { "imageName": "芫荽种子", "origins": ["印度", "阿根廷", "加拿大", "保加利亚", "罗马尼亚", "乌克兰", "俄罗斯"] },
+          "si": { "imageName": "ධානු බීජ", "origins": ["ඉන්දියාව", "ඇජන්ටිනා", "කැනඩාව", "බල්ගේරියාව", "රොමේනියාව", "යුක්රේනය", "රුසියාව"] }
         },
-        {
-          "imagePath": "/assets/products/Import/Spices/cumin-seeds.jpg",
-          "en": {
-            "imageName": "Cumin Seeds",
-            "origins": [
-              "Various origins"
-            ]
-          },
-          "zh": {
-            "imageName": "孜然",
-            "origins": [
-              "多种来源"
-            ]
-          },
-          "si": {
-            "imageName": "කුමුන් බීජ",
-            "origins": [
-              "විවිධ මූලාශ්‍ර"
-            ]
-          }
+        { 
+          "imagePath": "/assets/products/Import/Spices/cumin-seeds.jpg", 
+          "en": { "imageName": "Cumin Seeds", "origins": ["Various origins"] },
+          "zh": { "imageName": "孜然", "origins": ["多种来源"] },
+          "si": { "imageName": "කුමුන් බීජ", "origins": ["විවිධ මූලාශ්‍ර"] }
         },
-        {
-          "imagePath": "/assets/products/Import/Spices/fennel-seeds.jpg",
-          "en": {
-            "imageName": "Fennel Seeds",
-            "origins": [
-              "Various origins"
-            ]
-          },
-          "zh": {
-            "imageName": "茴香",
-            "origins": [
-              "多种来源"
-            ]
-          },
-          "si": {
-            "imageName": "සාදු බීජ",
-            "origins": [
-              "විවිධ මූලාශ්‍ර"
-            ]
-          }
+        { 
+          "imagePath": "/assets/products/Import/Spices/fennel-seeds.jpg", 
+          "en": { "imageName": "Fennel Seeds", "origins": ["Various origins"] },
+          "zh": { "imageName": "茴香", "origins": ["多种来源"] },
+          "si": { "imageName": "සාදු බීජ", "origins": ["විවිධ මූලාශ්‍ර"] }
         },
-        {
-          "imagePath": "/assets/products/Import/Spices/mustard-seeds.jpg",
-          "en": {
-            "imageName": "Mustard Seeds",
-            "origins": [
-              "Various origins"
-            ]
-          },
-          "zh": {
-            "imageName": "芥菜籽",
-            "origins": [
-              "多种来源"
-            ]
-          },
-          "si": {
-            "imageName": "අලිගැටලු බීජ",
-            "origins": [
-              "විවිධ මූලාශ්‍ර"
-            ]
-          }
+        { 
+          "imagePath": "/assets/products/Import/Spices/mustard-seeds.jpg", 
+          "en": { "imageName": "Mustard Seeds", "origins": ["Various origins"] },
+          "zh": { "imageName": "芥菜籽", "origins": ["多种来源"] },
+          "si": { "imageName": "අලිගැටලු බීජ", "origins": ["විවිධ මූලාශ්‍ර"] }
         }
       ]
     }
   },
-  "export": {
-    "spices": {
-      "en": {
-        "category": "Spices",
-        "assetName": "Spices"
+ "export": {
+  "spices": {
+    "en": { "category": "Spices", "assetName": "Spices" },
+    "zh": { "category": "香料", "assetName": "Spices" },
+    "si": { "category": "මසාලා", "assetName": "Spices" },
+    "items": [
+      { 
+        "imagePath": "/assets/products/Export/Spices/black-pepper.jpg", 
+        "en": { "imageName": "Black Pepper", "origins": ["Vietnam", "India", "Sri Lanka"] },
+        "zh": { "imageName": "黑胡椒", "origins": ["越南", "印度", "斯里兰卡"] },
+        "si": { "imageName": "කළු ගම්මිරිස්", "origins": ["වියට්නාමය", "ඉන්දියාව", "ශ්‍රී ලංකාව"] }
       },
-      "zh": {
-        "category": "香料",
-        "assetName": "Spices"
+      { 
+        "imagePath": "/assets/products/Export/Spices/cinnamon.jpg", 
+        "en": { "imageName": "Cinnamon", "origins": ["Sri Lanka", "Indonesia"] },
+        "zh": { "imageName": "肉桂", "origins": ["斯里兰卡", "印度尼西亚"] },
+        "si": { "imageName": "දොල් චිනි", "origins": ["ශ්‍රී ලංකාව", "ඉන්දුනීසියාව"] }
       },
-      "si": {
-        "category": "මසාලා",
-        "assetName": "Spices"
+      { 
+        "imagePath": "/assets/products/Export/Spices/cardamom.jpg", 
+        "en": { "imageName": "Cardamom", "origins": ["Guatemala", "India"] },
+        "zh": { "imageName": "小豆蔻", "origins": ["危地马拉", "印度"] },
+        "si": { "imageName": "කොත්තමල්ලි", "origins": ["ගුවාටමාලාව", "ඉන්දියාව"] }
       },
-      "items": [
-        {
-          "imagePath": "/assets/products/Export/Spices/black-pepper.jpg",
-          "en": {
-            "imageName": "Black Pepper",
-            "origins": [
-              "Vietnam",
-              "India",
-              "Sri Lanka"
-            ]
-          },
-          "zh": {
-            "imageName": "黑胡椒",
-            "origins": [
-              "越南",
-              "印度",
-              "斯里兰卡"
-            ]
-          },
-          "si": {
-            "imageName": "කළු ගම්මිරිස්",
-            "origins": [
-              "වියට්නාමය",
-              "ඉන්දියාව",
-              "ශ්‍රී ලංකාව"
-            ]
-          }
-        },
-        {
-          "imagePath": "/assets/products/Export/Spices/cinnamon.jpg",
-          "en": {
-            "imageName": "Cinnamon",
-            "origins": [
-              "Sri Lanka",
-              "Indonesia"
-            ]
-          },
-          "zh": {
-            "imageName": "肉桂",
-            "origins": [
-              "斯里兰卡",
-              "印度尼西亚"
-            ]
-          },
-          "si": {
-            "imageName": "දොල් චිනි",
-            "origins": [
-              "ශ්‍රී ලංකාව",
-              "ඉන්දුනීසියාව"
-            ]
-          }
-        },
-        {
-          "imagePath": "/assets/products/Export/Spices/cardamom.jpg",
-          "en": {
-            "imageName": "Cardamom",
-            "origins": [
-              "Guatemala",
-              "India"
-            ]
-          },
-          "zh": {
-            "imageName": "小豆蔻",
-            "origins": [
-              "危地马拉",
-              "印度"
-            ]
-          },
-          "si": {
-            "imageName": "කොත්තමල්ලි",
-            "origins": [
-              "ගුවාටමාලාව",
-              "ඉන්දියාව"
-            ]
-          }
-        },
-        {
-          "imagePath": "/assets/products/Export/Spices/cloves.jpg",
-          "en": {
-            "imageName": "Cloves",
-            "origins": [
-              "Indonesia",
-              "Madagascar"
-            ]
-          },
-          "zh": {
-            "imageName": "丁香",
-            "origins": [
-              "印度尼西亚",
-              "马达加斯加"
-            ]
-          },
-          "si": {
-            "imageName": "රත කුරුදු",
-            "origins": [
-              "ඉන්දුනීසියාව",
-              "මැඩගස්කර්"
-            ]
-          }
-        },
-        {
-          "imagePath": "/assets/products/Export/Spices/Orange.png",
-          "en": {
-            "imageName": "Orange",
-            "origins": [
-              "India"
-            ]
-          },
-          "si": {
-            "imageName": "දොඩම්",
-            "origins": [
-              "ඉන්දියාව"
-            ]
-          },
-          "zh": {
-            "imageName": "橙子",
-            "origins": [
-              "印度"
-            ]
-          }
-        },
-        {
-          "imagePath": "/assets/products/Export/Spices/Orange.jpeg",
-          "imageName": "Orange",
-          "origins": [
-            "India",
-            "China"
-          ]
-        }
-      ],
-      "assetName": "Spices"
-    },
-    "tea": {
-      "en": {
-        "category": "Tea",
-        "assetName": "Tea"
+      { 
+        "imagePath": "/assets/products/Export/Spices/cloves.jpg", 
+        "en": { "imageName": "Cloves", "origins": ["Indonesia", "Madagascar"] },
+        "zh": { "imageName": "丁香", "origins": ["印度尼西亚", "马达加斯加"] },
+        "si": { "imageName": "රත කුරුදු", "origins": ["ඉන්දුනීසියාව", "මැඩගස්කර්"] }
+      }
+    ]
+  },
+  "tea": {
+    "en": { "category": "Tea", "assetName": "Tea" },
+    "zh": { "category": "茶", "assetName": "Tea" },
+    "si": { "category": "තේ", "assetName": "Tea" },
+    "items": [
+      { 
+        "imagePath": "/assets/products/Export/Tea/ceylon-black-tea.jpg", 
+        "en": { "imageName": "Ceylon Black Tea", "origins": ["Nuwara Eliya", "Uva", "Dimbula"] },
+        "zh": { "imageName": "錫蘭紅茶", "origins": ["努瓦拉埃利耶", "烏瓦", "丁布拉"] },
+        "si": { "imageName": "සිලෝන් කළු තේ", "origins": ["නුවරඑළිය", "උවා", "දිඹුල"] }
       },
-      "zh": {
-        "category": "茶",
-        "assetName": "Tea"
+      { 
+        "imagePath": "/assets/products/Export/Tea/green-tea.jpg", 
+        "en": { "imageName": "Ceylon Green Tea", "origins": ["Uva Province"] },
+        "zh": { "imageName": "錫蘭綠茶", "origins": ["烏瓦省"] },
+        "si": { "imageName": "සිලෝන් කොළ තේ", "origins": ["උවා පළාත"] }
       },
-      "si": {
-        "category": "තේ",
-        "assetName": "Tea"
+      { 
+        "imagePath": "/assets/products/Export/Tea/white-tea.jpg", 
+        "en": { "imageName": "Ceylon White Tea", "origins": ["Nuwara Eliya"] },
+        "zh": { "imageName": "錫蘭白茶", "origins": ["努瓦拉埃利耶"] },
+        "si": { "imageName": "සිලෝන් සුදු තේ", "origins": ["නුවරඑළිය"] }
       },
-      "items": [
-        {
-          "imagePath": "/assets/products/Export/Tea/ceylon-black-tea.jpg",
-          "en": {
-            "imageName": "Ceylon Black Tea",
-            "origins": [
-              "Nuwara Eliya",
-              "Uva",
-              "Dimbula"
-            ]
-          },
-          "zh": {
-            "imageName": "錫蘭紅茶",
-            "origins": [
-              "努瓦拉埃利耶",
-              "烏瓦",
-              "丁布拉"
-            ]
-          },
-          "si": {
-            "imageName": "සිලෝන් කළු තේ",
-            "origins": [
-              "නුවරඑළිය",
-              "උවා",
-              "දිඹුල"
-            ]
-          }
-        },
-        {
-          "imagePath": "/assets/products/Export/Tea/green-tea.jpg",
-          "en": {
-            "imageName": "Ceylon Green Tea",
-            "origins": [
-              "Uva Province"
-            ]
-          },
-          "zh": {
-            "imageName": "錫蘭綠茶",
-            "origins": [
-              "烏瓦省"
-            ]
-          },
-          "si": {
-            "imageName": "සිලෝන් කොළ තේ",
-            "origins": [
-              "උවා පළාත"
-            ]
-          }
-        },
-        {
-          "imagePath": "/assets/products/Export/Tea/white-tea.jpg",
-          "en": {
-            "imageName": "Ceylon White Tea",
-            "origins": [
-              "Nuwara Eliya"
-            ]
-          },
-          "zh": {
-            "imageName": "錫蘭白茶",
-            "origins": [
-              "努瓦拉埃利耶"
-            ]
-          },
-          "si": {
-            "imageName": "සිලෝන් සුදු තේ",
-            "origins": [
-              "නුවරඑළිය"
-            ]
-          }
-        },
-        {
-          "imagePath": "/assets/products/Export/Tea/oolong-tea.jpg",
-          "en": {
-            "imageName": "Ceylon Oolong Tea",
-            "origins": [
-              "Uva"
-            ]
-          },
-          "zh": {
-            "imageName": "錫蘭烏龍茶",
-            "origins": [
-              "烏瓦"
-            ]
-          },
-          "si": {
-            "imageName": "සිලෝන් ඌලෝං තේ",
-            "origins": [
-              "උවා"
-            ]
-          }
-        }
-      ]
-    },
-    "coconut": {
-      "en": {
-        "category": "Coconut Products",
-        "assetName": "Coconut"
+      { 
+        "imagePath": "/assets/products/Export/Tea/oolong-tea.jpg", 
+        "en": { "imageName": "Ceylon Oolong Tea", "origins": ["Uva"] },
+        "zh": { "imageName": "錫蘭烏龍茶", "origins": ["烏瓦"] },
+        "si": { "imageName": "සිලෝන් ඌලෝං තේ", "origins": ["උවා"] }
+      }
+    ]
+  },
+  "coconut": {
+    "en": { "category": "Coconut Products", "assetName": "Coconut" },
+    "zh": { "category": "椰子产品", "assetName": "Coconut" },
+    "si": { "category": "පොල් නිෂ්පාදන", "assetName": "Coconut" },
+    "items": [
+      { 
+        "imagePath": "/assets/products/Export/Coconut/dessicated-coconut.jpg", 
+        "en": { "imageName": "Desiccated Coconut", "origins": ["Western Province", "North Western"] },
+        "zh": { "imageName": "脱水椰子", "origins": ["西部省", "西北省"] },
+        "si": { "imageName": "වියළි පොල්", "origins": ["බස්නාහිර පළාත", "වයඹ පළාත"] }
       },
-      "zh": {
-        "category": "椰子产品",
-        "assetName": "Coconut"
+      { 
+        "imagePath": "/assets/products/Export/Coconut/coconut-oil.jpg", 
+        "en": { "imageName": "Virgin Coconut Oil", "origins": ["Puttalam", "Kurunegala"] },
+        "zh": { "imageName": "初榨椰子油", "origins": ["普塔拉姆", "庫魯內加拉"] },
+        "si": { "imageName": "කුමරිකා පොල් තෙල්", "origins": ["පුත්තලම", "කුරුණෑගල"] }
       },
-      "si": {
-        "category": "පොල් නිෂ්පාදන",
-        "assetName": "Coconut"
+      { 
+        "imagePath": "/assets/products/Export/Coconut/coconut-milk.jpg", 
+        "en": { "imageName": "Coconut Milk Powder", "origins": ["All Islands"] },
+        "zh": { "imageName": "椰奶粉", "origins": ["全島"] },
+        "si": { "imageName": "පොල් කිරි පොඩි", "origins": ["සමස්ත දූපත්"] }
       },
-      "items": [
-        {
-          "imagePath": "/assets/products/Export/Coconut/dessicated-coconut.jpg",
-          "en": {
-            "imageName": "Desiccated Coconut",
-            "origins": [
-              "Western Province",
-              "North Western"
-            ]
-          },
-          "zh": {
-            "imageName": "脱水椰子",
-            "origins": [
-              "西部省",
-              "西北省"
-            ]
-          },
-          "si": {
-            "imageName": "වියළි පොල්",
-            "origins": [
-              "බස්නාහිර පළාත",
-              "වයඹ පළාත"
-            ]
-          }
-        },
-        {
-          "imagePath": "/assets/products/Export/Coconut/coconut-oil.jpg",
-          "en": {
-            "imageName": "Virgin Coconut Oil",
-            "origins": [
-              "Puttalam",
-              "Kurunegala"
-            ]
-          },
-          "zh": {
-            "imageName": "初榨椰子油",
-            "origins": [
-              "普塔拉姆",
-              "庫魯內加拉"
-            ]
-          },
-          "si": {
-            "imageName": "කුමරිකා පොල් තෙල්",
-            "origins": [
-              "පුත්තලම",
-              "කුරුණෑගල"
-            ]
-          }
-        },
-        {
-          "imagePath": "/assets/products/Export/Coconut/coconut-milk.jpg",
-          "en": {
-            "imageName": "Coconut Milk Powder",
-            "origins": [
-              "All Islands"
-            ]
-          },
-          "zh": {
-            "imageName": "椰奶粉",
-            "origins": [
-              "全島"
-            ]
-          },
-          "si": {
-            "imageName": "පොල් කිරි පොඩි",
-            "origins": [
-              "සමස්ත දූපත්"
-            ]
-          }
-        },
-        {
-          "imagePath": "/assets/products/Export/Coconut/fresh-coconut.jpg",
-          "en": {
-            "imageName": "Fresh Coconut",
-            "origins": [
-              "Coconut Triangle"
-            ]
-          },
-          "zh": {
-            "imageName": "新鮮椰子",
-            "origins": [
-              "椰子三角區"
-            ]
-          },
-          "si": {
-            "imageName": "නැවුම් පොල්",
-            "origins": [
-              "පොල් ත්‍රිකෝණය"
-            ]
-          }
-        }
-      ]
-    }
+      { 
+        "imagePath": "/assets/products/Export/Coconut/fresh-coconut.jpg", 
+        "en": { "imageName": "Fresh Coconut", "origins": ["Coconut Triangle"] },
+        "zh": { "imageName": "新鮮椰子", "origins": ["椰子三角區"] },
+        "si": { "imageName": "නැවුම් පොල්", "origins": ["පොල් ත්‍රිකෝණය"] }
+      }
+    ]
   }
+}
 }
