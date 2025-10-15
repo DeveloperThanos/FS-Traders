@@ -158,13 +158,6 @@ export const productContents = {
             ]
           },
           {
-            "imagePath": "/assets/products/Import/Additives/citric-acid.jpg",
-            "imageName": "Citric Acid",
-            "origins": [
-              "Various origins"
-            ]
-          },
-          {
             "imagePath": "/assets/products/Import/Additives/used-newspaper.jpg",
             "imageName": "Used Newspaper",
             "origins": [
@@ -425,13 +418,6 @@ export const productContents = {
           {
             "imagePath": "/assets/products/Import/Additives/ammonium-bicarbonate.jpg",
             "imageName": "碳酸氢铵",
-            "origins": [
-              "多种来源"
-            ]
-          },
-          {
-            "imagePath": "/assets/products/Import/Additives/citric-acid.jpg",
-            "imageName": "柠檬酸",
             "origins": [
               "多种来源"
             ]
@@ -711,13 +697,6 @@ export const productContents = {
           {
             "imagePath": "/assets/products/Import/Additives/ammonium-bicarbonate.jpg",
             "imageName": "ඇමෝනියම් බයිකාබෝනේට්",
-            "origins": [
-              "විවිධ මූලාශ්‍ර"
-            ]
-          },
-          {
-            "imagePath": "/assets/products/Import/Additives/citric-acid.jpg",
-            "imageName": "ලෙමන් අම්ලය",
             "origins": [
               "විවිධ මූලාශ්‍ර"
             ]
