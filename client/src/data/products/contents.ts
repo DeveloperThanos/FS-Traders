@@ -151,10 +151,10 @@ export const productContents = {
         "assetName": "Additives",
         "items": [
           {
-            "imagePath": "/assets/products/Import/Additives/sodium-bicarbonate.jpg",
+            "imagePath": "/assets/products/Import/Additives/Sodium Bicarbonate.png",
             "imageName": "Sodium Bicarbonate",
             "origins": [
-              "Various origins"
+              "India"
             ]
           },
           {
@@ -430,10 +430,10 @@ export const productContents = {
         "assetName": "Additives",
         "items": [
           {
-            "imagePath": "/assets/products/Import/Additives/sodium-bicarbonate.jpg",
+            "imagePath": "/assets/products/Import/Additives/Sodium Bicarbonate.png",
             "imageName": "碳酸氢钠",
             "origins": [
-              "多种来源"
+              "印度"
             ]
           },
           {
@@ -741,6 +741,13 @@ export const productContents = {
             "imageName": "පැරණි පත්තර",
             "origins": [
               "විවිධ මූලාශ්‍ර"
+            ]
+          },
+          {
+            "imagePath": "/assets/products/Import/Additives/Sodium Bicarbonate.png",
+            "imageName": "සෝඩියම් බයිකාබනේට්",
+            "origins": [
+              "ඉන්දියාව"
             ]
           }
         ]
