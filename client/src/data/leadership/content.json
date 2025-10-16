@@ -44,7 +44,11 @@
     },
     "blogs": [
       {
-        "heading1": "Connecting Local Farmers to Global Markets",
+        "heading": {
+          "en": "Connecting Local Farmers to Global Markets",
+          "zh": "将本地农民与全球市场连接",
+          "si": "දේශීය ගොවීන් ගෝලීය වෙළඳපොළට සම්බන්ධ කිරීම"
+        },
         "description": {
           "en": "We empower local Sri Lankan farmers to export premium spices worldwide.",
           "zh": "我们帮助斯里兰卡本地农民将优质香料出口到全球。",
@@ -52,7 +56,11 @@
         }
       },
       {
-        "heading2": "Sustainable Farming Practices",
+        "heading": {
+          "en": "Sustainable Farming Practices",
+          "zh": "可持续农业实践",
+          "si": "තිරසාර ගොවිතැන ක්‍රම"
+        },
         "description": {
           "en": "Our initiatives focus on sustainable and eco-friendly farming methods.",
           "zh": "我们的举措专注于可持续和环保的种植方法。",
@@ -80,7 +88,11 @@
     },
     "blogs": [
       {
-        "heading1": "Innovating Spice Trading",
+        "heading": {
+          "en": "Innovating Spice Trading",
+          "zh": "香料贸易创新",
+          "si": "කුළුබඩු වෙළඳාම නව්‍යකරණය"
+        },
         "description": {
           "en": "We leverage technology to optimize global spice supply chains.",
           "zh": "我们利用技术优化全球香料供应链。",
@@ -88,7 +100,11 @@
         }
       },
       {
-        "heading2": "Customer-Centric Approach",
+        "heading": {
+          "en": "Customer-Centric Approach",
+          "zh": "以客户为中心的方法",
+          "si": "පාරිභෝගික මූලධර්මය"
+        },
         "description": {
           "en": "Our strategy prioritizes customer satisfaction and quality assurance.",
           "zh": "我们的策略优先考虑客户满意度和质量保证。",
@@ -104,55 +120,27 @@
   },
   "destination3": [
     {
-      "name": {
-        "en": "Robert Fox",
-        "zh": "罗伯特·福克斯",
-        "si": "රොබට් ෆොක්ස්"
-      },
-      "title": {
-        "en": "Director",
-        "zh": "董事",
-        "si": "අධ්‍යක්ෂ"
-      },
+      "id": "robert-fox",
+      "name": { "en": "Robert Fox", "zh": "罗伯特·福克斯", "si": "රොබට් ෆොක්ස්" },
+      "title": { "en": "Director", "zh": "董事", "si": "අධ්‍යක්ෂ" },
       "imagePath": "/assets/leadership/robert-fox.jpg"
     },
     {
-      "name": {
-        "en": "Albert Flores",
-        "zh": "阿尔伯特·弗洛雷斯",
-        "si": "ඇල්බට් ෆ්ලෝරස්"
-      },
-      "title": {
-        "en": "Director",
-        "zh": "董事",
-        "si": "අධ්‍යක්ෂ"
-      },
+      "id": "albert-flores",
+      "name": { "en": "Albert Flores", "zh": "阿尔伯特·弗洛雷斯", "si": "ඇල්බට් ෆ්ලෝරස්" },
+      "title": { "en": "Director", "zh": "董事", "si": "අධ්‍යක්ෂ" },
       "imagePath": "/assets/leadership/albert-flores.jpg"
     },
     {
-      "name": {
-        "en": "Floyd Miles",
-        "zh": "弗洛伊德·迈尔斯",
-        "si": "ෆ්ලෝයිඩ් මයිල්ස්"
-      },
-      "title": {
-        "en": "Director",
-        "zh": "董事",
-        "si": "අධ්‍යක්ෂ"
-      },
+      "id": "floyd-miles",
+      "name": { "en": "Floyd Miles", "zh": "弗洛伊德·迈尔斯", "si": "ෆ්ලෝයිඩ් මයිල්ස්" },
+      "title": { "en": "Director", "zh": "董事", "si": "අධ්‍යක්ෂ" },
       "imagePath": "/assets/leadership/floyd-miles.jpg"
     },
     {
-      "name": {
-        "en": "Jenny Wilson",
-        "zh": "詹妮·威尔逊",
-        "si": "ජෙනි විල්සන්"
-      },
-      "title": {
-        "en": "Director",
-        "zh": "董事",
-        "si": "අධ්‍යක්ෂ"
-      },
+      "id": "jenny-wilson",
+      "name": { "en": "Jenny Wilson", "zh": "詹妮·威尔逊", "si": "ජෙනි විල්සන්" },
+      "title": { "en": "Director", "zh": "董事", "si": "අධ්‍යක්ෂ" },
       "imagePath": "/assets/leadership/jenny-wilson.jpg"
     }
   ]
