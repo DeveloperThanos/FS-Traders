@@ -382,6 +382,43 @@
           }
         }
       ]
+    },
+    "vegetables & roots": {
+      "en": {
+        "category": "Vegetables & Roots",
+        "assetName": "Vegetables & Roots"
+      },
+      "si": {
+        "category": "එළවළු සහ වර්ග මුල්",
+        "assetName": "Vegetables & Roots"
+      },
+      "zh": {
+        "category": "蔬菜与根茎",
+        "assetName": "Vegetables & Roots"
+      },
+      "items": [
+        {
+          "imagePath": "/assets/products/Import/Vegetables & Roots/orange.png",
+          "en": {
+            "imageName": "orange",
+            "origins": [
+              "china"
+            ]
+          },
+          "si": {
+            "imageName": "දොඩම්",
+            "origins": [
+              "චීනය"
+            ]
+          },
+          "zh": {
+            "imageName": "橘子",
+            "origins": [
+              "中国"
+            ]
+          }
+        }
+      ]
     }
   },
   "export": {
