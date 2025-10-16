@@ -417,6 +417,27 @@
               "中国"
             ]
           }
+        },
+        {
+          "imagePath": "/assets/products/Import/Vegetables & Roots/nipple.webp",
+          "en": {
+            "imageName": "nipple",
+            "origins": [
+              "usa"
+            ]
+          },
+          "si": {
+            "imageName": "තන පුඩුව",
+            "origins": [
+              "ඇමරිකා එක්සත් ජනපදය"
+            ]
+          },
+          "zh": {
+            "imageName": "乳头",
+            "origins": [
+              "美国"
+            ]
+          }
         }
       ]
     }
