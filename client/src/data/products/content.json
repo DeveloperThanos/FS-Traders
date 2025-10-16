@@ -653,27 +653,6 @@
               "සමස්ත දූපත්"
             ]
           }
-        },
-        {
-          "imagePath": "/assets/products/Export/Coconut/fresh-coconut.jpg",
-          "en": {
-            "imageName": "Fresh Coconut",
-            "origins": [
-              "Coconut Triangle"
-            ]
-          },
-          "zh": {
-            "imageName": "新鮮椰子",
-            "origins": [
-              "椰子三角區"
-            ]
-          },
-          "si": {
-            "imageName": "නැවුම් පොල්",
-            "origins": [
-              "පොල් ත්‍රිකෝණය"
-            ]
-          }
         }
       ]
     }
