@@ -403,6 +403,47 @@
           }
         }
       ]
+    },
+    "spices": {
+      "en": {
+        "category": "Spices & Seeds",
+        "assetName": "Spices Seeds"
+      },
+      "si": {
+        "category": "මසාලා සහ බීජ",
+        "assetName": "Spices Seeds"
+      },
+      "zh": {
+        "category": "香料与种子",
+        "assetName": "Spices Seeds"
+      },
+      "items": [
+        {
+          "imagePath": "/assets/products/Import/Spices Seeds/Nayanthara.png",
+          "en": {
+            "imageName": "Nayanthara",
+            "origins": [
+              "India",
+              "china"
+            ]
+          },
+          "si": {
+            "imageName": "නයන්තාරා",
+            "origins": [
+              "ඉන්දියාව",
+              "චීනය"
+            ]
+          },
+          "zh": {
+            "imageName": "纳彦塔拉",
+            "origins": [
+              "印度",
+              "中国"
+            ]
+          }
+        }
+      ],
+      "assetName": "Spices Seeds"
     }
   },
   "export": {
