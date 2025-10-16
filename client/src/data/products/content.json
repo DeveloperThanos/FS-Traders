@@ -403,6 +403,47 @@
           }
         }
       ]
+    },
+    "spices": {
+      "en": {
+        "category": "Vegetables & Roots",
+        "assetName": "Vegetables"
+      },
+      "si": {
+        "category": "එළවළු සහ වර්ග මුල්",
+        "assetName": "Vegetables"
+      },
+      "zh": {
+        "category": "蔬菜与根茎",
+        "assetName": "Vegetables"
+      },
+      "items": [
+        {
+          "imagePath": "/assets/products/Import/Vegetables/Car.jpeg",
+          "en": {
+            "imageName": "Car",
+            "origins": [
+              "india",
+              "japan"
+            ]
+          },
+          "si": {
+            "imageName": "මෝටර් රථය",
+            "origins": [
+              "ඉන්දියාව",
+              "ජපානය"
+            ]
+          },
+          "zh": {
+            "imageName": "汽车",
+            "origins": [
+              "印度",
+              "日本"
+            ]
+          }
+        }
+      ],
+      "assetName": "Vegetables"
     }
   },
   "export": {
