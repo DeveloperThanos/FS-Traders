@@ -417,6 +417,27 @@
               "斯里兰卡"
             ]
           }
+        },
+        {
+          "imagePath": "/assets/products/Import/Spices Seeds/Apple.png",
+          "en": {
+            "imageName": "Apple",
+            "origins": [
+              "India"
+            ]
+          },
+          "si": {
+            "imageName": "ඇපල්",
+            "origins": [
+              "ඉන්දියාව"
+            ]
+          },
+          "zh": {
+            "imageName": "苹果",
+            "origins": [
+              "印度"
+            ]
+          }
         }
       ]
     }
