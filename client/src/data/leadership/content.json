@@ -5,7 +5,7 @@
       "subheadingDestination1": "Founder's Message",
       "subheadingDestination2": "CEO's Message",
       "subheadingDestination3": "Our Directors",
-      "destination3Description": "Visionary Leadership in Global Trade",
+      "subheading2Destination3": "Visionary Leadership in Global Trade",
       "exploreBlogBtn": "Explore Blog"
     },
     "zh": {
@@ -13,7 +13,7 @@
       "subheadingDestination1": "创始人寄语",
       "subheadingDestination2": "首席执行官寄语",
       "subheadingDestination3": "我们的董事",
-      "destination3Description": "全球贸易的远见领导力",
+      "subheading2Destination3": "全球贸易的远见领导力",
       "exploreBlogBtn": "探索博客"
     },
     "si": {
@@ -21,7 +21,7 @@
       "subheadingDestination1": "නිර්මාතෘගේ පණිවිඩය",
       "subheadingDestination2": "ප්‍රධාන විධායක නිලධාරීගේ පණිවිඩය",
       "subheadingDestination3": "අපගේ අධ්‍යක්ෂවරුන්",
-      "destination3Description": "වශජනන වෙළඳාමේ දුරදමන නායකත්වය",
+      "subheading2Destination3": "වශජනන වෙළඳාමේ දුරදමන නායකත්වය",
       "exploreBlogBtn": "බ්ලොග් එක බලන්න"
     }
   },
