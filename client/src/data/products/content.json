@@ -262,30 +262,6 @@
               "විවිධ මූලාශ්‍ර"
             ]
           }
-        },
-        {
-          "imagePath": "/assets/products/Import/Grains/Car.png",
-          "en": {
-            "imageName": "Car",
-            "origins": [
-              "India",
-              "chinna"
-            ]
-          },
-          "si": {
-            "imageName": "කාර්",
-            "origins": [
-              "ඉන්දියාව",
-              "චීනය"
-            ]
-          },
-          "zh": {
-            "imageName": "汽车",
-            "origins": [
-              "印度",
-              "中国"
-            ]
-          }
         }
       ],
       "assetName": "Grains"
