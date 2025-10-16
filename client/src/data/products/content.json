@@ -268,23 +268,27 @@
           "en": {
             "imageName": "Car",
             "origins": [
-              "India"
+              "India",
+              "chinna"
             ]
           },
           "si": {
-            "imageName": "මෝටර් රථය",
+            "imageName": "කාර්",
             "origins": [
-              "ඉන්දියාව"
+              "ඉන්දියාව",
+              "චීනය"
             ]
           },
           "zh": {
             "imageName": "汽车",
             "origins": [
-              "印度"
+              "印度",
+              "中国"
             ]
           }
         }
-      ]
+      ],
+      "assetName": "Grains"
     },
     "spicesSeeds": {
       "en": {
