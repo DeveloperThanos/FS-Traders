@@ -534,6 +534,27 @@
               "මැඩගස්කර්"
             ]
           }
+        },
+        {
+          "imagePath": "/assets/products/Export/Spices/ice cream.png",
+          "en": {
+            "imageName": "ice cream",
+            "origins": [
+              "india"
+            ]
+          },
+          "si": {
+            "imageName": "අයිස්ක්‍රීම්",
+            "origins": [
+              "ඉන්දියාව"
+            ]
+          },
+          "zh": {
+            "imageName": "冰淇淋",
+            "origins": [
+              "印度"
+            ]
+          }
         }
       ],
       "assetName": "Spices"
