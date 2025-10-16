@@ -1,31 +1,31 @@
 {
   "headings": {
     "en": {
-  "heading": "Our Leadership",
-  "subheadingFounder": "Founder's Message",
-  "subheadingCEO": "CEO's Message",
-  "subheadingDirectors": "Our Directors",
-  "directorsDescription": "Visionary Leadership in Global Trade",
-  "exploreBlogBtn": "Explore Blog"
+      "heading": "Our Leadership",
+      "subheadingDestination1": "Founder's Message",
+      "subheadingDestination2": "CEO's Message",
+      "subheadingDestination3": "Our Directors",
+      "destination3Description": "Visionary Leadership in Global Trade",
+      "exploreBlogBtn": "Explore Blog"
     },
     "zh": {
-  "heading": "我们的领导团队",
-  "subheadingFounder": "创始人寄语",
-  "subheadingCEO": "首席执行官寄语",
-  "subheadingDirectors": "我们的董事",
-  "directorsDescription": "全球贸易的远见领导力",
-  "exploreBlogBtn": "探索博客"
+      "heading": "我们的领导团队",
+      "subheadingDestination1": "创始人寄语",
+      "subheadingDestination2": "首席执行官寄语",
+      "subheadingDestination3": "我们的董事",
+      "destination3Description": "全球贸易的远见领导力",
+      "exploreBlogBtn": "探索博客"
     },
     "si": {
-  "heading": "අපගේ නායකත්වය",
-  "subheadingFounder": "නිර්මාතෘගේ පණිවිඩය",
-  "subheadingCEO": "ප්‍රධාන විධායක නිලධාරීගේ පණිවිඩය",
-  "subheadingDirectors": "අපගේ අධ්‍යක්ෂවරුන්",
-  "directorsDescription": "වශජනන වෙළඳාමේ දුරදමන නායකත්වය",
-  "exploreBlogBtn": "බ්ලොග් එක බලන්න"
+      "heading": "අපගේ නායකත්වය",
+      "subheadingDestination1": "නිර්මාතෘගේ පණිවිඩය",
+      "subheadingDestination2": "ප්‍රධාන විධායක නිලධාරීගේ පණිවිඩය",
+      "subheadingDestination3": "අපගේ අධ්‍යක්ෂවරුන්",
+      "destination3Description": "වශජනන වෙළඳාමේ දුරදමන නායකත්වය",
+      "exploreBlogBtn": "බ්ලොග් එක බලන්න"
     }
   },
-  "founder": {
+  "destination1": {
     "name": {
       "en": "Kristin Watson",
       "zh": "克里斯汀·沃森",
@@ -41,9 +41,27 @@
       "en": "As the founder of FS Traders, I am passionate about connecting Sri Lankan producers with global markets. Our journey began with a simple vision: to bring authentic Sri Lankan spices to the world while empowering local farmers.",
       "zh": "作为FS Traders的创始人，我热衷于将斯里兰卡生产商与全球市场连接起来。我们的旅程始于一个简单的愿景：将正宗的斯里兰卡香料带到世界各地，同时赋予当地农民权力。",
       "si": "FS Traders හි නිර්මාතෘවරියක් ලෙස, මම ශ්‍රී ලාංකික නිෂ්පාදකයින් ගෝලීය වෙළඳපොළ සමඟ සම්බන්ධ කිරීමට ආශාවෙන් පිරිලා ඇත. අපගේ ගමන ආරම්භ වූයේ සරල දැක්මකින්: සත්‍ය ශ්‍රී ලාංකික කුළුබඩු ලෝකයට ගෙන ඒම සහ දේශීය ගොවීන්ට බලගැන්වීම."
-    }
+    },
+    "blogs": [
+      {
+        "heading1": "Connecting Local Farmers to Global Markets",
+        "description": {
+          "en": "We empower local Sri Lankan farmers to export premium spices worldwide.",
+          "zh": "我们帮助斯里兰卡本地农民将优质香料出口到全球。",
+          "si": "අපි ශ්‍රී ලාංකික දේශීය ගොවීන්ට උසස් කුළුබඩු ලෝකයට අපනයනය කිරීමට බලගැන්වමු."
+        }
+      },
+      {
+        "heading2": "Sustainable Farming Practices",
+        "description": {
+          "en": "Our initiatives focus on sustainable and eco-friendly farming methods.",
+          "zh": "我们的举措专注于可持续和环保的种植方法。",
+          "si": "අපගේ ක්‍රියාකලාපය තිරසාර සහ පාරිසරික හිතකාමී ගොවිතැන ක්‍රමවලට යොමු වේ."
+        }
+      }
+    ]
   },
-  "ceo": {
+  "destination2": {
     "name": {
       "en": "Albert Flores",
       "zh": "阿尔伯特·弗洛雷斯",
@@ -59,14 +77,32 @@
       "en": "Under my leadership, FS Traders has grown into a global powerhouse in spice trading. We combine cutting-edge technology with traditional expertise to deliver unmatched quality to our international customers.",
       "zh": "在我的领导下，FS Traders已成长为香料贸易领域的全球强国。我们将尖端技术与传统专业知识相结合，为国际客户提供无与伦比的品质。",
       "si": "මගේ නායකත්වය යටතේ, FS Traders කුළුබඩු වෙළඳාමේ ගෝලීය බලවේගයක් බවට පත්ව ඇත. අපි උසස් තාක්ෂණය සම්ප්‍රදායික දැනුම සමඟ ඒකාබද්ධ කරමින් අන්තර්ජාතික පාරිභෝගිකයින්ට ඉක්මන් ගුණාත්මකභාවය ලබා දෙමු."
-    }
+    },
+    "blogs": [
+      {
+        "heading1": "Innovating Spice Trading",
+        "description": {
+          "en": "We leverage technology to optimize global spice supply chains.",
+          "zh": "我们利用技术优化全球香料供应链。",
+          "si": "අපි තාක්ෂණය භාවිතා කර ගෝලීය කුළුබඩු සැපයුම් ජාල හොඳින් කළමනාකරණය කරමු."
+        }
+      },
+      {
+        "heading2": "Customer-Centric Approach",
+        "description": {
+          "en": "Our strategy prioritizes customer satisfaction and quality assurance.",
+          "zh": "我们的策略优先考虑客户满意度和质量保证。",
+          "si": "අපගේ යුක්තිය පාරිභෝගික සතුට සහ ගුණාත්මකභාවය ප්‍රමුඛ කරයි."
+        }
+      }
+    ]
   },
-  "directorParagraph": {
+  "destination3Description": {
     "en": "Our directors bring decades of experience and a shared commitment to excellence in global trade. Their leadership drives our mission and inspires our team.",
     "zh": "我们的董事拥有数十年的经验，并共同致力于全球贸易的卓越。他们的领导推动着我们的使命，激励着我们的团队。",
     "si": "අපගේ අධ්‍යක්ෂවරුන්ට වසර ගණනාවක පළපුරුද්ද සහ ගෝලීය වෙළඳාමේ විශිෂ්ටත්වයට එකමුතු කැපවීම ඇත. ඔවුන්ගේ නායකත්වය අපගේ මෙහෙවර ඉදිරියට ගෙනයයි, කණ්ඩායමට ආරාධනා කරයි."
   },
-  "directors": [
+  "destination3": [
     {
       "name": {
         "en": "Robert Fox",
