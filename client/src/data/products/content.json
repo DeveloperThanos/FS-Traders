@@ -32,42 +32,6 @@
       },
       "items": [
         {
-          "imagePath": "/assets/products/Import/Vegetables/big-onion.png",
-          "en": {
-            "imageName": "Big Onion",
-            "origins": [
-              "China",
-              "India",
-              "Pakistan",
-              "Egypt",
-              "Netherlands",
-              "Spain"
-            ]
-          },
-          "zh": {
-            "imageName": "大洋葱",
-            "origins": [
-              "中国",
-              "印度",
-              "巴基斯坦",
-              "埃及",
-              "荷兰",
-              "西班牙"
-            ]
-          },
-          "si": {
-            "imageName": "විශාල ලූනු",
-            "origins": [
-              "චීන",
-              "ඉන්දියාව",
-              "පාකිස්තානය",
-              "ඊජිප්තු",
-              "නෙදර්ලන්තය",
-              "ස්පාඤ්ඤය"
-            ]
-          }
-        },
-        {
           "imagePath": "/assets/products/Import/Vegetables/potato.jpg",
           "en": {
             "imageName": "Potato",
