@@ -32,27 +32,6 @@
       },
       "items": [
         {
-          "imagePath": "/assets/products/Import/Vegetables/Big Onion.png",
-          "en": {
-            "imageName": "Big Onion",
-            "origins": [
-              "China"
-            ]
-          },
-          "zh": {
-            "imageName": "大洋葱",
-            "origins": [
-              "中国"
-            ]
-          },
-          "si": {
-            "imageName": "ලොකු ලූනු",
-            "origins": [
-              "චීනය"
-            ]
-          }
-        },
-        {
           "imagePath": "/assets/products/Import/Vegetables/potato.jpg",
           "en": {
             "imageName": "Potato",
