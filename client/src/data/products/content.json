@@ -403,6 +403,43 @@
           }
         }
       ]
+    },
+    "spices seeds": {
+      "en": {
+        "category": "Spices & Seeds",
+        "assetName": "Spices Seeds"
+      },
+      "si": {
+        "category": "මසාලා සහ බීජ",
+        "assetName": "Spices Seeds"
+      },
+      "zh": {
+        "category": "香料与种子",
+        "assetName": "Spices Seeds"
+      },
+      "items": [
+        {
+          "imagePath": "/assets/products/Import/Spices Seeds/Orange.png",
+          "en": {
+            "imageName": "Orange",
+            "origins": [
+              "India"
+            ]
+          },
+          "si": {
+            "imageName": "දොඩම්",
+            "origins": [
+              "ඉන්දියාව"
+            ]
+          },
+          "zh": {
+            "imageName": "橙子",
+            "origins": [
+              "印度"
+            ]
+          }
+        }
+      ]
     }
   },
   "export": {
