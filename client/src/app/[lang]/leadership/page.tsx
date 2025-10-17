@@ -17,14 +17,15 @@ interface LeadershipMember {
   message?: LocalizedText;
 }
 
-interface Headings {
+type Headings = {
   heading: string;
   subheadingDestination1: string;
   subheadingDestination2: string;
   subheadingDestination3: string;
-  destination3Description: string;
+  subheading2Destination3: string;
   exploreBlogBtn: string;
-}
+  destination3Description?: string; // Marked as optional
+};
 
 interface LeadershipContent {
   headings: Record<"en" | "zh" | "si", Headings>;
