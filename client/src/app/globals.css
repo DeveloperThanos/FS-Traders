@@ -1,26 +1,35 @@
 @import "tailwindcss";
 
+/* =============================
+   CSS Variables for Theme Colors
+============================= */
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Custom colors matching Tailwind config */
+  --color-background: #F7EDE2;
+  --color-foreground: #242E49;
+  --color-primary: #03122F;
+  --color-secondary: #8153FC;
+  --color-text: #242E49;
+  --color-text-light: #ffffff;
+  --color-icon-light: #A0AEC0;
 }
 
+/* Fonts */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Base body styles */
+body {
+  /* Leave background to Tailwind or use var(--color-background) if needed */
+  color: var(--color-foreground);
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.text-primary {
+  color: var(--color-primary);
 }

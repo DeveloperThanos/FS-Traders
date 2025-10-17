@@ -1,25 +1,24 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
       colors: {
-        background: "#ffffff",
-        foreground: "#F5F5F5",
-        button: "#1E56A0",
-        primary: "#03122F",
-        secondary: "#07261B",
-        text: {
-          DEFAULT: "#242E49",  
-          light: "#526377",    
-        },
-        icon: {
-          light: "#A0AEC0", 
-        },
+        primary: 'var(--color-primary)',
+        secondary: 'var(--color-secondary)',
+        'text-light': 'var(--color-text-light)',
+        'text-dark': 'var(--color-text)',
+      },
+      backgroundColor: {
+        primary: 'var(--color-primary)',
+      },
+      textColor: {
+        primary: 'var(--color-primary)',
+        'text-light': 'var(--color-text-light)',
       },
     },
   },
   plugins: [],
-}
+};

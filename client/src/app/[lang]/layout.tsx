@@ -3,6 +3,7 @@ import { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import "../globals.css";
 import RightSidebar from "../../components/rightSidebar";
+import Navbar from "./components/Navbar";
 
 const supportedLangs = ["en", "zh", "si"] as const;
 type Lang = (typeof supportedLangs)[number];
@@ -16,7 +17,7 @@ export default async function LocaleLayout({
   params,
 }: {
   children: ReactNode;
-  params: Promise<{ lang: string }>
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
 
@@ -25,9 +26,15 @@ export default async function LocaleLayout({
   }
 
   return (
-    <>
+    <div style={{ backgroundColor: '#F7EDE2' }} className="flex min-h-screen text-text">
+      {/* Navbar */}
+      <Navbar lang={lang} />
+
+      {/* Sidebar */}
       <RightSidebar initialLang={lang} />
-      {children}
-    </>
+
+      {/* Main Content Area */}
+      <main className="flex-1 px-4 sm:px-8 py-6 mt-16">{children}</main>
+    </div>
   );
 }
