@@ -81,88 +81,95 @@ export default async function ProductsPage({ params }: PageProps) {
   }));
 
   return (
-   <main className="p-8 mx-auto max-w-7xl bg-background">
-  {/* Main Heading */}
-  <h1 className="text-3xl md:text-4xl font-extrabold mb-4 text-center text-primary">
-    {headings.heading}
-  </h1>
+    <main className="p-8 mx-auto max-w-7xl bg-background">
+      {/* Main Heading */}
+      <h1 className="text-3xl md:text-4xl font-extrabold mb-4 text-center text-primary">
+        {headings.heading}
+      </h1>
 
-  {/* Import Section */}
-  <h2 className="text-2xl text-primary mb-8 text-center font-bold">
-    {headings.subheadingImport}
-  </h2>
+      {/* Import Section */}
+      <h2 className="text-2xl text-primary mb-8 text-center font-bold">
+        {headings.subheadingImport}
+      </h2>
 
-  {importCategories.map((category, index) => (
-    <section key={index} className="mb-12">
-      <h3 className="text-2xl font-semibold mb-6 text-primary">
-        {category.category}
-      </h3>
+      {importCategories.map((category, index) => (
+        <section key={index} className="mb-12">
+          <h3 className="text-2xl font-semibold mb-6 text-primary">
+            {category.category}
+          </h3>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        {category.items.map((item, idx) => (
-          <div
-            key={idx}
-            className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 group"
-          >
-            {/* Image */}
-            <img
-              src={item.imagePath}
-              alt={item.imageName}
-              className="w-full h-[350px] object-cover"
-            />
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {category.items.map((item, idx) => (
+              <div
+                key={idx}
+                className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 group"
+              >
+                {/* Image */}
+                <img
+                  src={item.imagePath}
+                  alt={item.imageName}
+                  className="w-full h-[350px] object-cover transform group-hover:scale-105 transition-transform duration-500"
+                />
 
-            {/* Overlay Gradient */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-100 group-hover:opacity-90 transition-opacity"></div>
+                {/* Subtle Overlay (fade effect) */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
-            {/* Text Overlay */}
-            <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-              <h4 className="text-lg font-semibold mb-1">{item.imageName}</h4>
-              <p className="text-sm opacity-90">{item.origins.join(", ")}</p>
-            </div>
+                {/* Text Overlay (light bg on hover) */}
+                <div className="absolute bottom-0 left-0 right-0 p-4 transition-colors duration-300 bg-transparent group-hover:bg-black/40">
+                  <h4 className="text-lg font-semibold mb-1 text-white drop-shadow-md">
+                    {item.imageName}
+                  </h4>
+                  <p className="text-sm text-gray-200 drop-shadow-md">
+                    {item.origins.join(", ")}
+                  </p>
+                </div>
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
-    </section>
-  ))}
+        </section>
+      ))}
 
-  {/* Export Section */}
-  <h2 className="text-2xl text-primary mb-8 text-center font-bold">
-    {headings.subheadingExport}
-  </h2>
+      {/* Export Section */}
+      <h2 className="text-2xl text-primary mb-8 text-center font-bold">
+        {headings.subheadingExport}
+      </h2>
 
-  {exportCategories.map((category, index) => (
-    <section key={index} className="mb-12">
-      <h3 className="text-2xl font-semibold mb-6 text-primary">
-        {category.category}
-      </h3>
+      {exportCategories.map((category, index) => (
+        <section key={index} className="mb-12">
+          <h3 className="text-2xl font-semibold mb-6 text-primary">
+            {category.category}
+          </h3>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        {category.items.map((item, idx) => (
-          <div
-            key={idx}
-            className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 group"
-          >
-            {/* Image */}
-            <img
-              src={item.imagePath}
-              alt={item.imageName}
-              className="w-full h-[350px] object-cover"
-            />
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {category.items.map((item, idx) => (
+              <div
+                key={idx}
+                className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 group"
+              >
+                {/* Image */}
+                <img
+                  src={item.imagePath}
+                  alt={item.imageName}
+                  className="w-full h-[350px] object-cover transform group-hover:scale-105 transition-transform duration-500"
+                />
 
-            {/* Overlay Gradient */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-100 group-hover:opacity-90 transition-opacity"></div>
+                {/* Subtle Overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
-            {/* Text Overlay */}
-            <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-              <h4 className="text-lg font-semibold mb-1">{item.imageName}</h4>
-              <p className="text-sm opacity-90">{item.origins.join(", ")}</p>
-            </div>
+                {/* Text Overlay */}
+                <div className="absolute bottom-0 left-0 right-0 p-4 transition-colors duration-300 bg-transparent group-hover:bg-black/40">
+                  <h4 className="text-lg font-semibold mb-1 text-white drop-shadow-md">
+                    {item.imageName}
+                  </h4>
+                  <p className="text-sm text-gray-200 drop-shadow-md">
+                    {item.origins.join(", ")}
+                  </p>
+                </div>
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
-    </section>
-  ))}
-</main>
-
+        </section>
+      ))}
+    </main>
   );
 }

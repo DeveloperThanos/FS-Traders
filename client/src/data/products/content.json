@@ -1,6 +1,6 @@
 {
   "headings": {
-    "en": { "heading": "Our Product", "subheadingImport": "Import Product", "subheadingExport": "Export Product" },
+    "en": { "heading": "Our Products", "subheadingImport": "Import Products", "subheadingExport": "Export Product" },
     "zh": { "heading": "我们的产品", "subheadingImport": "进口产品", "subheadingExport": "出口产品" },
     "si": { "heading": "අපගේ නිෂ්පාදන", "subheadingImport": "ආනයන නිෂ්පාදන", "subheadingExport": "අපනයන නිෂ්පාදන" }
   },
