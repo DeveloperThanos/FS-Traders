@@ -1,7 +1,9 @@
 "use client";
 
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 import content from "../../../data/navbar/content.json";
+import productContent from "../../../data/products/content.json";
 
 type NavbarProps = {
   lang: "en" | "zh" | "si";
@@ -10,6 +12,19 @@ type NavbarProps = {
 const Navbar: React.FC<NavbarProps> = ({ lang }) => {
   const navData = content[lang];
   const [showAboutDropdown, setShowAboutDropdown] = useState(false);
+  const [showProductsDropdown, setShowProductsDropdown] = useState(false);
+  const router = useRouter();
+
+  const importCategories = Object.values(productContent.import).map(
+    (category) => category.en.category
+  );
+  const exportCategories = Object.values(productContent.export).map(
+    (category) => category.en.category
+  );
+
+  const handleCategoryClick = (category: string) => {
+    router.push(`/${lang}/products?category=${encodeURIComponent(category)}`);
+  };
 
   return (
     <nav className="fixed top-0 w-full z-50 p-4">
@@ -37,7 +52,41 @@ const Navbar: React.FC<NavbarProps> = ({ lang }) => {
                 </div>
               )}
             </li>
-            <li className="hover:text-[var(--color-secondary)] cursor-pointer">{navData.products}</li>
+            <li
+              className="relative cursor-pointer"
+              onMouseEnter={() => setShowProductsDropdown(true)}
+              onMouseLeave={() => setShowProductsDropdown(false)}
+            >
+              {navData.products}
+              {showProductsDropdown && (
+                <div className="absolute top-full mt-2 right-0 w-96 bg-white text-[var(--color-primary)] rounded-lg shadow-lg flex flex-row justify-between p-4">
+                  <div>
+                    <h4 className="font-bold mb-2">Import</h4>
+                    {importCategories.map((category, index) => (
+                      <button
+                        key={index}
+                        className="block p-2 text-left hover:bg-gray-100"
+                        onClick={() => handleCategoryClick(category)}
+                      >
+                        {category}
+                      </button>
+                    ))}
+                  </div>
+                  <div>
+                    <h4 className="font-bold mb-2">Export</h4>
+                    {exportCategories.map((category, index) => (
+                      <button
+                        key={index}
+                        className="block p-2 text-left hover:bg-gray-100"
+                        onClick={() => handleCategoryClick(category)}
+                      >
+                        {category}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </li>
           </ul>
 
           {/* Right button */}
@@ -47,8 +96,6 @@ const Navbar: React.FC<NavbarProps> = ({ lang }) => {
         </div>
       </div>
     </nav>
-
-
   );
 };
 
