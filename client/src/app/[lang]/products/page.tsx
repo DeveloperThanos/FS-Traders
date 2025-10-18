@@ -98,7 +98,7 @@ export default async function ProductsPage({ params }: PageProps) {
             {category.category}
           </h3>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {category.items.map((item, idx) => (
               <div
                 key={idx}
@@ -108,7 +108,7 @@ export default async function ProductsPage({ params }: PageProps) {
                 <img
                   src={item.imagePath}
                   alt={item.imageName}
-                  className="w-full h-[350px] object-cover transform group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-[250px] sm:h-[350px] object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
 
                 {/* Subtle Overlay (fade effect) */}
@@ -140,7 +140,7 @@ export default async function ProductsPage({ params }: PageProps) {
             {category.category}
           </h3>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {category.items.map((item, idx) => (
               <div
                 key={idx}
@@ -150,7 +150,7 @@ export default async function ProductsPage({ params }: PageProps) {
                 <img
                   src={item.imagePath}
                   alt={item.imageName}
-                  className="w-full h-[350px] object-cover transform group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-[250px] sm:h-[350px] object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
 
                 {/* Subtle Overlay */}
