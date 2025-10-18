@@ -1,6 +1,6 @@
 import React from "react";
 import productContents from "../../../data/products/content.json";
-import "../../globals.css"; // Import global styles
+import "../../globals.css"; 
 
 /* =====================
    Type Definitions
