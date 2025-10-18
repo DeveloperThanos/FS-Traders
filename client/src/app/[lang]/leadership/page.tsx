@@ -145,49 +145,27 @@ export default async function LeadershipPage({ params }: PageProps) {
         {destination3Paragraph && (
           <p className="max-w-xl text-gray-700 text-center mx-auto mb-8">{destination3Paragraph}</p>
         )}
-        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-24">
           {destination3.map((member, index) => (
             <div
               key={index}
-              className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 group"
+              className="flex-[0_0_auto] relative rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 group"
             >
               {/* Card image */}
               <img
                 src={member.imagePath}
                 alt={getText(member.name)}
-                className="w-full h-96 object-cover" // Increased height from h-80 → h-96
+                className="w-[300px] h-[400px] object-cover transform group-hover:scale-105 transition-transform duration-500"
               />
-
               {/* Name and title gradient at bottom */}
-              <div className="absolute bottom-0 left-0 right-0 p-5 text-left w-full bg-gradient-to-t from-[rgba(0,0,0,0.6)] to-transparent">
-                <h4 className="text-lg font-bold mb-1 text-white">{getText(member.name)}</h4>
-                <p className="text-sm text-gray-200">{getText(member.title)}</p>
-              </div>
-
-              {/* Hover overlay */}
-              <div className="absolute inset-0 bg-[rgba(3,18,47,0.9)] text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-5 flex flex-col">
-                {/* Top section: small avatar + name & title */}
-                <div className="flex items-center gap-4 mb-4">
-                  <img
-                    src={member.imagePath}
-                    alt={getText(member.name)}
-                    className="w-16 h-16 rounded-full object-cover flex-shrink-0"
-                  />
-                  <div className="flex flex-col">
-                    <h4 className="text-lg font-bold">{getText(member.name)}</h4>
-                    <p className="text-sm">{getText(member.title)}</p>
-                  </div>
-                </div>
-                {/* Description/content below */}
-                <p className="text-sm mt-2">{member.description[lang] || member.description.en}</p>
+              <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-[rgba(3,18,47,0.4)] via-transparent to-transparent">
+                <h4 className="text-lg font-bold mb-1 text-white drop-shadow-md">{getText(member.name)}</h4>
+                <p className="text-sm text-gray-200 drop-shadow-md">{getText(member.title)}</p>
               </div>
             </div>
           ))}
         </div>
       </section>
-
-
-
     </main>
   );
 }
