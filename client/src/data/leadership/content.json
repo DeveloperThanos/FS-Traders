@@ -27,9 +27,9 @@
   },
   "destination1": {
     "name": {
-      "en": "FS Trader",
-      "zh": "阿尔伯特·弗洛雷斯",
-      "si": "ඇල්බට් ෆ්ලෝරස්"
+      "en": "Sivaramakrishnan",
+      "zh": "Sivaramakrishnan",
+      "si": "සිවරාමක්‍රිෂ්ණන්"
     },
     "title": {
       "en": "Founder",
@@ -39,39 +39,39 @@
     "imagePath": "/assets/leadership/sampleImage.png",
     "message": {
       "en": " This is not recommended in React as it mutates the props directly.The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed! The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed! The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed!",
-      "si": "React වලදී මෙය නිර්දේශ නොකරයි, මක්නිසාද යත් එය props සෘජුවම වෙනස් කරන බැවිනි.",
-      "zh": "在 React 中不推荐这样做，因为它会直接修改 props。"
+      "si": "මෙය React හි නිර්දේශ නොකරයි, මන්ද එය props සෘජුවම වෙනස් කරයි. ගමනාන්ත 1 සහ 2 කොටස් සඳහා UI, ලබා දී ඇති රූපයේ සැලසුමට ගැළපෙන පරිදි යාවත්කාලීන කර ඇත. globals.css වෙතින් වර්ණ සහ මෝස්තර යොදන ලද අතර, නිෂ්පාදන පිටුව සමඟ අනුකූලතාවය සඳහා පිරිසැලසුම සකස් කරන ලදී. තවදුරටත් වැඩිදියුණු කිරීම් අවශ්‍ය නම් මට දන්වන්න! මෙය React හි නිර්දේශ නොකරයි, මන්ද එය props සෘජුවම වෙනස් කරයි. ගමනාන්ත 1 සහ 2 කොටස් සඳහා UI, ලබා දී ඇති රූපයේ සැලසුමට ගැළපෙන පරිදි යාවත්කාලීන කර ඇත. globals.css වෙතින් වර්ණ සහ මෝස්තර යොදන ලද අතර, නිෂ්පාදන පිටුව සමඟ අනුකූලතාවය සඳහා පිරිසැලසුම සකස් කරන ලදී. තවදුරටත් වැඩිදියුණු කිරීම් අවශ්‍ය නම් මට දන්වන්න! මෙය React හි නිර්දේශ නොකරයි, මන්ද එය props සෘජුවම වෙනස් කරයි. ගමනාන්ත 1 සහ 2 කොටස් සඳහා UI, ලබා දී ඇති රූපයේ සැලසුමට ගැළපෙන පරිදි යාවත්කාලීන කර ඇත. globals.css වෙතින් වර්ණ සහ මෝස්තර යොදන ලද අතර, නිෂ්පාදන පිටුව සමඟ අනුකූලතාවය සඳහා පිරිසැලසුම සකස් කරන ලදී. තවදුරටත් වැඩිදියුණු කිරීම් අවශ්‍ය නම් මට දන්වන්න!",
+      "zh": "这在 React 中不推荐，因为它直接修改了 props。目的地 1 和 2 部分的用户界面已更新，以匹配所提供图片中的设计。已应用 globals.css 中的颜色和样式，并调整了布局以与产品页面保持一致。如果需要进一步的改进，请告诉我！目的地 1 和 2 部分的用户界面已更新，以匹配所提供图片中的设计。已应用 globals.css 中的颜色和样式，并调整了布局以与产品页面保持一致。如果需要进一步的改进，请告诉我！目的地 1 和 2 部分的用户界面已更新，以匹配所提供图片中的设计。已应用 globals.css 中的颜色和样式，并调整了布局以与产品页面保持一致。如果需要进一步的改进，请告诉我！"
     },
     "blogs": [
       {
         "heading": {
           "en": "Outlook:",
-          "si": "දෘෂ්ටිය",
-          "zh": "展望"
+          "si": "අපේ දැක්ම:",
+          "zh": "展望："
         },
         "description": {
           "en": "We leverage technology to optimize. This is not recommended in React as it mutates the props directly.The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed! The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed! The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed!",
-          "si": "අපි ප්‍රශස්තකරණය සඳහා තාක්ෂණය උපයෝගී කර ගනිමු.",
-          "zh": "我们利用技术进行优化。"
+          "si": "අපි ප්‍රශස්තකරණය සඳහා තාක්ෂණය භාවිතා කරමු. මෙය React හි නිර්දේශ නොකරයි, මන්ද එය props සෘජුවම වෙනස් කරයි. ගමනාන්ත 1 සහ 2 කොටස් සඳහා UI, ලබා දී ඇති රූපයේ සැලසුමට ගැළපෙන පරිදි යාවත්කාලීන කර ඇත. globals.css වෙතින් වර්ණ සහ මෝස්තර යොදන ලද අතර, නිෂ්පාදන පිටුව සමඟ අනුකූලතාවය සඳහා පිරිසැලසුම සකස් කරන ලදී. තවදුරටත් වැඩිදියුණු කිරීම් අවශ්‍ය නම් මට දන්වන්න! ගමනාන්ත 1 සහ 2 කොටස් සඳහා UI, ලබා දී ඇති රූපයේ සැලසුමට ගැළපෙන පරිදි යාවත්කාලීන කර ඇත. globals.css වෙතින් වර්ණ සහ මෝස්තර යොදන ලද අතර, නිෂ්පාදන පිටුව සමඟ අනුකූලතාවය සඳහා පිරිසැලසුම සකස් කරන ලදී. තවදුරටත් වැඩිදියුණු කිරීම් අවශ්‍ය නම් මට දන්වන්න! ගමනාන්ත 1 සහ 2 කොටස් සඳහා UI, ලබා දී ඇති රූපයේ සැලසුමට ගැළපෙන පරිදි යාවත්කාලීන කර ඇත. globals.css වෙතින් වර්ණ සහ මෝස්තර යොදන ලද අතර, නිෂ්පාදන පිටුව සමඟ අනුකූලතාවය සඳහා පිරිසැලසුම සකස් කරන ලදී. තවදුරටත් වැඩිදියුණු කිරීම් අවශ්‍ය නම් මට දන්වන්න!",
+          "zh": "我们利用技术进行优化。这在 React 中不推荐，因为它直接修改了 props。目的地 1 和 2 部分的用户界面已更新，以匹配所提供图片中的设计。已应用 globals.css 中的颜色和样式，并调整了布局以与产品页面保持一致。如果需要进一步的改进，请告诉我！目的地 1 和 2 部分的用户界面已更新，以匹配所提供图片中的设计。已应用 globals.css 中的颜色和样式，并调整了布局以与产品页面保持一致。如果需要进一步的改进，请告诉我！目的地 1 和 2 部分的用户界面已更新，以匹配所提供图片中的设计。已应用 globals.css 中的颜色和样式，并调整了布局以与产品页面保持一致。如果需要进一步的改进，请告诉我！"
         }
       },
       {
         "heading": {
           "en": "Innovation:",
-          "si": "නවෝත්පාදනය",
-          "zh": "创新"
+          "si": "නවෝත්පාදනය:",
+          "zh": "创新："
         },
         "description": {
           "en": "ensuring that it can be This is not recommended in React as it mutates the props directly.The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed! The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed! The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed!",
-          "si": "එය විය හැකි බව සහතික කරමින්.",
-          "zh": "确保它能够实现。"
+          "si": "එය විය හැකි බව සහතික කරමින්. මෙය React හි නිර්දේශ නොකරයි, මන්ද එය props සෘජුවම වෙනස් කරයි. ගමනාන්ත 1 සහ 2 කොටස් සඳහා UI, ලබා දී ඇති රූපයේ සැලසුමට ගැළපෙන පරිදි යාවත්කාලීන කර ඇත. globals.css වෙතින් වර්ණ සහ මෝස්තර යොදන ලද අතර, නිෂ්පාදන පිටුව සමඟ අනුකූලතාවය සඳහා පිරිසැලසුම සකස් කරන ලදී. තවදුරටත් වැඩිදියුණු කිරීම් අවශ්‍ය නම් මට දන්වන්න! ගමනාන්ත 1 සහ 2 කොටස් සඳහා UI, ලබා දී ඇති රූපයේ සැලසුමට ගැළපෙන පරිදි යාවත්කාලීන කර ඇත. globals.css වෙතින් වර්ණ සහ මෝස්තර යොදන ලද අතර, නිෂ්පාදන පිටුව සමඟ අනුකූලතාවය සඳහා පිරිසැලසුම සකස් කරන ලදී. තවදුරටත් වැඩිදියුණු කිරීම් අවශ්‍ය නම් මට දන්වන්න! ගමනාන්ත 1 සහ 2 කොටස් සඳහා UI, ලබා දී ඇති රූපයේ සැලසුමට ගැළපෙන පරිදි යාවත්කාලීන කර ඇත. globals.css වෙතින් වර්ණ සහ මෝස්තර යොදන ලද අතර, නිෂ්පාදන පිටුව සමඟ අනුකූලතාවය සඳහා පිරිසැලසුම සකස් කරන ලදී. තවදුරටත් වැඩිදියුණු කිරීම් අවශ්‍ය නම් මට දන්වන්න!",
+          "zh": "确保它能够。这在 React 中不推荐，因为它直接修改了 props。目的地 1 和 2 部分的用户界面已更新，以匹配所提供图片中的设计。已应用 globals.css 中的颜色和样式，并调整了布局以与产品页面保持一致。如果需要进一步的改进，请告诉我！目的地 1 和 2 部分的用户界面已更新，以匹配所提供图片中的设计。已应用 globals.css 中的颜色和样式，并调整了布局以与产品页面保持一致。如果需要进一步的改进，请告诉我！目的地 1 和 2 部分的用户界面已更新，以匹配所提供图片中的设计。已应用 globals.css 中的颜色和样式，并调整了布局以与产品页面保持一致。如果需要进一步的改进，请告诉我！"
         }
       },
       {
         "heading": {
           "en": "hiiiiiiii",
-          "si": "හායි",
-          "zh": "嗨嗨嗨嗨嗨嗨嗨"
+          "si": "හෙලෝ",
+          "zh": "hiiiiiiii"
         },
         "description": {
           "en": "testing",
