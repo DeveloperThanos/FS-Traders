@@ -36,9 +36,9 @@
       "zh": "首席执行官",
       "si": "ප්‍රධාන විධායක නිලධාරී"
     },
-    "imagePath": "/assets/leadership/robert-fox.jpg",
+    "imagePath": "/assets/leadership/sampleImage.png",
       "message": {
-      "en": " This is not recommended in React as it mutates the props directly.",
+      "en": " This is not recommended in React as it mutates the props directly.The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed! The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed! The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed!",
       "si": "React වලදී මෙය නිර්දේශ නොකරයි, මක්නිසාද යත් එය props සෘජුවම වෙනස් කරන බැවිනි.",
       "zh": "在 React 中不推荐这样做，因为它会直接修改 props。"
     },
@@ -92,9 +92,9 @@
       "zh": "首席执行官",
       "si": "ප්‍රධාන විධායක නිලධාරී"
     },
-    "imagePath": "/assets/leadership/ceo.jpg",
+    "imagePath": "/assets/leadership/sampleImage.png",
     "message": {
-      "en": "Under my leadership, FS Traders has grown into a global powerhouse in spice trading. We combine cutting-edge technology with traditional expertise to deliver unmatched quality to our international customers.",
+      "en": "Under my leadership, FS Traders has grown into a global powerhouse in spice trading. We combine cutting-edge technology with traditional expertise to deliver unmatched quality to our international customers., the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed!The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed! ",
       "zh": "在我的领导下，FS Traders已成长为香料贸易领域的全球强国。我们将尖端技术与传统专业知识相结合，为国际客户提供无与伦比的品质。",
       "si": "මගේ නායකත්වය යටතේ, FS Traders කුළුබඩු වෙළඳාමේ ගෝලීය බලවේගයක් බවට පත්ව ඇත. අපි උසස් තාක්ෂණය සම්ප්‍රදායික දැනුම සමඟ ඒකාබද්ධ කරමින් අන්තර්ජාතික පාරිභෝගිකයින්ට ඉක්මන් ගුණාත්මකභාවය ලබා දෙමු."
     },
@@ -130,62 +130,83 @@
     "zh": "我们的董事拥有数十年的经验，并共同致力于全球贸易的卓越。他们的领导推动着我们的使命，激励着我们的团队。",
     "si": "අපගේ අධ්‍යක්ෂවරුන්ට වසර ගණනාවක පළපුරුද්ද සහ ගෝලීය වෙළඳාමේ විශිෂ්ටත්වයට එකමුතු කැපවීම ඇත. ඔවුන්ගේ නායකත්වය අපගේ මෙහෙවර ඉදිරියට ගෙනයයි, කණ්ඩායමට ආරාධනා කරයි."
   },
-  "destination3": [
-    {
-      "id": "robert-fox",
-      "name": {
-        "en": "Robert Fox",
-        "zh": "罗伯特·福克斯",
-        "si": "රොබට් ෆොක්ස්"
-      },
-      "title": {
-        "en": "Director",
-        "zh": "董事",
-        "si": "අධ්‍යක්ෂ"
-      },
-      "imagePath": "/assets/leadership/robert-fox.jpg"
+ "destination3": [
+  {
+    "id": "robert-fox",
+    "name": {
+      "en": "Robert Fox",
+      "zh": "罗伯特·福克斯",
+      "si": "රොබට් ෆොක්ස්"
     },
-    {
-      "id": "albert-flores",
-      "name": {
-        "en": "Albert Flores",
-        "zh": "阿尔伯特·弗洛雷斯",
-        "si": "ඇල්බට් ෆ්ලෝරස්"
-      },
-      "title": {
-        "en": "Director",
-        "zh": "董事",
-        "si": "අධ්‍යක්ෂ"
-      },
-      "imagePath": "/assets/leadership/albert-flores.jpg"
+    "title": {
+      "en": "Director",
+      "zh": "董事",
+      "si": "අධ්‍යක්ෂ"
     },
-    {
-      "id": "floyd-miles",
-      "name": {
-        "en": "Floyd Miles",
-        "zh": "弗洛伊德·迈尔斯",
-        "si": "ෆ්ලෝයිඩ් මයිල්ස්"
-      },
-      "title": {
-        "en": "Director",
-        "zh": "董事",
-        "si": "අධ්‍යක්ෂ"
-      },
-      "imagePath": "/assets/leadership/floyd-miles.jpg"
+    "description": {
+      "en": "Robert Fox leads the team with over 20 years of experience in corporate strategy.",
+      "zh": "罗伯特·福克斯拥有超过20年的企业战略经验，领导团队。",
+      "si": "රොබට් ෆොක්ස්, කෝපරේට් කৌশල් 20 වසරක අත්දැකීම් සමඟ කණ්ඩායම නායකත්වය දරයි."
     },
-    {
-      "id": "jenny-wilson",
-      "name": {
-        "en": "Jenny Wilson",
-        "zh": "詹妮·威尔逊",
-        "si": "ජෙනි විල්සන්"
-      },
-      "title": {
-        "en": "Director",
-        "zh": "董事",
-        "si": "අධ්‍යක්ෂ"
-      },
-      "imagePath": "/assets/leadership/jenny-wilson.jpg"
-    }
-  ]
+    "imagePath": "/assets/leadership/sampleImage.png"
+  },
+  {
+    "id": "albert-flores",
+    "name": {
+      "en": "Albert Flores",
+      "zh": "阿尔伯特·弗洛雷斯",
+      "si": "ඇල්බට් ෆ්ලෝරස්"
+    },
+    "title": {
+      "en": "Director",
+      "zh": "董事",
+      "si": "අධ්‍යක්ෂ"
+    },
+    "description": {
+      "en": "Albert Flores specializes in international business development and partnerships.",
+      "zh": "阿尔伯特·弗洛雷斯专注于国际业务发展与合作。",
+      "si": "ඇල්බට් ෆ්ලෝරස්, ජාත්‍යන්තර ව්‍යාපාර සංවර්ධන සහ සහයෝගිතා විශේෂඥයෙකි."
+    },
+    "imagePath": "/assets/leadership/sampleImage.png"
+  },
+  {
+    "id": "floyd-miles",
+    "name": {
+      "en": "Floyd Miles",
+      "zh": "弗洛伊德·迈尔斯",
+      "si": "ෆ්ලෝයිඩ් මයිල්ස්"
+    },
+    "title": {
+      "en": "Director",
+      "zh": "董事",
+      "si": "අධ්‍යක්ෂ"
+    },
+    "description": {
+      "en": "Floyd Miles drives operational excellence and ensures efficient project execution.",
+      "zh": "弗洛伊德·迈尔斯推动运营卓越，确保项目高效执行。",
+      "si": "ෆ්ලෝයිඩ් මයිල්ස්, ක්‍රියාකාරී විශිෂ්ටත්වය සහ කාර්යක්ෂම ව්‍යාපෘති ක්‍රියාත්මක කිරීම නියෝජනය කරයි."
+    },
+    "imagePath": "/assets/leadership/sampleImage.png"
+  },
+  {
+    "id": "jenny-wilson",
+    "name": {
+      "en": "Jenny Wilson",
+      "zh": "詹妮·威尔逊",
+      "si": "ජෙනි විල්සන්"
+    },
+    "title": {
+      "en": "Director",
+      "zh": "董事",
+      "si": "අධ්‍යක්ෂ"
+    },
+    "description": {
+      "en": "Jenny Wilson focuses on innovation and leads creative initiatives across teams.",
+      "zh": "詹妮·威尔逊专注于创新，领导跨团队创意项目。",
+      "si": "ජෙනි විල්සන්, නවෝත්පාදන මත අවධානය යොමු කරමින් කණ්ඩායම් අතර නිර්මාණාත්මක ව්‍යාපෘති නායකත්වය ගනී."
+    },
+    "imagePath": "/assets/leadership/sampleImage.png"
+  }
+]
+
 }

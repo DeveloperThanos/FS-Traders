@@ -13,7 +13,7 @@ const Navbar: React.FC<NavbarProps> = ({ lang }) => {
 
   return (
     <nav className="fixed top-0 w-full z-50 p-4">
-      <div className="max-w-6xl mx-auto flex items-center justify-between bg-[var(--color-primary)] text-[var(--color-text-light)] rounded-2xl px-6 py-2 shadow-md">
+      <div className="max-w-6xl mx-auto flex items-center justify-between bg-[var(--color-primary)]/40 text-[var(--color-text-light)] rounded-2xl px-6 py-2 shadow-md backdrop-blur-md">
         {/* Left toggle */}
         <div className="flex items-center gap-4">
           <button className="w-10 h-6 bg-white rounded-full shadow-md"></button>

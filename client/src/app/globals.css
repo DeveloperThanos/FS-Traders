@@ -15,6 +15,7 @@
   --color-text: #242E49;
   --color-text-light: #ffffff;
   --color-icon-light: #A0AEC0;
+   --color-primary-opacity: rgba(3, 18, 47, 0.4);
 }
 
 /* Fonts */
