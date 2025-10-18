@@ -36,7 +36,7 @@
       "zh": "首席执行官",
       "si": "ප්‍රධාන විධායක නිලධාරී"
     },
-    "imagePath": "/assets/leadership/sampleImage.png",
+    "imagePath": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/leadership/B8vFXkkxR6MWAAAAAElFTkSuQmCC",
     "message": {
       "en": " This is not recommended in React as it mutates the props directly.The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed! The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed! The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed!",
       "si": "React වලදී මෙය නිර්දේශ නොකරයි, මක්නිසාද යත් එය props සෘජුවම වෙනස් කරන බැවිනි.",
