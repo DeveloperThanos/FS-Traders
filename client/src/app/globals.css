@@ -34,3 +34,8 @@ body {
 .text-primary {
   color: var(--color-primary);
 }
+
+/* Hide scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}

@@ -27,17 +27,17 @@
   },
   "destination1": {
     "name": {
-      "en": "Albert Flores",
+      "en": "FS Trader",
       "zh": "阿尔伯特·弗洛雷斯",
       "si": "ඇල්බට් ෆ්ලෝරස්"
     },
     "title": {
-      "en": "CEO",
+      "en": "Founder",
       "zh": "首席执行官",
       "si": "ප්‍රධාන විධායක නිලධාරී"
     },
     "imagePath": "/assets/leadership/sampleImage.png",
-      "message": {
+    "message": {
       "en": " This is not recommended in React as it mutates the props directly.The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed! The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed! The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed!",
       "si": "React වලදී මෙය නිර්දේශ නොකරයි, මක්නිසාද යත් එය props සෘජුවම වෙනස් කරන බැවිනි.",
       "zh": "在 React 中不推荐这样做，因为它会直接修改 props。"
@@ -45,24 +45,24 @@
     "blogs": [
       {
         "heading": {
-          "en": "outlook",
+          "en": "Outlook:",
           "si": "දෘෂ්ටිය",
           "zh": "展望"
         },
         "description": {
-          "en": "We leverage technology to optimize.",
+          "en": "We leverage technology to optimize. This is not recommended in React as it mutates the props directly.The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed! The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed! The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed!",
           "si": "අපි ප්‍රශස්තකරණය සඳහා තාක්ෂණය උපයෝගී කර ගනිමු.",
           "zh": "我们利用技术进行优化。"
         }
       },
       {
         "heading": {
-          "en": "Innovation",
+          "en": "Innovation:",
           "si": "නවෝත්පාදනය",
           "zh": "创新"
         },
         "description": {
-          "en": "ensuring that it can be.",
+          "en": "ensuring that it can be This is not recommended in React as it mutates the props directly.The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed! The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed! The UI for Destination 1 and 2 sections has been updated to match the design from the provided image. Colors and styles from globals.css were applied, and the layout was adjusted for consistency with the product page. Let me know if further refinements are needed!",
           "si": "එය විය හැකි බව සහතික කරමින්.",
           "zh": "确保它能够实现。"
         }
@@ -130,83 +130,82 @@
     "zh": "我们的董事拥有数十年的经验，并共同致力于全球贸易的卓越。他们的领导推动着我们的使命，激励着我们的团队。",
     "si": "අපගේ අධ්‍යක්ෂවරුන්ට වසර ගණනාවක පළපුරුද්ද සහ ගෝලීය වෙළඳාමේ විශිෂ්ටත්වයට එකමුතු කැපවීම ඇත. ඔවුන්ගේ නායකත්වය අපගේ මෙහෙවර ඉදිරියට ගෙනයයි, කණ්ඩායමට ආරාධනා කරයි."
   },
- "destination3": [
-  {
-    "id": "robert-fox",
-    "name": {
-      "en": "Robert Fox",
-      "zh": "罗伯特·福克斯",
-      "si": "රොබට් ෆොක්ස්"
+  "destination3": [
+    {
+      "id": "robert-fox",
+      "name": {
+        "en": "Robert Fox",
+        "zh": "罗伯特·福克斯",
+        "si": "රොබට් ෆොක්ස්"
+      },
+      "title": {
+        "en": "Director",
+        "zh": "董事",
+        "si": "අධ්‍යක්ෂ"
+      },
+      "description": {
+        "en": "Robert Fox leads the team with over 20 years of experience in corporate strategy.",
+        "zh": "罗伯特·福克斯拥有超过20年的企业战略经验，领导团队。",
+        "si": "රොබට් ෆොක්ස්, කෝපරේට් කৌশල් 20 වසරක අත්දැකීම් සමඟ කණ්ඩායම නායකත්වය දරයි."
+      },
+      "imagePath": "/assets/leadership/sampleImage.png"
     },
-    "title": {
-      "en": "Director",
-      "zh": "董事",
-      "si": "අධ්‍යක්ෂ"
+    {
+      "id": "albert-flores",
+      "name": {
+        "en": "Albert Flores",
+        "zh": "阿尔伯特·弗洛雷斯",
+        "si": "ඇල්බට් ෆ්ලෝරස්"
+      },
+      "title": {
+        "en": "Director",
+        "zh": "董事",
+        "si": "අධ්‍යක්ෂ"
+      },
+      "description": {
+        "en": "Albert Flores specializes in international business development and partnerships.",
+        "zh": "阿尔伯特·弗洛雷斯专注于国际业务发展与合作。",
+        "si": "ඇල්බට් ෆ්ලෝරස්, ජාත්‍යන්තර ව්‍යාපාර සංවර්ධන සහ සහයෝගිතා විශේෂඥයෙකි."
+      },
+      "imagePath": "/assets/leadership/sampleImage.png"
     },
-    "description": {
-      "en": "Robert Fox leads the team with over 20 years of experience in corporate strategy.",
-      "zh": "罗伯特·福克斯拥有超过20年的企业战略经验，领导团队。",
-      "si": "රොබට් ෆොක්ස්, කෝපරේට් කৌশල් 20 වසරක අත්දැකීම් සමඟ කණ්ඩායම නායකත්වය දරයි."
+    {
+      "id": "floyd-miles",
+      "name": {
+        "en": "Floyd Miles",
+        "zh": "弗洛伊德·迈尔斯",
+        "si": "ෆ්ලෝයිඩ් මයිල්ස්"
+      },
+      "title": {
+        "en": "Director",
+        "zh": "董事",
+        "si": "අධ්‍යක්ෂ"
+      },
+      "description": {
+        "en": "Floyd Miles drives operational excellence and ensures efficient project execution.",
+        "zh": "弗洛伊德·迈尔斯推动运营卓越，确保项目高效执行。",
+        "si": "ෆ්ලෝයිඩ් මයිල්ස්, ක්‍රියාකාරී විශිෂ්ටත්වය සහ කාර්යක්ෂම ව්‍යාපෘති ක්‍රියාත්මක කිරීම නියෝජනය කරයි."
+      },
+      "imagePath": "/assets/leadership/sampleImage.png"
     },
-    "imagePath": "/assets/leadership/sampleImage.png"
-  },
-  {
-    "id": "albert-flores",
-    "name": {
-      "en": "Albert Flores",
-      "zh": "阿尔伯特·弗洛雷斯",
-      "si": "ඇල්බට් ෆ්ලෝරස්"
-    },
-    "title": {
-      "en": "Director",
-      "zh": "董事",
-      "si": "අධ්‍යක්ෂ"
-    },
-    "description": {
-      "en": "Albert Flores specializes in international business development and partnerships.",
-      "zh": "阿尔伯特·弗洛雷斯专注于国际业务发展与合作。",
-      "si": "ඇල්බට් ෆ්ලෝරස්, ජාත්‍යන්තර ව්‍යාපාර සංවර්ධන සහ සහයෝගිතා විශේෂඥයෙකි."
-    },
-    "imagePath": "/assets/leadership/sampleImage.png"
-  },
-  {
-    "id": "floyd-miles",
-    "name": {
-      "en": "Floyd Miles",
-      "zh": "弗洛伊德·迈尔斯",
-      "si": "ෆ්ලෝයිඩ් මයිල්ස්"
-    },
-    "title": {
-      "en": "Director",
-      "zh": "董事",
-      "si": "අධ්‍යක්ෂ"
-    },
-    "description": {
-      "en": "Floyd Miles drives operational excellence and ensures efficient project execution.",
-      "zh": "弗洛伊德·迈尔斯推动运营卓越，确保项目高效执行。",
-      "si": "ෆ්ලෝයිඩ් මයිල්ස්, ක්‍රියාකාරී විශිෂ්ටත්වය සහ කාර්යක්ෂම ව්‍යාපෘති ක්‍රියාත්මක කිරීම නියෝජනය කරයි."
-    },
-    "imagePath": "/assets/leadership/sampleImage.png"
-  },
-  {
-    "id": "jenny-wilson",
-    "name": {
-      "en": "Jenny Wilson",
-      "zh": "詹妮·威尔逊",
-      "si": "ජෙනි විල්සන්"
-    },
-    "title": {
-      "en": "Director",
-      "zh": "董事",
-      "si": "අධ්‍යක්ෂ"
-    },
-    "description": {
-      "en": "Jenny Wilson focuses on innovation and leads creative initiatives across teams.",
-      "zh": "詹妮·威尔逊专注于创新，领导跨团队创意项目。",
-      "si": "ජෙනි විල්සන්, නවෝත්පාදන මත අවධානය යොමු කරමින් කණ්ඩායම් අතර නිර්මාණාත්මක ව්‍යාපෘති නායකත්වය ගනී."
-    },
-    "imagePath": "/assets/leadership/sampleImage.png"
-  }
-]
-
+    {
+      "id": "jenny-wilson",
+      "name": {
+        "en": "Jenny Wilson",
+        "zh": "詹妮·威尔逊",
+        "si": "ජෙනි විල්සන්"
+      },
+      "title": {
+        "en": "Director",
+        "zh": "董事",
+        "si": "අධ්‍යක්ෂ"
+      },
+      "description": {
+        "en": "Jenny Wilson focuses on innovation and leads creative initiatives across teams.",
+        "zh": "詹妮·威尔逊专注于创新，领导跨团队创意项目。",
+        "si": "ජෙනි විල්සන්, නවෝත්පාදන මත අවධානය යොමු කරමින් කණ්ඩායම් අතර නිර්මාණාත්මක ව්‍යාපෘති නායකත්වය ගනී."
+      },
+      "imagePath": "/assets/leadership/sampleImage.png"
+    }
+  ]
 }
