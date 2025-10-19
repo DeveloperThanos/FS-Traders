@@ -122,19 +122,19 @@
     {
       "id": "robert-fox",
       "name": {
-        "en": "Robert Fox",
-        "zh": "罗伯特·福克斯",
-        "si": "රොබට් ෆොක්ස්"
+        "en": "Siva",
+        "zh": "萨瓦",
+        "si": "සිවා"
       },
       "title": {
         "en": "Director",
-        "zh": "董事",
+        "zh": "总监",
         "si": "අධ්‍යක්ෂ"
       },
       "description": {
         "en": "Robert Fox leads the team with over 20 years of experience in corporate strategy.",
-        "zh": "罗伯特·福克斯拥有超过20年的企业战略经验，领导团队。",
-        "si": "රොබට් ෆොක්ස්, කෝපරේට් කৌশල් 20 වසරක අත්දැකීම් සමඟ කණ්ඩායම නායකත්වය දරයි."
+        "zh": "罗伯特·福克斯拥有超过20年的企业战略经验，领导着团队。",
+        "si": "රොබට් ෆොක්ස්, ආයතනික උපාය මාර්ග පිළිබඳ වසර 20 කට අධික අත්දැකීම් සමඟින් කණ්ඩායමට නායකත්වය දෙයි."
       },
       "imagePath": "/assets/leadership/sampleImage.png"
     },
