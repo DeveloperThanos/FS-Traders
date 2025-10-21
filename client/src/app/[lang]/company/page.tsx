@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useRef, useEffect } from "react";
+import { useParams } from "next/navigation";
 import companyContent from "../../../data/company/content.json";
 
 interface LocalizedText {
@@ -17,15 +18,11 @@ interface CardContent {
   si?: { title: string; description: string; button: string };
 }
 
-interface PageProps {
-  params: {
-    lang: "en" | "zh" | "si";
-  };
-}
 
-export default function CompanyPage({ params }: PageProps) {
+export default function CompanyPage() {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const { lang } = params; // ✅ client component: access params directly
+  const params = useParams();
+  const lang = params.lang as "en" | "zh" | "si";
   const content = companyContent as any;
 
   // About Section
@@ -50,11 +47,11 @@ export default function CompanyPage({ params }: PageProps) {
   return (
     <main className="p-4 md:p-8">
       {/* About Us Section */}
-  <section className="max-w-6xl mx-auto mb-12 md:mb-20">
-  <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-center text-primary mb-8 md:mb-12">
+      <section className="max-w-6xl mx-auto mb-12 md:mb-20">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-center text-primary mb-8 md:mb-12">
           {about.heading}
         </h1>
-  <div className="flex flex-col md:flex-row items-start gap-6 md:gap-16">
+        <div className="flex flex-col md:flex-row items-start gap-6 md:gap-16">
           {/* Left: Text */}
           <div className="flex-1 w-full">
             <h2 className="text-lg sm:text-xl md:text-3xl font-bold mb-2 md:mb-3 text-primary">{about.title}</h2>
@@ -104,7 +101,7 @@ export default function CompanyPage({ params }: PageProps) {
       </section>
 
       {/* Cards */}
-  <section className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 justify-items-center gap-6 md:gap-8 mt-8 md:mt-12">
+      <section className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 justify-items-center gap-6 md:gap-8 mt-8 md:mt-12">
         {cards.map((card) => {
           const cardContent = card[lang] || card.en;
           return (
