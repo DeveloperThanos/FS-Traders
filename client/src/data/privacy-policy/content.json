@@ -1,0 +1,171 @@
+{
+	"heading": {
+		"en": "Privacy Policy",
+		"zh": "隐私政策",
+		"si": "පුද්ගලිකතා ප්‍රතිපත්තිය"
+	},
+	"sections": [
+		{
+			"id": "information-we-collect",
+			"en": {
+				"title": "1. Information We Collect",
+				"description": "We collect information that you provide directly to us, including:",
+				"points": [
+					"Name and contact information",
+					"Company information",
+					"Account credentials",
+					"Payment information",
+					"Communication preferences"
+				]
+			},
+			"zh": {
+				"title": "1. 我们收集的信息",
+				"description": "我们收集您直接提供给我们的信息，包括：",
+				"points": [
+					"姓名和联系方式",
+					"公司信息",
+					"账户凭证",
+					"支付信息",
+					"通信偏好"
+				]
+			},
+			"si": {
+				"title": "1. අපි එකතු කරන තොරතුරු",
+				"description": "ඔබ අප වෙත සෘජුවම ලබා දෙන තොරතුරු අප එකතු කරයි, ඒ අතර:",
+				"points": [
+					"නම සහ සම්බන්ධතා තොරතුරු",
+					"කොම්පැනි තොරතුරු",
+					"ගිණුම් ලියාපදිංචි තොරතුරු",
+					"ගෙවීම් තොරතුරු",
+					"සන්නිවේදන ප්‍රියතා"
+				]
+			}
+		},
+		{
+			"id": "how-we-use-your-information",
+			"en": {
+				"title": "2. How We Use Your Information",
+				"description": "We use the information we collect to:",
+				"points": [
+					"Provide and maintain our services",
+					"Process your transactions",
+					"Send you service-related communications",
+					"Improve our services",
+					"Comply with legal obligations"
+				]
+			},
+			"zh": {
+				"title": "2. 我们如何使用您的信息",
+				"description": "我们使用收集到的信息来：",
+				"points": [
+					"提供和维护我们的服务",
+					"处理您的交易",
+					"向您发送与服务相关的通信",
+					"改进我们的服务",
+					"遵守法律义务"
+				]
+			},
+			"si": {
+				"title": "2. අපි ඔබේ තොරතුරු භාවිතා කරන ආකාරය",
+				"description": "අපි එකතු කරන තොරතුරු භාවිතා කරන්නේ:",
+				"points": [
+					"අපගේ සේවාවන් ලබා දීමට සහ නඩත්තු කිරීමට",
+					"ඔබේ ගනුදෙනු සැකසීමට",
+					"සේවා-සම්බන්ධ සන්නිවේදන යැවීමට",
+					"අපගේ සේවාවන් වර්ධනය කිරීමට",
+					"නීතිමය වගකීම් අනුගමනය කිරීමට"
+				]
+			}
+		},
+		{
+			"id": "information-sharing",
+			"en": {
+				"title": "3. Information Sharing",
+				"description": "We do not sell your personal information. We may share your information with:",
+				"points": [
+					"Service providers who assist in our operations",
+					"Professional advisors",
+					"Law enforcement when required by law"
+				]
+			},
+			"zh": {
+				"title": "3. 信息共享",
+				"description": "我们不会出售您的个人信息。我们可能会与以下方共享您的信息：",
+				"points": [
+					"协助我们运营的服务提供商",
+					"专业顾问",
+					"依法要求的执法部门"
+				]
+			},
+			"si": {
+				"title": "3. තොරතුරු බෙදා ගැනීම",
+				"description": "අපි ඔබේ පුද්ගලික තොරතුරු විකිණීම සිදු නොකරමු. අපි ඔබේ තොරතුරු බෙදා ගත හැක්කේ:",
+				"points": [
+					"අපගේ මෙහෙයුම් උදව් කරන සේවා සපයන්නන්",
+					"වෘත්තීය උපදේශකයින්",
+					"නීතිමය අවශ්‍යතාවය ඇති විට නීති ආරක්ෂකයන්"
+				]
+			}
+		},
+		{
+			"id": "your-rights",
+			"en": {
+				"title": "4. Your Rights",
+				"description": "You have the right to:",
+				"points": [
+					"Access your personal information",
+					"Correct inaccurate information",
+					"Request deletion of your information",
+					"Opt-out of marketing communications"
+				]
+			},
+			"zh": {
+				"title": "4. 您的权利",
+				"description": "您有权：",
+				"points": [
+					"访问您的个人信息",
+					"更正不准确的信息",
+					"请求删除您的信息",
+					"选择退出营销通信"
+				]
+			},
+			"si": {
+				"title": "4. ඔබේ අයිතිවාසිකම්",
+				"description": "ඔබට අයිතිය ඇත:",
+				"points": [
+					"ඔබේ පුද්ගලික තොරතුරු ප්‍රවේශ වීමට",
+					"අසත්‍ය තොරතුරු නිවැරදි කිරීමට",
+					"ඔබේ තොරතුරු මකන්න ඉල්ලීම් කිරීමට",
+					"වෙළඳ සන්නිවේදන වලින් වෙන් වීමට"
+				]
+			}
+		},
+		{
+			"id": "contact-us",
+			"en": {
+				"title": "5. Contact Us",
+				"description": "If you have any questions about this Privacy Policy, please contact us at:",
+				"points": [
+					"Email: contact@example.com",
+					"Phone: +91 98765 43210"
+				]
+			},
+			"zh": {
+				"title": "5. 联系我们",
+				"description": "如果您对本隐私政策有任何疑问，请通过以下方式联系我们：",
+				"points": [
+					"电子邮件: contact@example.com",
+					"电话: +91 98765 43210"
+				]
+			},
+			"si": {
+				"title": "5. අප අමතන්න",
+				"description": "මෙම පුද්ගලිකතා ප්‍රතිපත්තිය පිළිබඳ ඔබට කිසියම් ප්‍රශ්න ඇත්නම්, කරුණාකර අප අමතන්න:",
+				"points": [
+					"ඊමේල්: contact@example.com",
+					"දුරකථන: +91 98765 43210"
+				]
+			}
+		}
+	]
+}

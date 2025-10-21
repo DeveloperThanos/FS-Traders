@@ -1,0 +1,159 @@
+{
+	"heading": {
+		"en": "Terms and Conditions",
+		"zh": "条款和条件",
+		"si": "කොන්දේසි සහ නියමයන්"
+	},
+	"sections": [
+		{
+			"id": "acceptance-of-terms",
+			"en": {
+				"title": "1. Acceptance of Terms",
+				"description": "By using our site or communicating with us, you agree to be bound by these Terms. If you disagree, please do not use our services."
+			},
+			"zh": {
+				"title": "1. 接受条款",
+				"description": "使用我们的网站或与我们沟通即表示您同意受这些条款的约束。如果您不同意，请不要使用我们的服务。"
+			},
+			"si": {
+				"title": "1. කොන්දේසි පිළිගැනීම",
+				"description": "අපගේ වෙබ් අඩවිය භාවිතා කිරීමෙන් හෝ අප සමඟ සන්නිවේදනය කිරීමෙන්, ඔබ මෙම කොන්දේසි වලට අනුගත වීමට එකඟ වේ. ඔබ එකඟ නොවන්නේ නම්, කරුණාකර අපගේ සේවාවන් භාවිතා නොකරන්න."
+			}
+		},
+		{
+			"id": "company-overview",
+			"en": {
+				"title": "2. Company Overview",
+				"description": "Brainbric Innovations Pvt. Ltd. is a technology innovation company offering digital solutions and services."
+			},
+			"zh": {
+				"title": "2. 公司概述",
+				"description": "Brainbric Innovations Pvt. Ltd. 是一家提供数字解决方案和服务的技术创新公司。"
+			},
+			"si": {
+				"title": "2. සමාගම් විශ්ලේෂණය",
+				"description": "Brainbric Innovations Pvt. Ltd. යනු ඩිජිටල් විසඳුම් සහ සේවාවන් ලබා දෙන තාක්ෂණික නවෝත්පාදන සමාගමකි."
+			}
+		},
+		{
+			"id": "intellectual-property",
+			"en": {
+				"title": "3. Intellectual Property",
+				"description": "All content on our website — including text, graphics, logos, and designs — is owned by Brainbric or its licensors. Unauthorized use, reproduction, or distribution is prohibited."
+			},
+			"zh": {
+				"title": "3. 知识产权",
+				"description": "我们网站上的所有内容，包括文本、图形、徽标和设计，均由 Brainbric 或其许可方拥有。未经授权的使用、复制或分发是被禁止的。"
+			},
+			"si": {
+				"title": "3. බුද්ධිමය දේපල",
+				"description": "අපගේ වෙබ් අඩවියේ සියලුම අන්තර්ගතය — පෙරළි, රූප, ලාංඡන සහ නිර්මාණ — Brainbric හෝ එහි බලයලත් අයගේ අයිතියකි. අනුමත නොකළ භාවිතය, ප්‍රතිනිර්මාණය හෝ බෙදා හැරීම තහනම් වේ."
+			}
+		},
+		{
+			"id": "acceptable-use",
+			"en": {
+				"title": "4. Acceptable Use",
+				"description": "When using our website, you agree NOT to:",
+				"points": [
+					"Misuse our website or attempt unauthorized access",
+					"Spread malware, viruses, or harmful software",
+					"Engage in actions that harm our reputation or systems"
+				]
+			},
+			"zh": {
+				"title": "4. 可接受的使用",
+				"description": "使用我们的网站时，您同意不得：",
+				"points": [
+					"滥用我们的网站或尝试未经授权的访问",
+					"传播恶意软件、病毒或有害软件",
+					"从事损害我们声誉或系统的行为"
+				]
+			},
+			"si": {
+				"title": "4. පිළිගත හැකි භාවිතය",
+				"description": "අපගේ වෙබ් අඩවිය භාවිතා කරන විට, ඔබ එකඟ වේ නොකළ යුතුයි:",
+				"points": [
+					"අපගේ වෙබ් අඩවිය අකාර්යක්ෂම ලෙස භාවිතා කිරීම හෝ අනුමත නොකළ ප්‍රවේශය උත්සාහ කිරීම",
+					"මැල්වෙයාර්, වයිරස් හෝ හානිකර මෘදුකාංග පැතිරවීම",
+					"අපගේ ප්‍රතිස්ථානය හෝ පද්ධති වලට හානි කරන ක්‍රියාකාරකම් වලට යෙදීම"
+				]
+			}
+		},
+		{
+			"id": "disclaimer",
+			"en": {
+				"title": "5. Disclaimer",
+				"description": "While we aim for accuracy, we do not guarantee that all website content is complete, accurate, or up-to-date. Your use of our website is at your own risk."
+			},
+			"zh": {
+				"title": "5. 免责声明",
+				"description": "尽管我们力求准确，但我们不保证所有网站内容是完整、准确或最新的。您使用我们的网站需自行承担风险。"
+			},
+			"si": {
+				"title": "5. ප්‍රතික්ෂේපය",
+				"description": "අපි නිවැරදි බවට උත්සාහ කරන නමුත්, අපි සියලුම වෙබ් අඩවි අන්තර්ගතය සම්පූර්ණ, නිවැරදි හෝ නවීන බවට සහතික නොකරමු. ඔබේ වෙබ් අඩවිය භාවිතය ඔබේම අවදානමට යටත්වේ."
+			}
+		},
+		{
+			"id": "limitation-of-liability",
+			"en": {
+				"title": "6. Limitation of Liability",
+				"description": "Brainbric Innovations is not liable for any damages arising from your use or inability to use our site, to the fullest extent permitted by law."
+			},
+			"zh": {
+				"title": "6. 责任限制",
+				"description": "Brainbric Innovations 不对因您使用或无法使用我们的网站而产生的任何损害承担责任，法律允许的最大范围内。"
+			},
+			"si": {
+				"title": "6. වගකීම් සීමාව",
+				"description": "Brainbric Innovations වෙබ් අඩවිය භාවිතා කිරීමෙන් හෝ භාවිතා කිරීමට නොහැකි වීමෙන් ඇතිවන කිසියම් හානිය සඳහා වගකීම් නොදරයි, නීතියෙන් අවසර දෙන උපරිම සීමාවට."
+			}
+		},
+		{
+			"id": "third-party-sites",
+			"en": {
+				"title": "7. Third-Party Sites",
+				"description": "Our website may include links to other websites. We are not responsible for their content or terms."
+			},
+			"zh": {
+				"title": "7. 第三方网站",
+				"description": "我们的网站可能包含指向其他网站的链接。我们不对其内容或条款负责。"
+			},
+			"si": {
+				"title": "7. තෙවන පාර්ශව වෙබ් අඩවි",
+				"description": "අපගේ වෙබ් අඩවියට අනෙකුත් වෙබ් අඩවි සඳහා සබැඳි ඇතුළත් විය හැක. අපි එහි අන්තර්ගතය හෝ කොන්දේසි සඳහා වගකීම් නොදරමු."
+			}
+		},
+		{
+			"id": "modifications",
+			"en": {
+				"title": "8. Modifications",
+				"description": "We reserve the right to modify or discontinue our website or these Terms at any time. Your continued use after changes means you accept the updated Terms."
+			},
+			"zh": {
+				"title": "8. 修改",
+				"description": "我们保留随时修改或终止我们的网站或这些条款的权利。您在更改后继续使用即表示您接受更新后的条款。"
+			},
+			"si": {
+				"title": "8. වෙනස්කම්",
+				"description": "අපගේ වෙබ් අඩවිය හෝ මෙම කොන්දේසි ඕනෑම වේලාවක වෙනස් කිරීමට හෝ නවතා දැමීමට අපි හිමිකම් කියමු. වෙනස්කම්වලට පසු ඔබේ අඛණ්ඩ භාවිතය යාවත්කාලීන කොන්දේසි පිළිගැනීමක් ලෙස සැලකේ."
+			}
+		},
+		{
+			"id": "governing-law",
+			"en": {
+				"title": "9. Governing Law",
+				"description": "These Terms are governed by the laws of India. Disputes will be subject to the courts of Coimbatore, Tamil Nadu."
+			},
+			"zh": {
+				"title": "9. 适用法律",
+				"description": "这些条款受印度法律管辖。争议将由泰米尔纳德邦科印布托的法院裁决。"
+			},
+			"si": {
+				"title": "9. පාලන නීතිය",
+				"description": "මෙම කොන්දේසි ඉන්දියාවේ නීති මත පාලනය වේ. විවාදයන් කොයිම්බටූර්, තමිල්නාඩු අධිකරණයට යටත්වනු ඇත."
+			}
+		}
+	]
+}
