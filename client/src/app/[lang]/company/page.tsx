@@ -2,13 +2,8 @@
 
 import React, { useRef, useEffect } from "react";
 import { useParams } from "next/navigation";
+import Image from "next/image";
 import companyContent from "../../../data/company/content.json";
-
-interface LocalizedText {
-  en: string;
-  zh?: string;
-  si?: string;
-}
 
 interface CardContent {
   id: string;
@@ -17,7 +12,6 @@ interface CardContent {
   zh?: { title: string; description: string; button: string };
   si?: { title: string; description: string; button: string };
 }
-
 
 export default function CompanyPage() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -110,10 +104,12 @@ export default function CompanyPage() {
               className="relative rounded-2xl overflow-hidden shadow-md text-white flex flex-col justify-between w-full max-w-[340px] sm:max-w-[480px] h-[220px] sm:h-[320px]"
             >
               {card.imagePath && (
-                <img
+                <Image
                   src={card.imagePath}
                   alt={cardContent.title}
-                  className="absolute inset-0 w-full h-full object-cover z-0"
+                  layout="fill"
+                  objectFit="cover"
+                  className="absolute inset-0 w-full h-full z-0"
                 />
               )}
               <div className="absolute inset-0 bg-black/70 backdrop-blur-sm z-10" />
