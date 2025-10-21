@@ -17,7 +17,15 @@ export default function CompanyPage() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const params = useParams();
   const lang = params.lang as "en" | "zh" | "si";
-  const content = companyContent as any;
+  const content: {
+    about: Record<string, { heading: string; title: string; description: string }>;
+    videoSection?: { path: string };
+    connection: Record<string, { heading: string }>;
+    vision: Record<string, { heading: string; description: string }>;
+    mission: Record<string, { heading: string; description: string }>;
+    cards: CardContent[];
+    btn?: Record<string, string>;
+  } = companyContent;
 
   // About Section
   const about = content.about[lang] || content.about.en;
