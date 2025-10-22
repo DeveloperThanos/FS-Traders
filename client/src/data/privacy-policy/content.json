@@ -6,7 +6,7 @@
 	},
 	"sections": [
 		{
-			"id": "information-we-collect",
+			"id": "Section-1",
 			"en": {
 				"title": "1. Information We Collect",
 				"description": "We collect information that you provide directly to us, including:",
@@ -42,7 +42,7 @@
 			}
 		},
 		{
-			"id": "how-we-use-your-information",
+			"id": "Section-2",
 			"en": {
 				"title": "2. How We Use Your Information",
 				"description": "We use the information we collect to:",
@@ -78,7 +78,7 @@
 			}
 		},
 		{
-			"id": "information-sharing",
+			"id": "Section-3",
 			"en": {
 				"title": "3. Information Sharing",
 				"description": "We do not sell your personal information. We may share your information with:",
@@ -108,7 +108,7 @@
 			}
 		},
 		{
-			"id": "your-rights",
+			"id": "Section-4",
 			"en": {
 				"title": "4. Your Rights",
 				"description": "You have the right to:",
@@ -141,7 +141,7 @@
 			}
 		},
 		{
-			"id": "contact-us",
+			"id": "Section-5",
 			"en": {
 				"title": "5. Contact Us",
 				"description": "If you have any questions about this Privacy Policy, please contact us at:",
