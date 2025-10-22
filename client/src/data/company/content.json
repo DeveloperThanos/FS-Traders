@@ -16,9 +16,9 @@
 			"description": "අපි සරල ආනයන-අපනයන සමාගමක් පමණක් නොව, ඔබේ ගෝලීය වර්ධනය සඳහා සහකාරයෙකි. FS Traders හිදී, අපි ව්‍යාපාරිකයන්ට විශ්වාසදායක වෙළඳ සේවා හරහා දිගුකාලීන සබඳතා ගොඩනඟා ගැනීමට උපකාර කරමු. විවිධ නිෂ්පාදන ප්‍රවර්ග කළමනාකරණයේ අපගේ පළපුරුද්ද නිසා සෑම නැව්ගත කිරීමක්ම කාර්යක්ෂමව, වේගයෙන් සහ නිරවද්‍යව කළමනාකරණය වේ."
 		}
 	},
-		"videoSection": {
-			"path": "/assets/company/fs-traders-promo.mp4"
-		},
+	"videoSection": {
+		"path": "/assets/company/fs-traders-promo.mp4"
+	},
 	"connection": {
 		"en": {
 			"heading": "Connecting global markets with trusted and efficient trade services"
@@ -58,49 +58,49 @@
 			"description": "ආරක්ෂිත, උසස් තත්ත්වයේ සහ අයහපත් නොවන මිලකට ආහාර නිෂ්පාදන සපයමින් ජාතිය පෝෂණය කිරීම අපගේ මෙහෙවරයි. අපගේ නිර්මාතෘවරුන්ගේ ජීවමාන දර්ශනය සහ අගයන් - අඛණ්ඩතාවය, සේවය සහ ධෛර්යය - මඟ පෙන්වමින්, FS Traders (Pvt) Ltd ශ්‍රී ලංකාවේ ආහාර සැපයුම් දාමය ශක්තිමත් කිරීම සඳහා සදාචාරාත්මක වෙළඳාම, ශක්තිමත් හවුල්කරුවන් සහ තිරසාර වර්ධනය සඳහා කැපවී ඇත. අපි ගෝලීය වෙළඳපොළ වෙත විස්තාරය කරන විට, මෙම දිගුකාලීන කැපවීම මත ඉදිරියට යමින් විශිෂ්ටත්වය, ප්‍රජාවන් උසස් කිරීම සහ ජාතියට ගුණාත්මක සහ අයහපත් නොවන ආහාර ලබාදීම සහතික කරමු."
 		}
 	},
-		"btn": {
-			"en": "Explore",
-			"zh": "探索",
-			"si": "අවලංගු කරන්න"
-		},
-		"cards": [
-			{
-				"id": "leaders",
-				"imagePath": "/assets/company/leaders-card.jpg",
-				"en": {
-					"title": "Leaders",
-					"description": "Lorem ipsum dolor sit amet consectetur. Porttitor massa nibh velit purus mattis nulla eget lorem. Amet maecenas diam enim mauris quam ut. In erat amet nibh facilisi mi.",
-					"button": "Explore"
-				},
-				"zh": {
-					"title": "领导者",
-					"description": "Lorem ipsum dolor sit amet consectetur. Porttitor massa nibh velit purus mattis nulla eget lorem. Amet maecenas diam enim mauris quam ut. In erat amet nibh facilisi mi.",
-					"button": "探索"
-				},
-				"si": {
-					"title": "නායකයින්",
-					"description": "Lorem ipsum dolor sit amet consectetur. Porttitor massa nibh velit purus mattis nulla eget lorem. Amet maecenas diam enim mauris quam ut. In erat amet nibh facilisi mi.",
-					"button": "අවලංගු කරන්න"
-				}
+	"btn": {
+		"en": "Explore",
+		"zh": "探索",
+		"si": "අවලෝකනය කරන්න"
+	},
+	"cards": [
+		{
+			"id": "leaders",
+			"imagePath": "/assets/company/leaders-card.jpg",
+			"en": {
+				"title": "Leaders",
+				"description": "Our leadership team drives the company with vision, experience, and integrity, ensuring every decision strengthens our commitment to quality and trust.",
+				"button": "Explore"
 			},
-			{
-				"id": "history",
-				"imagePath": "/assets/company/history-card.jpg",
-				"en": {
-					"title": "History",
-					"description": "Lorem ipsum dolor sit amet consectetur. Porttitor massa nibh velit purus mattis nulla eget lorem. Amet maecenas diam enim mauris quam ut. In erat amet nibh facilisi mi.",
-					"button": "Explore"
-				},
-				"zh": {
-					"title": "历史",
-					"description": "Lorem ipsum dolor sit amet consectetur. Porttitor massa nibh velit purus mattis nulla eget lorem. Amet maecenas diam enim mauris quam ut. In erat amet nibh facilisi mi.",
-					"button": "探索"
-				},
-				"si": {
-					"title": "ඉතිහාසය",
-					"description": "Lorem ipsum dolor sit amet consectetur. Porttitor massa nibh velit purus mattis nulla eget lorem. Amet maecenas diam enim mauris quam ut. In erat amet nibh facilisi mi.",
-					"button": "අවලංගු කරන්න"
-				}
+			"zh": {
+				"title": "领导团队",
+				"description": "我们的领导团队以远见、经验和诚信引领公司前进，确保每一个决策都巩固我们对质量与信任的承诺。",
+				"button": "探索"
+			},
+			"si": {
+				"title": "නායක මණ්ඩලය",
+				"description": "අපගේ නායක මණ්ඩලය දැක්ම, අත්දැකීම් සහ විශ්වාසය මත පදනම්ව සමාගම නායකත්වය ලබා දෙයි, ගුණාත්මකභාවය හා විශ්වාසය සුරක්ෂිත කිරීම සඳහා සියලු තීරණ ශක්තිමත් කරයි.",
+				"button": "අවලෝකනය කරන්න"
 			}
+		},
+		{
+			"id": "history",
+			"imagePath": "/assets/company/history-card.jpg",
+			"en": {
+				"title": "History",
+				"description": "From humble beginnings to a trusted global trading partner, our journey reflects a legacy of dedication, resilience, and sustainable growth.",
+				"button": "Explore"
+			},
+			"zh": {
+				"title": "发展历程",
+				"description": "从谦逊的起点到值得信赖的全球贸易伙伴，我们的历程见证了奉献、坚韧与可持续发展的传承。",
+				"button": "探索"
+			},
+			"si": {
+				"title": "ඉතිහාසය",
+				"description": "නමස්කාර ආරම්භයකින් ගෝලීය වෙළඳ හවුල්කාරයෙකු ලෙස විශ්වාසය දිනාගත් අපගේ ගමන කැපවීම, ධෛර්යය සහ තිරසාර වර්ධනයෙන් සැලැස්වූ එකකි.",
+				"button": "අවලෝකනය කරන්න"
+			}
+		}
 	]
 }
