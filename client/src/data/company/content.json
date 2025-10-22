@@ -1,106 +1,106 @@
 {
-  "about": {
-    "en": {
-      "heading": "About Us",
-      "title": "Empowering Businesses to Trade Without Limits.",
-      "description": "We’re more than just an import-export company — we’re your partner in global growth. At FS Traders, we help businesses build lasting relationships through dependable trade services. Our expertise in handling diverse product categories ensures that every shipment is managed with care, speed, and precision."
-    },
-    "zh": {
-      "heading": "关于我们",
-      "title": "助力企业实现无限贸易。",
-      "description": "我们不仅仅是一家进出口公司，更是您全球发展的合作伙伴。在 FS Traders，我们通过可靠的贸易服务，帮助企业建立持久的合作关系。我们在处理多样化产品类别方面的专业知识，确保每一批货物都能得到细致、迅速、精准的管理。"
-    },
-    "si": {
-      "heading": "අප ගැන",
-      "title": "සීමාවකින් තොරව වෙළඳාම් කිරීමට ව්‍යාපාර සවිබල ගැන්වීම.",
-      "description": "අපි හුදෙක් ආනයන-අපනයන සමාගමකට වඩා වැඩි යමක් — අපි ගෝලීය වර්ධනයේ ඔබේ සහකරුයි. FS ට්‍රේඩර්ස් හිදී, විශ්වාසනීය වෙළඳ සේවා හරහා කල් පවතින සබඳතා ගොඩනැගීමට අපි ව්‍යාපාරවලට උදව් කරමු. විවිධ නිෂ්පාදන කාණ්ඩ හැසිරවීමේ අපගේ විශේෂඥ දැනුම, සෑම නැව්ගත කිරීමක්ම සැලකිල්ලෙන්, වේගයෙන් සහ නිරවද්‍යතාවයෙන් කළමනාකරණය වන බව සහතික කරයි."
-    }
-  },
-  "videoSection": {
-    "path": "blob:http://localhost:3000/435c089e-fa7b-4051-bac3-873ec73db9e6"
-  },
-  "connection": {
-    "en": {
-      "heading": "Connecting global markets with trusted and efficient trade services"
-    },
-    "zh": {
-      "heading": "以值得信赖和高效的贸易服务连接全球市场"
-    },
-    "si": {
-      "heading": "විශ්වාසදායක සහ කාර්යක්ෂම වෙළඳ සේවා සමඟ ගෝලීය වෙළඳපොළ සම්බන්ධ කිරීම"
-    }
-  },
-  "vision": {
-    "en": {
-      "heading": "Vision",
-      "description": "To nourish the nation by providing quality food products at affordable prices, ensuring every household has access to trusted, wholesome, and sustainable nutrition."
-    },
-    "zh": {
-      "heading": "愿景",
-      "description": "通过以实惠的价格提供优质食品，滋养国家，确保每个家庭都能获得值得信赖、健康和可持续的营养。"
-    },
-    "si": {
-      "heading": "දර්ශනය",
-      "description": "ඉහළ තත්ත්වයේ ආහාර නිෂ්පාදන සාධාරණ මිලකට සපයමින්, සෑම ගෙදරකම විශ්වාසදායක, පෝෂ්‍යදායී සහ තිරසාර පෝෂණය ලබා ගැනීම සහතික කිරීමයි."
-    }
-  },
-  "mission": {
-    "en": {
-      "heading": "Mission",
-      "description": "Our mission is to nourish the nation by providing safe, high-quality, and affordable food products that every household can trust. Guided by the living vision and values of our founders – integrity, service, and resilience – FS Traders (Pvt) Ltd is dedicated to strengthening Sri Lanka’s food supply chain through ethical trade, strong partnerships, and sustainable growth. As we expand into global markets, we continue to build on this enduring commitment to deliver excellence, uplift communities, and ensure food for the nation with quality and affordability."
-    },
-    "zh": {
-      "heading": "使命",
-      "description": "我们的使命是通过提供安全、高质量且价格实惠的食品来滋养国家，让每个家庭都能信赖。秉持创始人的愿景和价值观——诚信、服务和韧性——FS Traders (Pvt) Ltd 致力于通过道德贸易、强有力的合作伙伴关系和可持续增长来加强斯里兰卡的食品供应链。随着我们进入全球市场，我们将继续秉持这一承诺，追求卓越，提升社区，并确保国家食品的质量和可负担性。"
-    },
-    "si": {
-      "heading": "මෙහෙවර",
-      "description": "ආරක්ෂිත, උසස් තත්ත්වයේ සහ අයහපත් නොවන මිලකට ආහාර නිෂ්පාදන සපයමින් ජාතිය පෝෂණය කිරීම අපගේ මෙහෙවරයි. අපගේ නිර්මාතෘවරුන්ගේ ජීවමාන දර්ශනය සහ අගයන් - අඛණ්ඩතාවය, සේවය සහ ධෛර්යය - මඟ පෙන්වමින්, FS Traders (Pvt) Ltd ශ්‍රී ලංකාවේ ආහාර සැපයුම් දාමය ශක්තිමත් කිරීම සඳහා සදාචාරාත්මක වෙළඳාම, ශක්තිමත් හවුල්කරුවන් සහ තිරසාර වර්ධනය සඳහා කැපවී ඇත. අපි ගෝලීය වෙළඳපොළ වෙත විස්තාරය කරන විට, මෙම දිගුකාලීන කැපවීම මත ඉදිරියට යමින් විශිෂ්ටත්වය, ප්‍රජාවන් උසස් කිරීම සහ ජාතියට ගුණාත්මක සහ අයහපත් නොවන ආහාර ලබාදීම සහතික කරමු."
-    }
-  },
-  "btn": {
-    "en": "Explore",
-    "zh": "探索",
-    "si": "අවලෝකනය කරන්න"
-  },
-  "cards": [
-    {
-      "id": "leaders",
-      "imagePath": "/assets/company/leaders-card.jpg",
-      "en": {
-        "title": "Leaders",
-        "description": "Our leadership team drives the company with vision, experience, and integrity, ensuring every decision strengthens our commitment to quality and trust.",
-        "button": "Explore"
-      },
-      "zh": {
-        "title": "领导团队",
-        "description": "我们的领导团队以远见、经验和诚信引领公司前进，确保每一个决策都巩固我们对质量与信任的承诺。",
-        "button": "探索"
-      },
-      "si": {
-        "title": "නායක මණ්ඩලය",
-        "description": "අපගේ නායක මණ්ඩලය දැක්ම, අත්දැකීම් සහ විශ්වාසය මත පදනම්ව සමාගම නායකත්වය ලබා දෙයි, ගුණාත්මකභාවය හා විශ්වාසය සුරක්ෂිත කිරීම සඳහා සියලු තීරණ ශක්තිමත් කරයි.",
-        "button": "අවලෝකනය කරන්න"
-      }
-    },
-    {
-      "id": "history",
-      "imagePath": "/assets/company/history-card.jpg",
-      "en": {
-        "title": "History",
-        "description": "From humble beginnings to a trusted global trading partner, our journey reflects a legacy of dedication, resilience, and sustainable growth.",
-        "button": "Explore"
-      },
-      "zh": {
-        "title": "发展历程",
-        "description": "从谦逊的起点到值得信赖的全球贸易伙伴，我们的历程见证了奉献、坚韧与可持续发展的传承。",
-        "button": "探索"
-      },
-      "si": {
-        "title": "ඉතිහාසය",
-        "description": "නමස්කාර ආරම්භයකින් ගෝලීය වෙළඳ හවුල්කාරයෙකු ලෙස විශ්වාසය දිනාගත් අපගේ ගමන කැපවීම, ධෛර්යය සහ තිරසාර වර්ධනයෙන් සැලැස්වූ එකකි.",
-        "button": "අවලෝකනය කරන්න"
-      }
-    }
-  ]
+	"about": {
+		"en": {
+			"heading": "About Us",
+			"title": "Empowering Businesses to Trade Without Limits.",
+			"description": "We’re more than just an import-export company — we’re your partner in global growth. At FS Traders, we help businesses build lasting relationships through dependable trade services. Our expertise in handling diverse product categories ensures that every shipment is managed with care, speed, and precision."
+		},
+		"zh": {
+			"heading": "关于我们",
+			"title": "赋能企业，无限贸易。",
+			"description": "我们不仅仅是一家进出口公司——我们是您全球增长的合作伙伴。在FS Traders，我们通过可靠的贸易服务帮助企业建立持久的关系。我们在处理多样化产品类别方面的专业知识确保每一批货物都能被细致、高效、精准地管理。"
+		},
+		"si": {
+			"heading": "අපි ගැන",
+			"title": "සීමාවන් නොමැතිව ව්‍යාපාර සවිබල ගන්වීම.",
+			"description": "අපි සරල ආනයන-අපනයන සමාගමක් පමණක් නොව, ඔබේ ගෝලීය වර්ධනය සඳහා සහකාරයෙකි. FS Traders හිදී, අපි ව්‍යාපාරිකයන්ට විශ්වාසදායක වෙළඳ සේවා හරහා දිගුකාලීන සබඳතා ගොඩනඟා ගැනීමට උපකාර කරමු. විවිධ නිෂ්පාදන ප්‍රවර්ග කළමනාකරණයේ අපගේ පළපුරුද්ද නිසා සෑම නැව්ගත කිරීමක්ම කාර්යක්ෂමව, වේගයෙන් සහ නිරවද්‍යව කළමනාකරණය වේ."
+		}
+	},
+	"videoSection": {
+		"path": "/assets/company/fs-traders-promo.mp4"
+	},
+	"connection": {
+		"en": {
+			"heading": "Connecting global markets with trusted and efficient trade services"
+		},
+		"zh": {
+			"heading": "以值得信赖和高效的贸易服务连接全球市场"
+		},
+		"si": {
+			"heading": "විශ්වාසදායක සහ කාර්යක්ෂම වෙළඳ සේවා සමඟ ගෝලීය වෙළඳපොළ සම්බන්ධ කිරීම"
+		}
+	},
+	"vision": {
+		"en": {
+			"heading": "Vision",
+			"description": "To nourish the nation by providing quality food products at affordable prices, ensuring every household has access to trusted, wholesome, and sustainable nutrition."
+		},
+		"zh": {
+			"heading": "愿景",
+			"description": "通过以实惠的价格提供优质食品，滋养国家，确保每个家庭都能获得值得信赖、健康和可持续的营养。"
+		},
+		"si": {
+			"heading": "දර්ශනය",
+			"description": "ඉහළ තත්ත්වයේ ආහාර නිෂ්පාදන සාධාරණ මිලකට සපයමින්, සෑම ගෙදරකම විශ්වාසදායක, පෝෂ්‍යදායී සහ තිරසාර පෝෂණය ලබා ගැනීම සහතික කිරීමයි."
+		}
+	},
+	"mission": {
+		"en": {
+			"heading": "Mission",
+			"description": "Our mission is to nourish the nation by providing safe, high-quality, and affordable food products that every household can trust. Guided by the living vision and values of our founders – integrity, service, and resilience – FS Traders (Pvt) Ltd is dedicated to strengthening Sri Lanka’s food supply chain through ethical trade, strong partnerships, and sustainable growth. As we expand into global markets, we continue to build on this enduring commitment to deliver excellence, uplift communities, and ensure food for the nation with quality and affordability."
+		},
+		"zh": {
+			"heading": "使命",
+			"description": "我们的使命是通过提供安全、高质量且价格实惠的食品来滋养国家，让每个家庭都能信赖。秉持创始人的愿景和价值观——诚信、服务和韧性——FS Traders (Pvt) Ltd 致力于通过道德贸易、强有力的合作伙伴关系和可持续增长来加强斯里兰卡的食品供应链。随着我们进入全球市场，我们将继续秉持这一承诺，追求卓越，提升社区，并确保国家食品的质量和可负担性。"
+		},
+		"si": {
+			"heading": "මෙහෙවර",
+			"description": "ආරක්ෂිත, උසස් තත්ත්වයේ සහ අයහපත් නොවන මිලකට ආහාර නිෂ්පාදන සපයමින් ජාතිය පෝෂණය කිරීම අපගේ මෙහෙවරයි. අපගේ නිර්මාතෘවරුන්ගේ ජීවමාන දර්ශනය සහ අගයන් - අඛණ්ඩතාවය, සේවය සහ ධෛර්යය - මඟ පෙන්වමින්, FS Traders (Pvt) Ltd ශ්‍රී ලංකාවේ ආහාර සැපයුම් දාමය ශක්තිමත් කිරීම සඳහා සදාචාරාත්මක වෙළඳාම, ශක්තිමත් හවුල්කරුවන් සහ තිරසාර වර්ධනය සඳහා කැපවී ඇත. අපි ගෝලීය වෙළඳපොළ වෙත විස්තාරය කරන විට, මෙම දිගුකාලීන කැපවීම මත ඉදිරියට යමින් විශිෂ්ටත්වය, ප්‍රජාවන් උසස් කිරීම සහ ජාතියට ගුණාත්මක සහ අයහපත් නොවන ආහාර ලබාදීම සහතික කරමු."
+		}
+	},
+	"btn": {
+		"en": "Explore",
+		"zh": "探索",
+		"si": "අවලෝකනය කරන්න"
+	},
+	"cards": [
+		{
+			"id": "leaders",
+			"imagePath": "/assets/company/leaders-card.jpg",
+			"en": {
+				"title": "Leaders",
+				"description": "Our leadership team drives the company with vision, experience, and integrity, ensuring every decision strengthens our commitment to quality and trust.",
+				"button": "Explore"
+			},
+			"zh": {
+				"title": "领导团队",
+				"description": "我们的领导团队以远见、经验和诚信引领公司前进，确保每一个决策都巩固我们对质量与信任的承诺。",
+				"button": "探索"
+			},
+			"si": {
+				"title": "නායක මණ්ඩලය",
+				"description": "අපගේ නායක මණ්ඩලය දැක්ම, අත්දැකීම් සහ විශ්වාසය මත පදනම්ව සමාගම නායකත්වය ලබා දෙයි, ගුණාත්මකභාවය හා විශ්වාසය සුරක්ෂිත කිරීම සඳහා සියලු තීරණ ශක්තිමත් කරයි.",
+				"button": "අවලෝකනය කරන්න"
+			}
+		},
+		{
+			"id": "history",
+			"imagePath": "/assets/company/history-card.jpg",
+			"en": {
+				"title": "History",
+				"description": "From humble beginnings to a trusted global trading partner, our journey reflects a legacy of dedication, resilience, and sustainable growth.",
+				"button": "Explore"
+			},
+			"zh": {
+				"title": "发展历程",
+				"description": "从谦逊的起点到值得信赖的全球贸易伙伴，我们的历程见证了奉献、坚韧与可持续发展的传承。",
+				"button": "探索"
+			},
+			"si": {
+				"title": "ඉතිහාසය",
+				"description": "නමස්කාර ආරම්භයකින් ගෝලීය වෙළඳ හවුල්කාරයෙකු ලෙස විශ්වාසය දිනාගත් අපගේ ගමන කැපවීම, ධෛර්යය සහ තිරසාර වර්ධනයෙන් සැලැස්වූ එකකි.",
+				"button": "අවලෝකනය කරන්න"
+			}
+		}
+	]
 }
