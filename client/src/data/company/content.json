@@ -66,39 +66,39 @@
   "cards": [
     {
       "id": "leaders",
-      "imagePath": "/assets/company/leaders-card.jpg",
+      "imagePath": "/assets/company/leaders-1761128030000.jpg",
       "en": {
-        "title": "Leaders",
+        "title": "Leaders Page",
         "description": "Our leadership team drives the company with vision, experience, and integrity, ensuring every decision strengthens our commitment to quality and trust.",
         "button": "Explore"
       },
       "zh": {
         "title": "领导团队",
-        "description": "我们的领导团队以远见、经验和诚信引领公司前进，确保每一个决策都巩固我们对质量与信任的承诺。",
+        "description": "我们的领导团队凭借远见、经验和诚信推动公司发展，确保每个决策都能巩固我们对质量和信任的承诺。",
         "button": "探索"
       },
       "si": {
-        "title": "නායක මණ්ඩලය",
-        "description": "අපගේ නායක මණ්ඩලය දැක්ම, අත්දැකීම් සහ විශ්වාසය මත පදනම්ව සමාගම නායකත්වය ලබා දෙයි, ගුණාත්මකභාවය හා විශ්වාසය සුරක්ෂිත කිරීම සඳහා සියලු තීරණ ශක්තිමත් කරයි.",
+        "title": "නායකත්ව පිටුව",
+        "description": "අපගේ නායකත්ව කණ්ඩායම දැක්ම, අත්දැකීම් සහ අවංකභාවය සමගින් සමාගම මෙහෙයවයි. සෑම තීරණයක්ම ගුණාත්මකභාවය සහ විශ්වාසය කෙරෙහි අපගේ කැපවීම ශක්තිමත් කරන බවට සහතික වේ.",
         "button": "අවලෝකනය කරන්න"
       }
     },
     {
       "id": "history",
-      "imagePath": "/assets/company/history-card.jpg",
+      "imagePath": "/assets/company/history-1761128029392.jpg",
       "en": {
         "title": "History",
         "description": "From humble beginnings to a trusted global trading partner, our journey reflects a legacy of dedication, resilience, and sustainable growth.",
         "button": "Explore"
       },
       "zh": {
-        "title": "发展历程",
-        "description": "从谦逊的起点到值得信赖的全球贸易伙伴，我们的历程见证了奉献、坚韧与可持续发展的传承。",
+        "title": "历史",
+        "description": "从最初的默默无闻到发展成为值得信赖的全球贸易伙伴，我们的历程反映了奉献、坚韧和可持续增长的传承。",
         "button": "探索"
       },
       "si": {
         "title": "ඉතිහාසය",
-        "description": "නමස්කාර ආරම්භයකින් ගෝලීය වෙළඳ හවුල්කාරයෙකු ලෙස විශ්වාසය දිනාගත් අපගේ ගමන කැපවීම, ධෛර්යය සහ තිරසාර වර්ධනයෙන් සැලැස්වූ එකකි.",
+        "description": "නිහතමානී ආරම්භයකින් විශ්වාසදායක ගෝලීය වෙළඳ හවුල්කරුවෙකු දක්වා වූ අපගේ ගමන, කැපවීම, ඔරොත්තු දීමේ හැකියාව සහ තිරසාර වර්ධනයක උරුමයක් පිළිබිඹු කරයි.",
         "button": "අවලෝකනය කරන්න"
       }
     }
