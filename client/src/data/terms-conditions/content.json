@@ -6,7 +6,7 @@
 	},
 	"sections": [
 		{
-			"id": "acceptance-of-terms",
+			"id": "Section-1",
 			"en": {
 				"title": "1. Acceptance of Terms",
 				"description": "By using our site or communicating with us, you agree to be bound by these Terms. If you disagree, please do not use our services."
@@ -21,7 +21,7 @@
 			}
 		},
 		{
-			"id": "company-overview",
+			"id": "Section-2",
 			"en": {
 				"title": "2. Company Overview",
 				"description": "Brainbric Innovations Pvt. Ltd. is a technology innovation company offering digital solutions and services."
@@ -36,7 +36,7 @@
 			}
 		},
 		{
-			"id": "intellectual-property",
+			"id": "Section-3",
 			"en": {
 				"title": "3. Intellectual Property",
 				"description": "All content on our website — including text, graphics, logos, and designs — is owned by Brainbric or its licensors. Unauthorized use, reproduction, or distribution is prohibited."
@@ -51,7 +51,7 @@
 			}
 		},
 		{
-			"id": "acceptable-use",
+			"id": "Section-4",
 			"en": {
 				"title": "4. Acceptable Use",
 				"description": "When using our website, you agree NOT to:",
@@ -81,7 +81,7 @@
 			}
 		},
 		{
-			"id": "disclaimer",
+			"id": "Section-5",
 			"en": {
 				"title": "5. Disclaimer",
 				"description": "While we aim for accuracy, we do not guarantee that all website content is complete, accurate, or up-to-date. Your use of our website is at your own risk."
@@ -96,7 +96,7 @@
 			}
 		},
 		{
-			"id": "limitation-of-liability",
+			"id": "Section-6",
 			"en": {
 				"title": "6. Limitation of Liability",
 				"description": "Brainbric Innovations is not liable for any damages arising from your use or inability to use our site, to the fullest extent permitted by law."
@@ -111,7 +111,7 @@
 			}
 		},
 		{
-			"id": "third-party-sites",
+			"id": "Section-7",
 			"en": {
 				"title": "7. Third-Party Sites",
 				"description": "Our website may include links to other websites. We are not responsible for their content or terms."
@@ -126,7 +126,7 @@
 			}
 		},
 		{
-			"id": "modifications",
+			"id": "Section-8",
 			"en": {
 				"title": "8. Modifications",
 				"description": "We reserve the right to modify or discontinue our website or these Terms at any time. Your continued use after changes means you accept the updated Terms."
@@ -141,7 +141,7 @@
 			}
 		},
 		{
-			"id": "governing-law",
+			"id": "Section-9",
 			"en": {
 				"title": "9. Governing Law",
 				"description": "These Terms are governed by the laws of India. Disputes will be subject to the courts of Coimbatore, Tamil Nadu."
