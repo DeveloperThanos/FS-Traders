@@ -90,15 +90,15 @@
       "year": "2021 - Present",
       "en": {
         "title": "Testing",
-        "description": "This id for testing purpose we will remove this soon"
+        "description": "This is for testing purpose we will remove this soon"
       },
       "zh": {
         "title": "测试",
-        "description": "这用于测试目的，我们将很快删除它"
+        "description": "此内容仅用于测试目的，我们将很快将其删除。"
       },
       "si": {
-        "title": "පරීක්ෂණ",
-        "description": "මෙය පරීක්ෂණ අරමුණක් සඳහායි. අපි මෙය ඉක්මනින් ඉවත් කරන්නෙමු."
+        "title": "පරීක්ෂා කිරීම",
+        "description": "මෙය පරීක්ෂා කිරීමේ අරමුණ සඳහා වේ, අපි මෙය ඉක්මනින් ඉවත් කරන්නෙමු."
       }
     }
   ]
