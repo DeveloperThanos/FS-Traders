@@ -1,0 +1,77 @@
+{
+  "heading": {
+    "en": "Our Product Categories",
+    "zh": "我们的产品类别",
+    "si": "අපගේ නිෂ්පාදන ප්‍රවර්ග"
+  },
+  "description": {
+    "en": "Explore our diverse range of product categories designed to meet global trade standards. Each category represents our commitment to quality, reliability, and innovation.",
+    "zh": "探索我们多样化的产品类别，这些类别旨在满足全球贸易标准。每个类别都体现了我们对质量、可靠性和创新的承诺。",
+    "si": "ගෝලීය වෙළඳ ප්‍රමිතීන්ට අනුව නිර්මාණය කළ අපගේ විවිධ නිෂ්පාදන ප්‍රවර්ග පරීක්ෂා කරන්න. සෑම ප්‍රවර්ගයක්ම ගුණාත්මකභාවයට, විශ්වාසනීයභාවයට සහ නවෝත්පාදනයට අපගේ කැපවීම නියෝජනය කරයි."
+  },
+  "categories": [
+    {
+      "id": "category-1",
+      "name": {
+        "en": "Agricultural Products",
+        "zh": "农产品",
+        "si": "කෘෂිකර්ම නිෂ්පාදන"
+      },
+      "imagePath": "/assets/home/hero-section/bg1.jpg"
+    },
+    {
+      "id": "category-2",
+      "name": {
+        "en": "Textiles & Apparel",
+        "zh": "纺织品和服装",
+        "si": "විලාසිතා හා ඇඳුම්"
+      },
+      "imagePath": "/assets/home/hero-section/bg2.jpg"
+    },
+    {
+      "id": "category-3",
+      "name": {
+        "en": "Construction Materials",
+        "zh": "建筑材料",
+        "si": "ගොඩනැගිලි ද්‍රව්‍ය"
+      },
+      "imagePath": "/assets/home/hero-section/bg3.jpg"
+    },
+    {
+      "id": "category-4",
+      "name": {
+        "en": "Industrial Equipment",
+        "zh": "工业设备",
+        "si": "කාර්මාන්ත උපාංග"
+      },
+      "imagePath": "/assets/home/hero-section/bg4.jpg"
+    },
+    {
+      "id": "category-5",
+      "name": {
+        "en": "Household Items",
+        "zh": "家居用品",
+        "si": "ගෘහ භාණ්ඩ"
+      },
+      "imagePath": "/assets/home/hero-section/bg1.jpg"
+    },
+    {
+      "id": "category-6",
+      "name": {
+        "en": "Automotive Parts",
+        "zh": "汽车零部件",
+        "si": "වාහන කොටස්"
+      },
+      "imagePath": "/assets/home/hero-section/bg1.jpg"
+    },
+    {
+      "id": "category-7",
+      "name": {
+        "en": "Food & Beverages",
+        "zh": "食品和饮料",
+        "si": "ආහාර සහ පානය"
+      },
+      "imagePath": "/assets/home/hero-section/bg1.jpg"
+    }
+  ]
+}

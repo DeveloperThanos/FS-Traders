@@ -1,13 +1,19 @@
-import { homeContent } from '../../data/home/contents';
+import HeroSection from './components/home/hero-section';
+import AboutSection from './components/home/about';
+import LeadersSection from './components/home/leaders';
+// import SupplierSection from './components/home/supplier';
+// import ProductsSection from './components/home/products';
+// import CTASection from './components/home/cta-section';
 
-export default async function HomePage({ params }: { params: { lang: string } }) {
-  const { lang } = await Promise.resolve(params); // Await params properly
-  const content = homeContent[lang as keyof typeof homeContent];
-
+export default function HomePage() {
   return (
-    <main className="p-8 bg-background">
-      <h1 className="text-3xl font-bold">{content.title}</h1>
-      <p className="text-gray-600">{content.description}</p>
+    <main>
+      <HeroSection />
+      <AboutSection />
+      <LeadersSection />
+      {/* <SupplierSection />
+      <ProductsSection />
+      <CTASection /> */}
     </main>
   );
 }

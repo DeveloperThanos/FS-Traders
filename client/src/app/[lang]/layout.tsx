@@ -26,15 +26,23 @@ export default async function LocaleLayout({
   }
 
   return (
-    <div style={{ backgroundColor: '#F7EDE2' }} className="flex min-h-screen text-text">
+    <div
+      className="flex flex-col min-h-screen text-text"
+      style={{ backgroundColor: "#F7EDE2" }} // ✅ your background color
+    >
       {/* Navbar */}
       <Navbar lang={lang} />
 
-      {/* Sidebar */}
-      <RightSidebar initialLang={lang} />
+      {/* Page Wrapper */}
+      <div className="flex flex-1">
+        {/* Sidebar */}
+        <RightSidebar initialLang={lang} />
 
-      {/* Main Content Area */}
-      <main className="flex-1 px-4 sm:px-8 py-6 mt-16">{children}</main>
+        {/* Main Content Area */}
+        <main className="flex-1">
+          {children}
+        </main>
+      </div>
     </div>
   );
 }
