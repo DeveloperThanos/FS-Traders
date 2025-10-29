@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import "../globals.css";
 import RightSidebar from "../../components/rightSidebar";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const supportedLangs = ["en", "zh", "si"] as const;
 type Lang = (typeof supportedLangs)[number];
@@ -28,7 +29,7 @@ export default async function LocaleLayout({
   return (
     <div
       className="flex flex-col min-h-screen text-text"
-      style={{ backgroundColor: "#F7EDE2" }} // ✅ your background color
+      style={{ backgroundColor: "#F7EDE2" }} // 
     >
       {/* Navbar */}
       <Navbar lang={lang} />
@@ -43,6 +44,9 @@ export default async function LocaleLayout({
           {children}
         </main>
       </div>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }

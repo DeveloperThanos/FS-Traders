@@ -1,0 +1,301 @@
+{
+  "supplierReview": {
+    "heading": {
+      "en": "Supplier Reviews",
+      "zh": "供应商评价",
+      "si": "සැපයුම්කරුවන්ගේ සමාලෝචන"
+    },
+    "description": {
+      "en": "Here are some of the messages and feedback from our trusted global suppliers.",
+      "zh": "以下是来自我们值得信赖的全球供应商的一些留言和反馈。",
+      "si": "මෙන්න අපගේ විශ්වාසදායක ගෝලීය සැපයුම්කරුවන්ගේ පණිවිඩ සහ ප්‍රතිපෝෂණ කිහිපයක්."
+    },
+    "reviews": [
+      {
+        "id": "supplier-review-1",
+        "supplierCompanyName": {
+          "en": "Shenzhen Bright",
+          "zh": "深圳光明进口有限公司",
+          "si": "ශෙන්‌ෂෙන් බ්‍රයිට් "
+        },
+        "country": {
+          "en": "China",
+          "zh": "中国",
+          "si": "චීනය"
+        },
+        "supplierLogoPath": "/assets/suppliers/reviews/review9.png",
+        "message": {
+          "en": "Working with FS Traders has been smooth and efficient. Their logistics and payment processes are top-notch. Dear Mr Shafir Figma ipsum component variant main layer. Figjam project plugin arrow follower flows hand. Union group distribute pen connection. Image style library move outline. Bold list editor figma image hand polygon strikethrough scrolling. Duplicate list overflow underline arrange style. Horizontal ipsum text object arrow rotate. Star object blur scale library scrolling object selection distribute. Font prototype thumbnail opacity text export move. Main content union vector group invite. Strikethrough layout team arrange mask library union editor inspect. Object horizontal boolean layout plugin. Subtract content font object project image arrange variant undo. Scrolling main scale share image. Move connection undo italic figma. Content star invite frame boolean line object connection. Flows vertical list variant move hand underline vector subtract font. Move union polygon team align duplicate pixel. Text draft figma mask polygon background pen overflow create object. Layer figjam text inspect link undo. Style asset undo library opacity overflow. Background boolean text mask share strikethrough. Thumbnail flatten vector blur pencil select undo pen. Arrange create vector opacity rectangle team shadow. Font plugin overflow rectangle figma opacity rotate team object hand. Follower export library reesizing duplicate blur. Mask star align selection scrolling pencil boolean figjam background move. Create rectangle image italic hand group slice.Ellipse follower bullet layer asset background. Content figma plugin thumbnail prototype ellipse. Reesizing frame polygon edit group mask opacity stroke invite align. Flatten thumbnail bold share device stroke list pencil. Editor blur figjam rectangle selection. Arrange union library library bullet component. Opacity follower rotate list draft group",
+          "zh": "与FS贸易商的合作顺利高效。他们的物流和支付流程是一流的。",
+          "si": "FS වෙළඳුන් සමඟ වැඩ කිරීම මනාව හා කාර්යක්ෂමව සිදු විය. ඔවුන්ගේ ලොජිස්ටික් සහ ගෙවීම් ක්‍රියාවලිය ඉතා උසස් වේ."
+        }
+      },
+      {
+        "id": "supplier-review-2",
+        "supplierCompanyName": {
+          "en": "Tokyo Global Exports",
+          "zh": "东京环球出口公司",
+          "si": "ටෝකියෝ ගෝලීය අපනයන සමාගම"
+        },
+        "country": {
+          "en": "Japan",
+          "zh": "日本",
+          "si": "ජපානය"
+        },
+        "supplierLogoPath": "/assets/logos/tokyo-global-exports.png",
+        "message": {
+          "en": "They maintain clear communication and deliver as promised. A reliable trading partner.",
+          "zh": "他们保持清晰的沟通并按承诺交付。是值得信赖的贸易伙伴。",
+          "si": "ඔවුන් පැහැදිලි සන්නිවේදනයක් තබා ගනිති සහ පොරොන්දුව අනුව ලබා දෙති. විශ්වාසනීය වෙළඳ සහකාරයෙකි."
+        }
+      },
+      {
+        "id": "supplier-review-3",
+        "supplierCompanyName": {
+          "en": "Berlin Fresh Produce GmbH",
+          "zh": "柏林新鲜农产品有限公司",
+          "si": "බර්ලින් තازي නිෂ්පාදන සමාගම"
+        },
+        "country": {
+          "en": "Germany",
+          "zh": "德国",
+          "si": "ජර්මනිය"
+        },
+        "supplierLogoPath": "/assets/logos/berlin-fresh-produce.png",
+        "message": {
+          "en": "FS Traders ensures timely payments and smooth operations. Highly recommended.",
+          "zh": "FS贸易商确保及时付款和顺畅的操作。强烈推荐。",
+          "si": "FS වෙළඳුන් කාලෝචිත ගෙවීම් සහ මනාව ක්‍රියාත්මක වීම තහවුරු කරයි. ඉතා නිර්දේශිතයි."
+        }
+      },
+      {
+        "id": "supplier-review-4",
+        "supplierCompanyName": {
+          "en": "Sydney Organic Supplies",
+          "zh": "悉尼有机供应商",
+          "si": "සීඩ්නි ජෛව සැපයුම්කරුවන්"
+        },
+        "country": {
+          "en": "Australia",
+          "zh": "澳大利亚",
+          "si": "ඕස්ට්‍රේලියාව"
+        },
+        "supplierLogoPath": "/assets/logos/sydney-organic-supplies.png",
+        "message": {
+          "en": "Their commitment to quality and transparency is unmatched.",
+          "zh": "他们对质量和透明度的承诺无与伦比。",
+          "si": "ගුණාත්මකභාවය සහ පැහැදිලිභාවය සඳහා ඔවුන්ගේ කැපවීම අසමසමය."
+        }
+      },
+      {
+        "id": "supplier-review-5",
+        "supplierCompanyName": {
+          "en": "Cape Town Exporters",
+          "zh": "开普敦出口商",
+          "si": "කේප් ටවුන් අපනයනකරුවන්"
+        },
+        "country": {
+          "en": "South Africa",
+          "zh": "南非",
+          "si": "දකුණු අප්‍රිකාව"
+        },
+        "supplierLogoPath": "/assets/logos/cape-town-exporters.png",
+        "message": {
+          "en": "A trustworthy partner for all our export needs.",
+          "zh": "我们所有出口需求的值得信赖的合作伙伴。",
+          "si": "අපගේ සියලුම අපනයන අවශ්‍යතා සඳහා විශ්වාසනීය සහකාරයෙකි."
+        }
+      },
+      {
+        "id": "supplier-review-6",
+        "supplierCompanyName": {
+          "en": "Mumbai Spice Traders",
+          "zh": "孟买香料贸易商",
+          "si": "මුම්බායි මසාලා වෙළඳුන්"
+        },
+        "country": {
+          "en": "India",
+          "zh": "印度",
+          "si": "ඉන්දියාව"
+        },
+        "supplierLogoPath": "/assets/logos/mumbai-spice-traders.png",
+        "message": {
+          "en": "Their logistics network is unparalleled. Always a pleasure to work with FS Traders.",
+          "zh": "他们的物流网络无与伦比。与FS贸易商合作总是很愉快。",
+          "si": "ඔවුන්ගේ ලොජිස්ටික් ජාලය අසමසමය. FS වෙළඳුන් සමඟ වැඩ කිරීම සෑම විටම සතුටක්."
+        }
+      },
+      {
+        "id": "supplier-review-7",
+        "supplierCompanyName": {
+          "en": "New York Agro Exports",
+          "zh": "纽约农业出口公司",
+          "si": "නවයෝර්ක් කෘෂි අපනයන"
+        },
+        "country": {
+          "en": "USA",
+          "zh": "美国",
+          "si": "ඇමරිකාව"
+        },
+        "supplierLogoPath": "/assets/logos/new-york-agro-exports.png",
+        "message": {
+          "en": "FS Traders has been a reliable partner for years. Their professionalism is commendable.",
+          "zh": "FS贸易商多年来一直是可靠的合作伙伴。他们的专业精神值得称赞。",
+          "si": "FS වෙළඳුන් වසර ගණනාවක් තිස්සේ විශ්වාසනීය සහකාරයෙකි. ඔවුන්ගේ වෘත්තීයත්වය ප්‍රශංසනීය වේ."
+        }
+      },
+      {
+        "id": "supplier-review-8",
+        "supplierCompanyName": {
+          "en": "Rio Grande Coffee Exporters",
+          "zh": "里约热内卢咖啡出口商",
+          "si": "රිඕ ග්‍රෑන්ඩේ කෝපි අපනයන"
+        },
+        "country": {
+          "en": "Brazil",
+          "zh": "巴西",
+          "si": "බ්‍රසීලය"
+        },
+        "supplierLogoPath": "/assets/logos/rio-grande-coffee-exporters.png",
+        "message": {
+          "en": "Their attention to detail and customer service is exceptional.",
+          "zh": "他们对细节的关注和客户服务是卓越的。",
+          "si": "විස්තර සඳහා ඔවුන්ගේ අවධානය සහ පාරිභෝගික සේවාව විශිෂ්ට වේ."
+        }
+      },
+      {
+        "id": "supplier-review-9",
+        "supplierCompanyName": {
+          "en": "Dubai Gold Suppliers",
+          "zh": "迪拜黄金供应商",
+          "si": "දුබායි රන් සැපයුම්කරුවන්"
+        },
+        "country": {
+          "en": "UAE",
+          "zh": "阿联酋",
+          "si": "එක්සත් අරාබි එමීර් රාජ්‍යය"
+        },
+        "supplierLogoPath": "/assets/logos/dubai-gold-suppliers.png",
+        "message": {
+          "en": "FS Traders has consistently exceeded our expectations.",
+          "zh": "FS贸易商始终超出我们的期望。",
+          "si": "FS වෙළඳුන් අපගේ අපේක්ෂාවන්ට වඩා වැඩි ලෙස ක්‍රියා කර ඇත."
+        }
+      },
+      {
+        "id": "supplier-review-10",
+        "supplierCompanyName": {
+          "en": "Singapore Marine Exports",
+          "zh": "新加坡海洋出口公司",
+          "si": "සිංගප්පූරු මරීන් අපනයන"
+        },
+        "country": {
+          "en": "Singapore",
+          "zh": "新加坡",
+          "si": "සිංගප්පූරුව"
+        },
+        "supplierLogoPath": "/assets/logos/singapore-marine-exports.png",
+        "message": {
+          "en": "Their expertise in marine exports is unmatched.",
+          "zh": "他们在海洋出口方面的专业知识无与伦比。",
+          "si": "මරීන් අපනයන පිළිබඳ ඔවුන්ගේ විශේෂඥතාව අසමසමය."
+        }
+      },
+      {
+        "id": "supplier-review-11",
+        "supplierCompanyName": {
+          "en": "Bangkok Textile Suppliers",
+          "zh": "曼谷纺织供应商",
+          "si": "බැංකොක් වස්ත්‍ර සැපයුම්කරුවන්"
+        },
+        "country": {
+          "en": "Thailand",
+          "zh": "泰国",
+          "si": "තායිලන්තය"
+        },
+        "supplierLogoPath": "/assets/logos/bangkok-textile-suppliers.png",
+        "message": {
+          "en": "FS Traders has been instrumental in expanding our market reach.",
+          "zh": "FS贸易商在扩大我们的市场覆盖范围方面发挥了重要作用。",
+          "si": "අපගේ වෙළඳපොළ ආවරණය පුළුල් කිරීමට FS වෙළඳුන් මූලික කාර්යභාරයක් ඉටු කර ඇත."
+        }
+      },
+      {
+        "id": "supplier-review-12",
+        "supplierCompanyName": {
+          "en": "Moscow Frozen Foods",
+          "zh": "莫斯科冷冻食品公司",
+          "si": "මොස්කෝ ශීතකරණ ආහාර"
+        },
+        "country": {
+          "en": "Russia",
+          "zh": "俄罗斯",
+          "si": "රුසියාව"
+        },
+        "supplierLogoPath": "/assets/logos/moscow-frozen-foods.png",
+        "message": {
+          "en": "Their cold chain logistics are second to none.",
+          "zh": "他们的冷链物流无与伦比。",
+          "si": "ඔවුන්ගේ ශීත ශෘංඛලා ලොජිස්ටික් අසමසමය."
+        }
+      },
+      {
+        "id": "supplier-review-13",
+        "supplierCompanyName": {
+          "en": "Seoul Electronics Exporters",
+          "zh": "首尔电子出口商",
+          "si": "සෝල් ඉලෙක්ට්‍රොනික අපනයන"
+        },
+        "country": {
+          "en": "South Korea",
+          "zh": "韩国",
+          "si": "දකුණු කොරියාව"
+        },
+        "supplierLogoPath": "/assets/logos/seoul-electronics-exporters.png",
+        "message": {
+          "en": "FS Traders has been a game-changer for our business.",
+          "zh": "FS贸易商对我们的业务产生了重大影响。",
+          "si": "FS වෙළඳුන් අපගේ ව්‍යාපාරය සඳහා විශාල වෙනසක් සිදු කර ඇත."
+        }
+      },
+      {
+        "id": "supplier-review-14",
+        "supplierCompanyName": {
+          "en": "London Dairy Suppliers",
+          "zh": "伦敦乳制品供应商",
+          "si": "ලන්ඩන් කිරි සැපයුම්කරුවන්"
+        },
+        "country": {
+          "en": "United Kingdom",
+          "zh": "英国",
+          "si": "එක්සත් රාජධානිය"
+        },
+        "supplierLogoPath": "/assets/logos/london-dairy-suppliers.png",
+        "message": {
+          "en": "Their dedication to quality is evident in every transaction.",
+          "zh": "他们对质量的承诺在每笔交易中都显而易见。",
+          "si": "ගුණාත්මකභාවය සඳහා ඔවුන්ගේ කැපවීම සෑම ගනුදෙනුවකදීම පැහැදිලිය."
+        }
+      },
+      {
+        "id": "supplier-review-15",
+        "supplierCompanyName": {
+          "en": "Paris Wine Exporters",
+          "zh": "巴黎葡萄酒出口商",
+          "si": "පැරිස් වයින් අපනයන"
+        },
+        "country": {
+          "en": "France",
+          "zh": "法国",
+          "si": "ප්‍රංශය"
+        },
+        "supplierLogoPath": "/assets/logos/paris-wine-exporters.png",
+        "message": {
+          "en": "FS Traders has set a benchmark in the trading industry.",
+          "zh": "FS贸易商在贸易行业树立了标杆。",
+          "si": "FS වෙළඳුන් වෙළඳ කර්මාන්තයේ මීටර් ගලක් පිහිටුවා ඇත."
+        }
+      }
+    ]
+  }
+}

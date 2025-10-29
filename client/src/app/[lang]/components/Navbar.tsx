@@ -90,7 +90,7 @@ const Navbar: React.FC<NavbarProps> = ({ lang }) => {
           </ul>
 
           {/* Right button */}
-          <button className="bg-[var(--color-text-light)] text-[var(--color-primary)] px-6 py-3 rounded-full hover:bg-white/90 shadow-md">
+          <button className="bg-[var(--color-text-light)] text-[var(--color-primary)] px-6 py-3 rounded-full hover:bg-white/90 shadow-md" suppressHydrationWarning={true}>
             {navData.getQuotation}
           </button>
         </div>

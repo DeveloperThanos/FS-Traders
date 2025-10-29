@@ -1,0 +1,187 @@
+{
+  "heading": {
+    "en": "Our Suppliers",
+    "zh": "我们的供应商",
+    "si": "අපගේ සැපයුම්කරුවන්"
+  },
+  "manager": {
+    "imagePath": "/assets/team/supplier-manager.jpg",
+    "name": {
+      "en": "John Fernando",
+      "zh": "约翰·费尔南多",
+      "si": "ජෝන් ෆර්නැන්ඩෝ"
+    },
+    "role": {
+      "en": "Supplier Relations Manager",
+      "zh": "供应商关系经理",
+      "si": "සැපයුම්කරුවන්ගේ සම්බන්ධතා කළමනාකරු"
+    },
+    "heading": {
+      "en": "Meet Our Supplier Relations Manager",
+      "zh": "认识我们的供应商关系经理",
+      "si": "අපගේ සැපයුම්කරුවන්ගේ සම්බන්ධතා කළමනාකරු හමුවන්න"
+    },
+    "description": {
+      "en": "John oversees our global supplier partnerships to ensure quality, efficiency, and long-term collaboration across markets.",
+      "zh": "约翰负责监督我们的全球供应商合作伙伴关系，以确保质量、效率和长期合作。",
+      "si": "ජෝන් අපගේ ගෝලීය සැපයුම්කරුවන්ගේ හවුල්කාරිත්වයන් පාලනය කරයි, ගුණාත්මකභාවය, කාර්යක්ෂමතාවය සහ දිගුකාලීන සහයෝගය තහවුරු කිරීමට."
+    }
+  },
+  "supplierMap": {
+    "heading": {
+      "en": "Global Supplier Network",
+      "zh": "全球供应商网络",
+      "si": "ගෝලීය සැපයුම්කරුවන්ගේ ජාලය"
+    },
+    "description": {
+      "en": "Our extensive network of suppliers spans multiple continents, ensuring we source the best products worldwide.",
+      "zh": "我们广泛的供应商网络遍布多个大陆，确保我们在全球范围内采购最优质的产品。",
+      "si": "අපගේ පුළුල් සැපයුම්කරුවන්ගේ ජාලය බහු මහාද්වීප ආවරණය කරයි, අපට ලොව පුරා හොඳම නිෂ්පාදන සොයා ගැනීමට සහාය වේ."
+    },
+    "imagePath": "/assets/suppliers/map.jpg"
+  },
+  "supplierForm": {
+    "heading": {
+      "en": "Become a Supplier",
+      "zh": "成为供应商",
+      "si": "සැපයුම්කරුවෙකු වන්න"
+    },
+    "description": {
+      "en": "Interested in partnering with us? Fill out the form below to start the conversation.",
+      "zh": "有兴趣与我们合作吗？请填写下面的表格以开始对话。",
+      "si": "අප සමඟ හවුල් වීමට කැමතිද? පහත පෝරමය පුරවන්න සහ සංවාදය ආරම්භ කරන්න."
+    },
+    "formFields": {
+      "name": {
+        "en": "Full Name",
+        "zh": "全名",
+        "si": "සම්පූර්ණ නම"
+      },
+      "companyName": {
+        "en": "Company Name",
+        "zh": "公司名称",
+        "si": "සමාගමේ නම"
+      },
+      "email": {
+        "en": "Email Address",
+        "zh": "电子邮件地址",
+        "si": "ඊමේල් ලිපිනය"
+      },
+      "phone": {
+        "en": "Phone Number",
+        "zh": "电话号码",
+        "si": "දුරකථන අංකය"
+      },
+      "shipmentsPerMonth": {
+        "label": {
+          "en": "Number of Shipments per Month",
+          "zh": "每月发货数量",
+          "si": "මාසික නැව්ගත කිරීම් ගණන"
+        },
+        "options": {
+          "once": {
+            "en": "Once only",
+            "zh": "仅一次",
+            "si": "එක වරක් පමණි"
+          },
+          "fewerThan3": {
+            "en": "Fewer than 3 shipments per month",
+            "zh": "每月少于3次发货",
+            "si": "මාසික නැව්ගත කිරීම් 3 ට අඩුය"
+          },
+          "moreThan3": {
+            "en": "More than 3 shipments per month",
+            "zh": "每月超过3次发货",
+            "si": "මාසික නැව්ගත කිරීම් 3 ට වඩා වැඩිය"
+          }
+        }
+      },
+      "mode": {
+        "label": {
+          "en": "Preferred Mode of Transport",
+          "zh": "首选运输方式",
+          "si": "ප්‍රියතම ප්‍රවාහන ක්‍රමය"
+        },
+        "options": {
+          "air": {
+            "en": "Air",
+            "zh": "空运",
+            "si": "ගුවන් ප්‍රවාහනය"
+          },
+          "lcl": {
+            "en": "LCL (Less than Container Load)",
+            "zh": "拼箱运输（不足整柜）",
+            "si": "LCL (කන්ටේනරයක්‌ට වඩා අඩු ප්‍රවාහනය)"
+          }
+        }
+      },
+      "originPort": {
+        "en": "Origin Port",
+        "zh": "起运港",
+        "si": "ආරම්භක වරාය"
+      },
+      "volume": {
+        "en": "Volume",
+        "zh": "体积",
+        "si": "පරිමාව"
+      },
+      "importExport": {
+        "label": {
+          "en": "Import/Export",
+          "zh": "进口或出口",
+          "si": "ආනයන/අපනයන"
+        },
+        "options": {
+          "import": {
+            "en": "Import",
+            "zh": "进口",
+            "si": "ආනයන"
+          },
+          "export": {
+            "en": "Export",
+            "zh": "出口",
+            "si": "අපනයන"
+          }
+        }
+      },
+      "products": {
+        "label": {
+          "en": "Products",
+          "zh": "产品",
+          "si": "නිෂ්පාදන"
+        },
+        "options": {
+          "bigOnion": { "en": "Big Onion", "zh": "大洋葱", "si": "ලොකු ලූනු" },
+          "potato": { "en": "Potato", "zh": "土豆", "si": "අල" },
+          "redOnion": { "en": "Red Onion", "zh": "红洋葱", "si": "රතු ලූනු" },
+          "garlic": { "en": "Garlic", "zh": "大蒜", "si": "සුදුලුනු" },
+          "redSplitLentils": { "en": "Red Split Lentils", "zh": "红扁豆", "si": "රතු පරිප්පු" },
+          "yellowSplitLentils": { "en": "Yellow Split Lentils", "zh": "黄扁豆", "si": "කහ පරිප්පු" },
+          "greenMung": { "en": "Green Mung", "zh": "绿豆", "si": "මුං ඇට" },
+          "urudDhal": { "en": "Urud Dhal", "zh": "黑豆扁豆", "si": "උඬ්ඩ් ඩාල්" },
+          "corianderSeeds": { "en": "Coriander Seeds", "zh": "芫荽籽", "si": "කොත්මල් බීජ" },
+          "cuminSeeds": { "en": "Cumin Seeds", "zh": "孜然籽", "si": "සුදුදු බීජ" },
+          "fennelSeeds": { "en": "Fennel Seeds", "zh": "茴香籽", "si": "මැදිරි බීජ" },
+          "mustardSeeds": { "en": "Mustard Seeds", "zh": "芥菜籽", "si": "අබ බීජ" },
+          "blackPepper": { "en": "Black Pepper", "zh": "黑胡椒", "si": "කලු මිරිස්" },
+          "cinnamon": { "en": "Cinnamon", "zh": "肉桂", "si": "කුරුඳු" },
+          "cardamom": { "en": "Cardamom", "zh": "豆蔻", "si": "එලා" },
+          "cloves": { "en": "Cloves", "zh": "丁香", "si": "කරඹුන" },
+          "ceylonBlackTea": { "en": "Ceylon Black Tea", "zh": "锡兰红茶", "si": "සිලෝන් කළු තේ" },
+          "greenTea": { "en": "Green Tea", "zh": "绿茶", "si": "කොළ තේ" },
+          "whiteTea": { "en": "White Tea", "zh": "白茶", "si": "සුදු තේ" },
+          "oolongTea": { "en": "Oolong Tea", "zh": "乌龙茶", "si": "ඕලොං තේ" },
+          "dessicatedCoconut": { "en": "Desiccated Coconut", "zh": "椰蓉", "si": "පොල් කෙල" },
+          "coconutOil": { "en": "Coconut Oil", "zh": "椰子油", "si": "පොල් තෙල්" },
+          "coconutMilk": { "en": "Coconut Milk", "zh": "椰奶", "si": "පොල් කිරි" },
+          "freshCoconut": { "en": "Fresh Coconut", "zh": "鲜椰子", "si": "තාජා පොල්" }
+        }
+      }
+    },
+    "submitButton": {
+      "en": "Submit",
+      "zh": "提交",
+      "si": "ඉදිරිපත් කරන්න"
+    }
+  }
+}

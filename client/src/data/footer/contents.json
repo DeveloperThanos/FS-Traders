@@ -1,0 +1,99 @@
+{
+  "logoPath": "/assets/logo-footer.png",
+  "companyName": {
+    "en": "FS Traders Pvt Ltd",
+    "zh": "FS贸易商私人有限公司",
+    "si": "FS වෙළඳුන් පුද්ගලික සමාගම"
+  },
+  "companyDescription": {
+    "en": "FS Traders Pvt Ltd is a leading global trading company specializing",
+    "zh": "FS贸易商私人有限公司是一家领先的全球贸易公司，专注于进出口服务。我们连接全球企业，提供高质量的产品和可靠的解决方案，以满足多样化的市场需求。",
+    "si": "FS වෙළඳුන් පුද්ගලික සමාගම ආනයන හා අපනයන සේවාවන් විශේෂීකරණය කරමින් ගෝලීය වෙළඳ සමාගමකි. අපි ලොව පුරා ව්‍යාපාර සම්බන්ධ කරමින්, විවිධ වෙළඳපොළ අවශ්‍යතා පිරවීමට උසස් තත්ත්වයේ නිෂ්පාදන සහ විශ්වාසනීය විසඳුම් ලබා දෙමු."
+  },
+  "links": {
+    "side1": {
+      "heading": {
+        "en": "Quick Links",
+        "zh": "快速链接",
+        "si": "ඉක්මන් සබැඳි"
+      },
+      "home": {
+        "en": "Home",
+        "zh": "首页",
+        "si": "මුල් පිටුව",
+        "path": "/"
+      },
+      "privacyPolicy": {
+        "en": "Privacy Policy",
+        "zh": "隐私政策",
+        "si": "රහස්‍යතා ප්‍රතිපත්තිය",
+        "path": "/privacy-policy"
+      },
+      "termsConditions": {
+        "en": "Terms & Conditions",
+        "zh": "条款和条件",
+        "si": "නියම හා කොන්දේසි",
+        "path": "/terms-conditions"
+      }
+    },
+    "side2": {
+      "heading": {
+        "en": "About",
+        "zh": "关于",
+        "si": "අප ගැන"
+      },
+      "ourCompany": {
+        "en": "Our Company",
+        "zh": "我们的公司",
+        "si": "අපගේ සමාගම",
+        "path": "/about/our-company"
+      },
+      "ourLeadership": {
+        "en": "Our Leadership",
+        "zh": "我们的领导团队",
+        "si": "අපගේ නායකත්වය",
+        "path": "/about/our-leadership"
+      },
+      "ourHistory": {
+        "en": "Our History",
+        "zh": "我们的历史",
+        "si": "අපගේ ඉතිහාසය",
+        "path": "/about/our-history"
+      },
+      "ourSuppliers": {
+        "en": "Our Suppliers",
+        "zh": "我们的供应商",
+        "si": "අපගේ සැපයුම්කරුවන්",
+        "path": "/about/our-suppliers"
+      }
+    },
+    "side3": {
+      "heading": {
+        "en": "Products",
+        "zh": "产品",
+        "si": "නිෂ්පාදන"
+      },
+      "import": {
+        "en": "Import",
+        "zh": "进口",
+        "si": "ආනයන",
+        "path": "/products/import"
+      },
+      "export": {
+        "en": "Export",
+        "zh": "出口",
+        "si": "අපනයන",
+        "path": "/products/export"
+      }
+    },
+    "side4": {
+      "heading": {
+        "en": "Contact Us",
+        "zh": "联系我们",
+        "si": "අපව අමතන්න"
+      },
+      "phone": "9874563210",
+      "email": "fstraders@gmail.com"
+    }
+  }
+}
