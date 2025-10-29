@@ -203,9 +203,14 @@ function LeadersSection() {
   const title = leadersContent.title[lang] || leadersContent.title.en;
   const description = leadersContent.description[lang] || leadersContent.description.en;
   const btnText = leadersContent.btn[lang] || leadersContent.btn.en;
-  const leaders: Array<{ id: string; name: { en: string; zh?: string; si?: string }; role: { en: string; zh?: string; si?: string }; imagePath: string }> = leadersContent.leaders;
+  const leaders: Array<{
+    id: string;
+    name: { en: string; zh?: string; si?: string };
+    role: { en: string; zh?: string; si?: string };
+    imagePath: string;
+  }> = leadersContent.leaders;
 
-  const getText = (obj: any) => obj[lang] || obj.en;
+  const getText = (obj: { en: string; zh?: string; si?: string }) => obj[lang] || obj.en;
 
   return (
     <section className="bg-[var(--color-background)] max-w-7xl mx-auto py-8 sm:py-12 px-4 sm:px-6">
@@ -277,7 +282,11 @@ function ProductsSection() {
 
   const heading = productContents.heading[lang] || productContents.heading.en;
   const description = productContents.description[lang] || productContents.description.en;
-  const categories: Array<{ id: string; name: { en: string; zh?: string; si?: string }; imagePath: string }> = productContents.categories;
+  const categories: Array<{
+    id: string;
+    name: { en: string; zh?: string; si?: string };
+    imagePath: string;
+  }> = productContents.categories;
 
   return (
     <section className="bg-[var(--color-background)] max-w-7xl mx-auto py-8 sm:py-12 px-4 sm:px-6 text-center">
