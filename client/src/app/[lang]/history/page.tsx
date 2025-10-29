@@ -39,7 +39,6 @@ export default function HistoryPage() {
               const title = entry[lang]?.title || entry.en.title;
               const description = entry[lang]?.description || entry.en.description;
               const isEven = index % 2 === 1;
-              const isLast = index === timeline.length - 1;
 
               return (
                 <div key={`desktop-${entry.id}`} className="relative w-full mb-28 md:mb-20">
@@ -90,7 +89,7 @@ export default function HistoryPage() {
                       </>
                     )}
                   </div>
-                  {!isLast && <div className="h-28 md:h-20"></div>}
+                  {/* {!isLast && <div className="h-28 md:h-20"></div>} */}
                 </div>
               );
             })}
@@ -101,7 +100,6 @@ export default function HistoryPage() {
             {timeline.map((entry, index) => {
               const title = entry[lang]?.title || entry.en.title;
               const description = entry[lang]?.description || entry.en.description;
-              const isLast = index === timeline.length - 1;
 
               return (
                 <div key={`mobile-${entry.id}`} className="relative w-full">

@@ -12,6 +12,7 @@ import {
   Phone,
   Mail,
 } from "lucide-react";
+import Image from "next/image";
 
 interface LocalizedText {
   en: string;
@@ -68,9 +69,11 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 sm:gap-10 md:gap-6">
         {/* ===== Left Column - Logo and Company Info ===== */}
         <div className="flex flex-col items-start col-span-2 sm:col-span-3 md:col-span-2 space-y-4">
-          <img
+          <Image
             src={footerContent?.logoPath || fallbackFooterContent.logoPath}
             alt="Company Logo"
+            width={144} // Adjust width as needed
+            height={144} // Adjust height as needed
             className="w-28 sm:w-36 mb-3"
           />
           <h2 className="text-lg sm:text-xl font-bold">{companyName}</h2>

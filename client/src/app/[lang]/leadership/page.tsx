@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import leadershipContents from "../../../data/leadership/content.json";
 
 /* =====================
@@ -71,9 +72,11 @@ export default async function LeadershipPage({ params }: PageProps) {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-24">
           <div className="flex-[0_0_auto]">
             <div className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 group">
-              <img
+              <Image
                 src={destination1.imagePath}
                 alt={getText(destination1.name)}
+                width={300} // Adjust width as needed
+                height={400} // Adjust height as needed
                 className="w-[300px] h-[400px] object-cover transform group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-[rgba(3,18,47,0.4)] via-transparent to-transparent">
@@ -107,9 +110,11 @@ export default async function LeadershipPage({ params }: PageProps) {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row-reverse items-center gap-24">
           <div className="flex-[0_0_auto]">
             <div className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 group">
-              <img
+              <Image
                 src={destination2.imagePath}
                 alt={getText(destination2.name)}
+                width={300} // Adjust width as needed
+                height={400} // Adjust height as needed
                 className="w-[300px] h-[400px] object-cover transform group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-[rgba(3,18,47,0.4)] via-transparent to-transparent">

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import leadershipContents from "../../../../data/leadership/content.json";
 
 interface LocalizedText {
@@ -55,9 +56,11 @@ export default async function FounderPage({ params }: { params: { lang: "en" | "
                 {/* Image Card */}
                 <div className="flex-[0_0_auto]">
                     <div className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 group">
-                        <img
+                        <Image
                             src={destination2.imagePath}
                             alt={getText(destination2.name)}
+                            width={350} // Adjust width as needed
+                            height={450} // Adjust height as needed
                             className="w-[350px] h-[450px] object-cover transform group-hover:scale-105 transition-transform duration-500"
                         />
                         <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-[rgba(3,18,47,0.4)] via-transparent to-transparent">
