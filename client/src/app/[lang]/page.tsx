@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { Mouse } from "lucide-react";
+import Image from "next/image";
 
 // === IMPORT SECTIONS ===
 import heroContent from "../../data/home/hero-section/contents.json";
@@ -202,7 +203,7 @@ function LeadersSection() {
   const title = leadersContent.title[lang] || leadersContent.title.en;
   const description = leadersContent.description[lang] || leadersContent.description.en;
   const btnText = leadersContent.btn[lang] || leadersContent.btn.en;
-  const leaders = leadersContent.leaders;
+  const leaders: Array<{ id: string; name: { en: string; zh?: string; si?: string }; role: { en: string; zh?: string; si?: string }; imagePath: string }> = leadersContent.leaders;
 
   const getText = (obj: any) => obj[lang] || obj.en;
 
@@ -257,7 +258,13 @@ function SupplierSection() {
       <h1 className="text-2xl xs:text-3xl sm:text-4xl font-extrabold text-[var(--color-primary)] mb-4 sm:mb-6">{heading}</h1>
       <p className="text-base sm:text-lg text-[var(--color-text)] mb-6 sm:mb-8 px-2 sm:px-0">{description}</p>
       <div className="w-full">
-        <img src={imagePath} alt="Supplier" className="w-full h-48 sm:h-72 object-cover rounded-2xl sm:rounded-4xl shadow-md" />
+        <Image
+          src={supplierContent.imagePath}
+          alt="Supplier"
+          width={800} // Adjust width as needed
+          height={400} // Adjust height as needed
+          className="w-full h-48 sm:h-72 object-cover rounded-2xl sm:rounded-4xl shadow-md"
+        />
       </div>
     </section>
   );
@@ -270,7 +277,7 @@ function ProductsSection() {
 
   const heading = productContents.heading[lang] || productContents.heading.en;
   const description = productContents.description[lang] || productContents.description.en;
-  const categories = productContents.categories;
+  const categories: Array<{ id: string; name: { en: string; zh?: string; si?: string }; imagePath: string }> = productContents.categories;
 
   return (
     <section className="bg-[var(--color-background)] max-w-7xl mx-auto py-8 sm:py-12 px-4 sm:px-6 text-center">
@@ -278,14 +285,16 @@ function ProductsSection() {
       <p className="text-base sm:text-lg text-[var(--color-text)] mb-6 sm:mb-8 max-w-3xl mx-auto px-2 sm:px-0">{description}</p>
 
       <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-8 sm:mb-12">
-        {categories.slice(0, 4).map((category: any) => (
+        {categories.slice(0, 4).map((category) => (
           <div
             key={category.id}
             className="relative rounded-xl sm:rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 group"
           >
-            <img
+            <Image
               src={category.imagePath}
               alt={category.name[lang] || category.name.en}
+              width={300} // Adjust width as needed
+              height={300} // Adjust height as needed
               className="w-full h-[200px] xs:h-[250px] sm:h-[300px] md:h-[350px] object-cover transform group-hover:scale-105 transition-transform duration-500"
             />
             <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4 bg-black/40 text-left">
@@ -296,14 +305,16 @@ function ProductsSection() {
       </div>
 
       <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 justify-center mx-auto max-w-5xl">
-        {categories.slice(4).map((category: any) => (
+        {categories.slice(4).map((category) => (
           <div
             key={category.id}
             className="relative rounded-xl sm:rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 group"
           >
-            <img
+            <Image
               src={category.imagePath}
               alt={category.name[lang] || category.name.en}
+              width={300} // Adjust width as needed
+              height={300} // Adjust height as needed
               className="w-full h-[200px] xs:h-[250px] sm:h-[300px] md:h-[350px] object-cover transform group-hover:scale-105 transition-transform duration-500"
             />
             <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4 bg-black/60 text-left">
