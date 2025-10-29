@@ -116,7 +116,7 @@ function HeroSection() {
               transform: translateX(0);
             }
             100% {
-              transform: translateX(-50%);
+              transform: translateX(-100%);
             }
           }
         `}</style>
@@ -348,7 +348,7 @@ function CTASection() {
 
   return (
     <div className="w-full max-w-7xl mx-auto px-4 sm:px-6">
-      <section className="max-w-3xl mx-auto py-8 sm:py-12 px-4 sm:px-8 text-center bg-[var(--color-primary)] text-white rounded-2xl sm:rounded-3xl mb-8 sm:mb-15">
+      <section className="max-w-7xl mx-auto py-8 sm:py-12 px-4 sm:px-8 text-center bg-[var(--color-primary)] text-white rounded-2xl sm:rounded-3xl mb-8 sm:mb-15">
         <h1 className="text-2xl xs:text-3xl sm:text-4xl font-extrabold mb-3 sm:mb-4">{heading}</h1>
         <h2 className="text-xl xs:text-2xl sm:text-3xl font-semibold mb-4 sm:mb-6">{subheading}</h2>
         <p className="text-base sm:text-lg mb-6 sm:mb-8 max-w-2xl mx-auto px-2 sm:px-0">{description}</p>
