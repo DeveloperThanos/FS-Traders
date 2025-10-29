@@ -50,26 +50,30 @@ export default function RightSidebar({ initialLang }: { initialLang: Lang }) {
   const otherLangs = supportedLangs.filter((l) => l !== lang);
 
   return (
-    <div className="fixed right-4 top-1/3 flex flex-col gap-4 items-center z-50">
+    <div className="fixed right-2 sm:right-4 top-1/4 sm:top-1/3 flex flex-col gap-3 sm:gap-4 items-center z-50">
       <div className="relative">
         {/* Main button */}
         <button
           onClick={() => setShowLanguages(!showLanguages)}
-          className="bg-primary text-white p-2 rounded-full shadow-md hover:bg-primary/90 transition-colors"
+          className="bg-primary text-white p-1.5 sm:p-2 rounded-full shadow-md hover:bg-primary/90 transition-colors"
         >
-          {getFlag(lang)}
+          <div className="scale-75 sm:scale-100">
+            {getFlag(lang)}
+          </div>
         </button>
 
         {/* Dropdown */}
         {showLanguages && (
-          <div className="absolute top-full mt-2 flex flex-col gap-2 bg-primary p-2 rounded-lg shadow-lg">
+          <div className="absolute top-full mt-2 flex flex-col gap-1.5 sm:gap-2 bg-primary p-1.5 sm:p-2 rounded-lg shadow-lg">
             {otherLangs.map((l) => (
               <button
                 key={l}
                 onClick={() => changeLanguage(l)}
-                className="text-white p-2 rounded hover:bg-primary/80 transition-colors"
+                className="text-white p-1.5 sm:p-2 rounded hover:bg-primary/80 transition-colors"
               >
-                {getFlag(l)}
+                <div className="scale-75 sm:scale-100">
+                  {getFlag(l)}
+                </div>
               </button>
             ))}
           </div>

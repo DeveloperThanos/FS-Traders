@@ -1,4 +1,3 @@
-// src/app/[lang]/layout.tsx
 import { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import "../globals.css";
@@ -28,25 +27,27 @@ export default async function LocaleLayout({
 
   return (
     <div
-      className="flex flex-col min-h-screen text-text"
-      style={{ backgroundColor: "#F7EDE2" }} // 
+      className="flex flex-col min-h-screen w-full overflow-x-hidden text-text"
+      style={{ backgroundColor: "#F7EDE2" }}
     >
       {/* Navbar */}
       <Navbar lang={lang} />
 
       {/* Page Wrapper */}
-      <div className="flex flex-1">
+      <div className="flex flex-1 relative w-full">
         {/* Sidebar */}
         <RightSidebar initialLang={lang} />
 
         {/* Main Content Area */}
-        <main className="flex-1">
-          {children}
+        <main className="flex-1 w-full overflow-x-hidden">
+          <div className="w-full">
+            {children}
+          </div>
         </main>
       </div>
 
       {/* Footer */}
       <Footer />
-    </div>
-  );
+      </div>
+      );
 }

@@ -64,37 +64,37 @@ export default function Footer() {
   const links = footerContent?.links || fallbackFooterContent.links;
 
   return (
-    <footer className="bg-[var(--color-primary)] text-[var(--color-background)] py-16 px-6">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-10 md:gap-6">
+    <footer className="bg-[var(--color-primary)] text-[var(--color-background)] py-8 sm:py-16 px-4 sm:px-6">
+      <div className="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 sm:gap-10 md:gap-6">
         {/* ===== Left Column - Logo and Company Info ===== */}
-        <div className="flex flex-col items-start md:col-span-2 space-y-4">
+        <div className="flex flex-col items-start col-span-2 sm:col-span-3 md:col-span-2 space-y-4">
           <img
             src={footerContent?.logoPath || fallbackFooterContent.logoPath}
             alt="Company Logo"
-            className="w-36 mb-3"
+            className="w-28 sm:w-36 mb-3"
           />
-          <h2 className="text-xl font-bold">{companyName}</h2>
+          <h2 className="text-lg sm:text-xl font-bold">{companyName}</h2>
           <p className="text-sm leading-relaxed max-w-sm">
             {companyDescription}
           </p>
 
           {/* ===== Social Media Icons ===== */}
-          <div className="flex justify-start space-x-4 mt-4">
+          <div className="flex justify-start space-x-3 sm:space-x-4 mt-4">
             <a
               href="https://www.linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[var(--color-background)] p-2 rounded-full"
+              className="bg-[var(--color-background)] p-1.5 sm:p-2 rounded-full"
             >
-              <Linkedin className="text-[var(--color-primary)] w-5 h-5" />
+              <Linkedin className="text-[var(--color-primary)] w-4 h-4 sm:w-5 sm:h-5" />
             </a>
             <a
               href="https://www.facebook.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[var(--color-background)] p-2 rounded-full"
+              className="bg-[var(--color-background)] p-1.5 sm:p-2 rounded-full"
             >
-              <Facebook className="text-[var(--color-primary)] w-5 h-5" />
+              <Facebook className="text-[var(--color-primary)] w-4 h-4 sm:w-5 sm:h-5" />
             </a>
             <a
               href="https://www.instagram.com"
