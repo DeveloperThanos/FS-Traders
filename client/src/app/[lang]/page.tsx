@@ -141,7 +141,7 @@ function AboutSection() {
       </div>
 
       <div className="flex flex-col gap-4 sm:gap-6 pl-0 md:pl-20 lg:pl-40 mt-6 md:mt-0">
-        {statuses.map((status: any) => (
+        {statuses.map((status: { id: string; count: string; en: string; zh?: string; si?: string }) => (
           <StatusCard key={status.id} count={status.count} label={status[lang] || status.en} />
         ))}
       </div>
@@ -218,7 +218,7 @@ function LeadersSection() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 mx-auto w-full">
-          {leaders.map((leader: any) => (
+          {leaders.map((leader) => (
             <div
               key={leader.id}
               className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 group w-full max-w-[300px] mx-auto"
