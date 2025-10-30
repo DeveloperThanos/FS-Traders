@@ -1,6 +1,9 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, use } from "react";
+import { useSearchParams } from "next/navigation";
 import productContents from "../../../data/products/content.json";
-import "../../globals.css"; 
+import "../../globals.css";
 
 /* =====================
    Type Definitions
@@ -47,18 +50,21 @@ interface ProductContents {
 }
 
 interface PageProps {
-  params: {
+  params: Promise<{
     lang: "en" | "zh" | "si";
-  };
+  }>;
 }
 
 /* =====================
    Component
 ===================== */
-export default async function ProductsPage({ params }: PageProps) {
-  const awaitedParams = await params;
-  const { lang } = awaitedParams;
+export default function ProductsPage({ params }: PageProps) {
+  const resolvedParams = use(params);
+  const { lang } = resolvedParams;
+
   const content = productContents as ProductContents;
+  const searchParams = useSearchParams();
+  const selectedCategory = searchParams.get("category");
 
   const headings = content.headings[lang] || content.headings["en"];
 
@@ -80,9 +86,22 @@ export default async function ProductsPage({ params }: PageProps) {
     })),
   }));
 
+  /* 🔽 Scroll to the selected category with navbar offset */
+  useEffect(() => {
+    if (selectedCategory) {
+      const element = document.getElementById(selectedCategory);
+      if (element) {
+        const yOffset = -100; // Adjust offset based on your navbar height
+        const y =
+          element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: "smooth" });
+      }
+    }
+  }, [selectedCategory]);
+
   return (
-    <main className="p-8 mx-auto max-w-7xl bg-background">
-      {/* Main Heading */}
+    <main className="p-8 mx-auto max-w-7xl bg-background mt-24 scroll-smooth">
+      {/* Page Title */}
       <h1 className="text-3xl md:text-4xl font-extrabold mb-4 text-center text-primary">
         {headings.heading}
       </h1>
@@ -93,7 +112,11 @@ export default async function ProductsPage({ params }: PageProps) {
       </h2>
 
       {importCategories.map((category, index) => (
-        <section key={index} className="mb-12">
+        <section
+          key={index}
+          id={category.category}
+          className="mb-12 scroll-mt-[120px]" // 👈 ensures spacing for anchor clicks too
+        >
           <h3 className="text-2xl font-semibold mb-6 text-primary">
             {category.category}
           </h3>
@@ -102,24 +125,19 @@ export default async function ProductsPage({ params }: PageProps) {
             {category.items.map((item, idx) => (
               <div
                 key={idx}
-                className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 group"
+                className="relative rounded-xl overflow-hidden shadow-md transition-transform duration-300 hover:scale-[1.02]"
               >
-                {/* Image */}
                 <img
                   src={item.imagePath}
                   alt={item.imageName}
-                  className="w-full h-[250px] sm:h-[350px] object-cover transform group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-[250px] sm:h-[350px] object-cover"
                 />
-
-                {/* Subtle Overlay (fade effect) */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-
-                {/* Text Overlay (light bg on hover) */}
-                <div className="absolute bottom-0 left-0 right-0 p-4 transition-colors duration-300 bg-transparent group-hover:bg-black/40">
-                  <h4 className="text-lg font-semibold mb-1 text-white drop-shadow-md">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+                <div className="absolute bottom-0 left-0 right-0 p-4">
+                  <h4 className="text-lg font-semibold text-white">
                     {item.imageName}
                   </h4>
-                  <p className="text-sm text-gray-200 drop-shadow-md">
+                  <p className="text-sm text-gray-200">
                     {item.origins.join(", ")}
                   </p>
                 </div>
@@ -135,7 +153,11 @@ export default async function ProductsPage({ params }: PageProps) {
       </h2>
 
       {exportCategories.map((category, index) => (
-        <section key={index} className="mb-12">
+        <section
+          key={index}
+          id={category.category}
+          className="mb-12 scroll-mt-[120px]" // 👈 same offset for anchors
+        >
           <h3 className="text-2xl font-semibold mb-6 text-primary">
             {category.category}
           </h3>
@@ -144,24 +166,19 @@ export default async function ProductsPage({ params }: PageProps) {
             {category.items.map((item, idx) => (
               <div
                 key={idx}
-                className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 group"
+                className="relative rounded-xl overflow-hidden shadow-md transition-transform duration-300 hover:scale-[1.02]"
               >
-                {/* Image */}
                 <img
                   src={item.imagePath}
                   alt={item.imageName}
-                  className="w-full h-[250px] sm:h-[350px] object-cover transform group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-[250px] sm:h-[350px] object-cover"
                 />
-
-                {/* Subtle Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-
-                {/* Text Overlay */}
-                <div className="absolute bottom-0 left-0 right-0 p-4 transition-colors duration-300 bg-transparent group-hover:bg-black/40">
-                  <h4 className="text-lg font-semibold mb-1 text-white drop-shadow-md">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+                <div className="absolute bottom-0 left-0 right-0 p-4">
+                  <h4 className="text-lg font-semibold text-white">
                     {item.imageName}
                   </h4>
-                  <p className="text-sm text-gray-200 drop-shadow-md">
+                  <p className="text-sm text-gray-200">
                     {item.origins.join(", ")}
                   </p>
                 </div>

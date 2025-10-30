@@ -6,19 +6,13 @@ import { useState, useEffect } from "react";
 const supportedLangs = ["en", "zh", "si"] as const;
 type Lang = (typeof supportedLangs)[number];
 
-// --- Flags ---
-const EnglishFlag = () => <div className="text-xl">🇬🇧</div>;
-const ChineseFlag = () => <div className="text-xl">🇨🇳</div>;
-const SinhalaFlag = () => <div className="text-xl">🇱🇰</div>;
-
-// --- Sidebar ---
 export default function RightSidebar({ initialLang }: { initialLang: Lang }) {
   const [lang, setLang] = useState<Lang>(initialLang);
   const [showLanguages, setShowLanguages] = useState(false);
   const router = useRouter();
   const pathname = usePathname();
 
-  // Sync lang with URL
+  // Sync language with URL
   useEffect(() => {
     const currentLang = pathname.split("/")[1] as Lang;
     if (supportedLangs.includes(currentLang) && currentLang !== lang) {
@@ -35,48 +29,105 @@ export default function RightSidebar({ initialLang }: { initialLang: Lang }) {
     setShowLanguages(false);
   };
 
-  // Get flag component
-  const getFlag = (code: Lang) => {
-    switch (code) {
-      case "en":
-        return <EnglishFlag />;
-      case "zh":
-        return <ChineseFlag />;
-      case "si":
-        return <SinhalaFlag />;
-    }
+  // Flag icons (small, circular)
+  const langFlags: Record<Lang, string> = {
+    en: "https://flagcdn.com/w40/gb.png",
+    zh: "https://flagcdn.com/w40/cn.png",
+    si: "https://flagcdn.com/w40/lk.png",
   };
 
-  const otherLangs = supportedLangs.filter((l) => l !== lang);
-
   return (
-    <div className="fixed right-2 sm:right-4 top-1/4 sm:top-1/3 flex flex-col gap-3 sm:gap-4 items-center z-50">
-      <div className="relative">
-        {/* Main button */}
-        <button
-          onClick={() => setShowLanguages(!showLanguages)}
-          className="bg-primary text-white p-1.5 sm:p-2 rounded-full shadow-md hover:bg-primary/90 transition-colors"
-        >
-          <div className="scale-75 sm:scale-100">
-            {getFlag(lang)}
-          </div>
-        </button>
+    <div className="fixed right-2 sm:right-4 top-1/4 sm:top-1/3 flex flex-col items-center gap-3 sm:gap-3 z-50">
+      {/* === Language Switcher Button === */}
+      <button
+        onClick={() => setShowLanguages(!showLanguages)}
+        className="focus:outline-none"
+        title="Change Language"
+      >
+        <img
+          src="/assets/images/lang-icon.png"
+          alt="Language Selector"
+          title="Change Language"
+          className="w-8 h-8 sm:w-10 sm:h-10 hover:scale-110 transition-transform duration-300 ease-in-out"
+        />
+      </button>
 
-        {/* Dropdown */}
-        {showLanguages && (
-          <div className="absolute top-full mt-2 flex flex-col gap-1.5 sm:gap-2 bg-primary p-1.5 sm:p-2 rounded-lg shadow-lg">
-            {otherLangs.map((l) => (
-              <button
-                key={l}
-                onClick={() => changeLanguage(l)}
-                className="text-white p-1.5 sm:p-2 rounded hover:bg-primary/80 transition-colors"
-              >
-                <div className="scale-75 sm:scale-100">
-                  {getFlag(l)}
-                </div>
-              </button>
-            ))}
-          </div>
+      {/* === Icons (Language Flags OR Socials) === */}
+      <div className="flex flex-col items-center gap-2 sm:gap-3 transition-all duration-300 ease-in-out">
+        {showLanguages ? (
+          // --- Show Language Flags ---
+          supportedLangs.map((l) => (
+            <button
+              key={l}
+              onClick={() => changeLanguage(l)}
+              className="focus:outline-none"
+              title={
+                l === "en"
+                  ? "Switch to English"
+                  : l === "zh"
+                  ? "切换到中文"
+                  : "සිංහලට මාරු වන්න"
+              }
+            >
+              <img
+                src={langFlags[l]}
+                alt={`${l.toUpperCase()} Flag`}
+                title={
+                  l === "en"
+                    ? "English"
+                    : l === "zh"
+                    ? "Mandarin"
+                    : "Sinhala"
+                }
+                className="w-7 h-7 sm:w-9 sm:h-9 rounded-full border border-white/70 shadow-md hover:scale-110 transition-transform duration-300 ease-in-out object-cover"
+              />
+            </button>
+          ))
+        ) : (
+          // --- Show Social Media Icons ---
+          <>
+            {/* Gmail */}
+            <a
+              href="mailto:yourname@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Contact via Email"
+            >
+              <img
+                src="https://img.icons8.com/bubbles/100/gmail-new.png"
+                alt="Email"
+                className="w-8 h-8 sm:w-10 sm:h-10 hover:scale-110 transition-transform duration-300 ease-in-out"
+              />
+            </a>
+
+            {/* WeChat */}
+            <a
+              href="weixin://dl/chat?yourwechatid"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Contact via WeChat"
+            >
+              <img
+                src="https://img.icons8.com/bubbles/100/weixing--v1.png"
+                alt="WeChat"
+                className="w-8 h-8 sm:w-10 sm:h-10 hover:scale-110 transition-transform duration-300 ease-in-out"
+              />
+            </a>
+
+            {/* WhatsApp */}
+            <a
+              href="https://wa.me/1234567890"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Contact via WhatsApp"
+            >
+              <img
+                src="https://img.icons8.com/bubbles/100/whatsapp.png"
+                alt="WhatsApp"
+                className="w-8 h-8 sm:w-10 sm:h-10 hover:scale-110 transition-transform duration-300 ease-in-out"
+              />
+            </a>
+          </>
         )}
       </div>
     </div>

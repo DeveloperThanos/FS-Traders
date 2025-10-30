@@ -6,6 +6,7 @@
       "subNav": {
         "ourCompany": "Our Company",
         "ourLeadership": "Our Leadership",
+        "ourSuppliers": "Our Suppliers",
         "ourHistory": "Our History"
       }
     },
@@ -19,6 +20,7 @@
       "subNav": {
         "ourCompany": "我们的公司",
         "ourLeadership": "我们的领导层",
+        "ourSuppliers": "我们的供应商",
         "ourHistory": "我们的历史"
       }
     },
@@ -32,6 +34,7 @@
       "subNav": {
         "ourCompany": "අපේ සමාගම",
         "ourLeadership": "අපේ නායකත්වය",
+        "ourSuppliers": "අපේ සැපයුම්කරුවන්",
         "ourHistory": "අපේ ඉතිහාසය"
       }
     },

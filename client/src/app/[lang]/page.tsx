@@ -53,9 +53,8 @@ function HeroSection() {
         {backgrounds.map((path, i) => (
           <div
             key={`bg-${i}`}
-            className={`absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-in-out ${
-              i === currentBg ? "opacity-100" : "opacity-0"
-            }`}
+            className={`absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-in-out ${i === currentBg ? "opacity-100" : "opacity-0"
+              }`}
             style={{ backgroundImage: `url(${path})` }}
           ></div>
         ))}
@@ -116,8 +115,12 @@ function HeroSection() {
               transform: translateX(0);
             }
             100% {
-              transform: translateX(-100%);
+              transform: translateX(-50%);
             }
+          }
+          .animate-slide {
+            display: flex;
+            width: calc(200% + 16px); /* Ensures no gaps between images */
           }
         `}</style>
       </section>
@@ -290,9 +293,14 @@ function ProductsSection() {
 
   return (
     <section className="bg-[var(--color-background)] max-w-7xl mx-auto py-8 sm:py-12 px-4 sm:px-6 text-center">
-      <h1 className="text-2xl xs:text-3xl sm:text-4xl font-extrabold text-[var(--color-primary)] mb-4 sm:mb-6">{heading}</h1>
-      <p className="text-base sm:text-lg text-[var(--color-text)] mb-6 sm:mb-8 max-w-3xl mx-auto px-2 sm:px-0">{description}</p>
+      <h1 className="text-2xl xs:text-3xl sm:text-4xl font-extrabold text-[var(--color-primary)] mb-4 sm:mb-6">
+        {heading}
+      </h1>
+      <p className="text-base sm:text-lg text-[var(--color-text)] mb-6 sm:mb-8 max-w-3xl mx-auto px-2 sm:px-0">
+        {description}
+      </p>
 
+      {/* First Row: 4 items */}
       <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-8 sm:mb-12">
         {categories.slice(0, 4).map((category) => (
           <div
@@ -302,17 +310,20 @@ function ProductsSection() {
             <Image
               src={category.imagePath}
               alt={category.name[lang] || category.name.en}
-              width={300} // Adjust width as needed
-              height={300} // Adjust height as needed
-              className="w-full h-[200px] xs:h-[250px] sm:h-[300px] md:h-[350px] object-cover transform group-hover:scale-105 transition-transform duration-500"
+              width={300}
+              height={300}
+              className="w-full h-[200px] xs:h-[250px] sm:h-[300px] md:h-[320px] object-cover transform group-hover:scale-105 transition-transform duration-500"
             />
             <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4 bg-black/40 text-left">
-              <h4 className="text-base sm:text-lg font-semibold text-white">{category.name[lang] || category.name.en}</h4>
+              <h4 className="text-base sm:text-lg font-semibold text-white">
+                {category.name[lang] || category.name.en}
+              </h4>
             </div>
           </div>
         ))}
       </div>
 
+      {/* Second Row: Remaining items */}
       <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 justify-center mx-auto max-w-5xl">
         {categories.slice(4).map((category) => (
           <div
@@ -322,12 +333,14 @@ function ProductsSection() {
             <Image
               src={category.imagePath}
               alt={category.name[lang] || category.name.en}
-              width={300} // Adjust width as needed
-              height={300} // Adjust height as needed
-              className="w-full h-[200px] xs:h-[250px] sm:h-[300px] md:h-[350px] object-cover transform group-hover:scale-105 transition-transform duration-500"
+              width={300}
+              height={300}
+              className="w-full h-[200px] xs:h-[250px] sm:h-[300px] md:h-[320px] object-cover transform group-hover:scale-105 transition-transform duration-500"
             />
             <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4 bg-black/60 text-left">
-              <h4 className="text-base sm:text-lg font-semibold text-white">{category.name[lang] || category.name.en}</h4>
+              <h4 className="text-base sm:text-lg font-semibold text-white">
+                {category.name[lang] || category.name.en}
+              </h4>
             </div>
           </div>
         ))}
