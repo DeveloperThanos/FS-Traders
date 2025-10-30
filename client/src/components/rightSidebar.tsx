@@ -48,7 +48,7 @@ export default function RightSidebar({ initialLang }: { initialLang: Lang }) {
           src="/assets/images/lang-icon.png"
           alt="Language Selector"
           title="Change Language"
-          className="w-8 h-8 sm:w-10 sm:h-10 hover:scale-110 transition-transform duration-300 ease-in-out"
+          className="w-14 h-14 sm:w-14 sm:h-14 hover:scale-110 transition-transform duration-300 ease-in-out"
         />
       </button>
 
@@ -79,7 +79,7 @@ export default function RightSidebar({ initialLang }: { initialLang: Lang }) {
                     ? "Mandarin"
                     : "Sinhala"
                 }
-                className="w-7 h-7 sm:w-9 sm:h-9 rounded-full border border-white/70 shadow-md hover:scale-110 transition-transform duration-300 ease-in-out object-cover"
+                className="w-9 h-9 sm:w-9 sm:h-9 gap-5 rounded-full border border-white/70 shadow-md hover:scale-110 transition-transform duration-300 ease-in-out object-cover"
               />
             </button>
           ))
@@ -96,7 +96,7 @@ export default function RightSidebar({ initialLang }: { initialLang: Lang }) {
               <img
                 src="https://img.icons8.com/bubbles/100/gmail-new.png"
                 alt="Email"
-                className="w-8 h-8 sm:w-10 sm:h-10 hover:scale-110 transition-transform duration-300 ease-in-out"
+                className="w-12 h-12 sm:w-12 sm:h-12 hover:scale-110 transition-transform duration-300 ease-in-out"
               />
             </a>
 
@@ -110,7 +110,7 @@ export default function RightSidebar({ initialLang }: { initialLang: Lang }) {
               <img
                 src="https://img.icons8.com/bubbles/100/weixing--v1.png"
                 alt="WeChat"
-                className="w-8 h-8 sm:w-10 sm:h-10 hover:scale-110 transition-transform duration-300 ease-in-out"
+                className="w-12 h-12 sm:w-12 sm:h-12 hover:scale-110 transition-transform duration-300 ease-in-out"
               />
             </a>
 
@@ -124,7 +124,7 @@ export default function RightSidebar({ initialLang }: { initialLang: Lang }) {
               <img
                 src="https://img.icons8.com/bubbles/100/whatsapp.png"
                 alt="WhatsApp"
-                className="w-8 h-8 sm:w-10 sm:h-10 hover:scale-110 transition-transform duration-300 ease-in-out"
+                className="w-12 h-12 sm:w-12 sm:h-12 hover:scale-110 transition-transform duration-300 ease-in-out"
               />
             </a>
           </>

@@ -49,7 +49,7 @@ function HeroSection() {
 
   return (
     <main className="relative w-full overflow-hidden">
-      <section className="relative w-full h-screen flex flex-col justify-center items-center text-center text-white overflow-hidden">
+      <section className="relative w-full h-[75vh] sm:h-screen flex flex-col justify-center items-center text-center text-white overflow-hidden">
         {backgrounds.map((path, i) => (
           <div
             key={`bg-${i}`}
@@ -197,7 +197,6 @@ function StatusCard({ count, label }: { count: string; label: string }) {
   );
 }
 
-// ======================== LEADERS SECTION ========================
 function LeadersSection() {
   const params = useParams();
   const lang = (params.lang as "en" | "zh" | "si") || "en";
@@ -217,16 +216,25 @@ function LeadersSection() {
 
   return (
     <section className="bg-[var(--color-background)] max-w-7xl mx-auto py-8 sm:py-12 px-4 sm:px-6">
-      <h1 className="text-2xl xs:text-3xl sm:text-4xl font-extrabold text-center text-[var(--color-primary)] mb-8 sm:mb-12">{heading}</h1>
+      {/* Heading */}
+      <h1 className="text-2xl xs:text-3xl sm:text-4xl font-extrabold text-center text-[var(--color-primary)] mb-8 sm:mb-12">
+        {heading}
+      </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 mx-auto w-full">
+      {/* Responsive layout wrapper */}
+      <div className="flex flex-col md:grid md:grid-cols-2 gap-8 md:gap-16 items-center">
+        {/* === LEFT (Images) === */}
+        <div className="order-4 md:order-1 grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 mx-auto w-full">
           {leaders.map((leader) => (
             <div
               key={leader.id}
               className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 group w-full max-w-[300px] mx-auto"
             >
-             <img src={leader.imagePath} alt={getText(leader.name)} className="w-full h-92 sm:h-96 object-cover" />
+              <img
+                src={leader.imagePath}
+                alt={getText(leader.name)}
+                className="w-full h-92 sm:h-96 object-cover"
+              />
               <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-5 text-left w-full bg-gradient-to-t from-[rgba(0,0,0,0.6)] to-transparent">
                 <h4 className="text-base sm:text-lg font-bold mb-1 text-white">{getText(leader.name)}</h4>
                 <p className="text-xs sm:text-sm text-gray-200">{getText(leader.role)}</p>
@@ -235,10 +243,17 @@ function LeadersSection() {
           ))}
         </div>
 
-        <div className="flex flex-col justify-center text-center md:text-left">
-          <h2 className="text-2xl xs:text-3xl sm:text-4xl font-bold text-[var(--color-primary)] mb-4 sm:mb-6">{title}</h2>
-          <p className="text-base sm:text-lg text-[var(--color-text)] mb-4 sm:mb-6 px-2 md:px-0">{description}</p>
-          <div className="mt-4 sm:mt-5 flex justify-center md:justify-start">
+        {/* === RIGHT (Text + Button for Desktop) === */}
+        <div className="order-2 md:order-2 flex flex-col justify-center text-center md:text-left">
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl font-bold text-[var(--color-primary)] mb-4 sm:mb-6">
+            {title}
+          </h2>
+          <p className="text-base sm:text-lg text-[var(--color-text)] mb-4 sm:mb-6 px-2 md:px-0">
+            {description}
+          </p>
+
+          {/* Button — visible here on desktop/tablet only */}
+          <div className="hidden md:flex mt-4 sm:mt-5 justify-center md:justify-start">
             <a
               href={`/${lang}/leadership`}
               className="inline-block border border-[var(--color-primary)] text-[var(--color-text)] font-semibold py-2 sm:py-3 px-4 sm:px-6 rounded-4xl shadow transition-colors duration-200 hover:bg-[var(--color-primary)] hover:text-white text-sm sm:text-base"
@@ -246,6 +261,16 @@ function LeadersSection() {
               {btnText}
             </a>
           </div>
+        </div>
+
+        {/* === Button (Mobile Only, Below Images) === */}
+        <div className="order-5 md:hidden mt-6 flex justify-center">
+          <a
+            href={`/${lang}/leadership`}
+            className="inline-block w-full max-w-[250px] text-center border border-[var(--color-primary)] text-[var(--color-text)] font-semibold py-2 px-4 rounded-4xl shadow transition-colors duration-200 hover:bg-[var(--color-primary)] hover:text-white text-sm"
+          >
+            {btnText}
+          </a>
         </div>
       </div>
     </section>
