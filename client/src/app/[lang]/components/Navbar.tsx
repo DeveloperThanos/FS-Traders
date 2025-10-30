@@ -131,9 +131,9 @@ const Navbar: React.FC<NavbarProps> = ({ lang }) => {
               >
                 {[
                   { label: navData.about.subNav.ourCompany, path: "/our-company" },
-                  { label: navData.about.subNav.ourSuppliers, path: "/our-suppliers" },
-                  { label: navData.about.subNav.ourLeadership, path: "/our-leadership" },
-                  { label: navData.about.subNav.ourHistory, path: "/our-history" },
+                  { label: navData.about.subNav.ourSuppliers, path: "/" },
+                  { label: navData.about.subNav.ourLeadership, path: "/" },
+                  { label: navData.about.subNav.ourHistory, path: "/" },
                 ].map((item, idx) => (
                   <button
                     key={idx}
@@ -245,7 +245,7 @@ const Navbar: React.FC<NavbarProps> = ({ lang }) => {
                   { label: navData.about.subNav.ourCompany, path: "/our-company" },
                   { label: navData.about.subNav.ourSuppliers, path: "/our-suppliers" },
                   { label: navData.about.subNav.ourLeadership, path: "/our-leadership" },
-                  { label: navData.about.subNav.ourHistory, path: "/our-history" },
+                  { label: navData.about.subNav.ourHistory, path: "/" },
                 ].map((item, idx) => (
                   <button
                     key={idx}
