@@ -49,7 +49,7 @@ export default function CompanyPage() {
   return (
     <main className="p-4 md:p-8">
       {/* About Us Section */}
-      <section className="max-w-6xl mx-auto mb-12 md:mb-20">
+      <section className="max-w-6xl mx-auto mb-12 md:mb-20 mt-20">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-center text-primary mb-8 md:mb-12">
           {about.heading}
         </h1>
