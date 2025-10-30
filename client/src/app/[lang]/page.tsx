@@ -226,7 +226,7 @@ function LeadersSection() {
               key={leader.id}
               className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 group w-full max-w-[300px] mx-auto"
             >
-              <img src={leader.imagePath} alt={getText(leader.name)} className="w-full h-72 sm:h-96 object-cover" />
+             <img src={leader.imagePath} alt={getText(leader.name)} className="w-full h-92 sm:h-96 object-cover" />
               <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-5 text-left w-full bg-gradient-to-t from-[rgba(0,0,0,0.6)] to-transparent">
                 <h4 className="text-base sm:text-lg font-bold mb-1 text-white">{getText(leader.name)}</h4>
                 <p className="text-xs sm:text-sm text-gray-200">{getText(leader.role)}</p>
@@ -262,16 +262,19 @@ function SupplierSection() {
   const imagePath = supplierContent.imagePath;
 
   return (
-    <section className="bg-[var(--color-background)] max-w-6xl mx-auto py-8 sm:py-12 px-4 sm:px-6 text-center">
+    <section className="bg-[var(--color-background)] max-w-7xl mx-auto py-8 sm:py-12 px-4 sm:px-6 text-center">
       <h1 className="text-2xl xs:text-3xl sm:text-4xl font-extrabold text-[var(--color-primary)] mb-4 sm:mb-6">{heading}</h1>
-      <p className="text-base sm:text-lg text-[var(--color-text)] mb-6 sm:mb-8 px-2 sm:px-0">{description}</p>
+      <p className="text-base sm:text-lg text-[var(--color-text)] mb-6 sm:mb-8 px-2 sm:px-0 max-w-3xl mx-auto text-center">
+        {description}
+      </p>
+
       <div className="w-full">
         <Image
-          src={supplierContent.imagePath}
+          src={imagePath}
           alt="Supplier"
-          width={800} // Adjust width as needed
-          height={400} // Adjust height as needed
-          className="w-full h-48 sm:h-72 object-cover rounded-2xl sm:rounded-4xl shadow-md"
+          width={800} 
+          height={400} 
+          className="w-full h-48 sm:h-86 object-cover rounded-2xl sm:rounded-4xl shadow-md"
         />
       </div>
     </section>
@@ -301,21 +304,20 @@ function ProductsSection() {
       </p>
 
       {/* First Row: 4 items */}
-      <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-8 sm:mb-12">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-12">
         {categories.slice(0, 4).map((category) => (
           <div
             key={category.id}
-            className="relative rounded-xl sm:rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 group"
+            className="relative rounded-xl overflow-hidden shadow-md transition-transform duration-300 hover:scale-[1.02]"
           >
-            <Image
+            <img
               src={category.imagePath}
               alt={category.name[lang] || category.name.en}
-              width={300}
-              height={300}
-              className="w-full h-[200px] xs:h-[250px] sm:h-[300px] md:h-[320px] object-cover transform group-hover:scale-105 transition-transform duration-500"
+              className="w-full h-[250px] sm:h-[350px] object-cover"
             />
-            <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4 bg-black/40 text-left">
-              <h4 className="text-base sm:text-lg font-semibold text-white">
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+            <div className="absolute bottom-0 left-0 right-0 p-4">
+              <h4 className="text-lg font-semibold text-white">
                 {category.name[lang] || category.name.en}
               </h4>
             </div>
@@ -324,21 +326,20 @@ function ProductsSection() {
       </div>
 
       {/* Second Row: Remaining items */}
-      <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 justify-center mx-auto max-w-5xl">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center mx-auto max-w-5xl">
         {categories.slice(4).map((category) => (
           <div
             key={category.id}
-            className="relative rounded-xl sm:rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 group"
+            className="relative rounded-xl overflow-hidden shadow-md transition-transform duration-300 hover:scale-[1.02]"
           >
-            <Image
+            <img
               src={category.imagePath}
               alt={category.name[lang] || category.name.en}
-              width={300}
-              height={300}
-              className="w-full h-[200px] xs:h-[250px] sm:h-[300px] md:h-[320px] object-cover transform group-hover:scale-105 transition-transform duration-500"
+              className="w-full h-[250px] sm:h-[350px] object-cover"
             />
-            <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4 bg-black/60 text-left">
-              <h4 className="text-base sm:text-lg font-semibold text-white">
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+            <div className="absolute bottom-0 left-0 right-0 p-4">
+              <h4 className="text-lg font-semibold text-white">
                 {category.name[lang] || category.name.en}
               </h4>
             </div>
@@ -348,6 +349,7 @@ function ProductsSection() {
     </section>
   );
 }
+
 
 // ======================== CTA SECTION ========================
 function CTASection() {
