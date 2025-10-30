@@ -10,6 +10,15 @@ type NavbarProps = {
   lang: "en" | "zh" | "si";
 };
 
+// Product JSON types (narrowed to avoid `any` and satisfy eslint)
+type LocalizedEntry = {
+  category?: string;
+  assetName?: string;
+  items?: unknown[];
+};
+
+type ProductCategory = Partial<Record<'en' | 'zh' | 'si', LocalizedEntry>>;
+
 const Navbar: React.FC<NavbarProps> = ({ lang }) => {
   const router = useRouter();
 
@@ -28,13 +37,13 @@ const Navbar: React.FC<NavbarProps> = ({ lang }) => {
     productData.headings?.["en"]?.subheadingExport ||
     "Export Products";
 
-  const importCategories = Object.values(productData.import || {}).map(
-    (cat: any) => cat[lang]?.category || cat.en?.category
-  );
+  const importCategories = Object.values(productData.import || {})
+    .map((cat: ProductCategory) => cat[lang]?.category || cat.en?.category)
+    .filter((c): c is string => typeof c === "string");
 
-  const exportCategories = Object.values(productData.export || {}).map(
-    (cat: any) => cat[lang]?.category || cat.en?.category
-  );
+  const exportCategories = Object.values(productData.export || {})
+    .map((cat: ProductCategory) => cat[lang]?.category || cat.en?.category)
+    .filter((c): c is string => typeof c === "string");
 
   // ✅ States
   const [isMenuOpen, setIsMenuOpen] = useState(false);
