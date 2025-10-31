@@ -17,7 +17,7 @@
         "zh": "农产品",
         "si": "කෘෂිකර්ම නිෂ්පාදන"
       },
-      "imagePath": "/assets/home/hero-section/bg1.jpg"
+      "imagePath": "/assets/home/products/bg1.jpg"
     },
     {
       "id": "category-2",
@@ -26,7 +26,7 @@
         "zh": "纺织品和服装",
         "si": "විලාසිතා හා ඇඳුම්"
       },
-      "imagePath": "/assets/home/hero-section/bg2.jpg"
+      "imagePath": "/assets/home/products/bg2.jpg"
     },
     {
       "id": "category-3",
@@ -35,7 +35,7 @@
         "zh": "建筑材料",
         "si": "ගොඩනැගිලි ද්‍රව්‍ය"
       },
-      "imagePath": "/assets/home/hero-section/bg3.jpg"
+      "imagePath": "/assets/home/products/bg3.jpg"
     },
     {
       "id": "category-4",
@@ -44,7 +44,7 @@
         "zh": "工业设备",
         "si": "කාර්මාන්ත උපාංග"
       },
-      "imagePath": "/assets/home/hero-section/bg4.jpg"
+      "imagePath": "/assets/home/products/bg4.jpg"
     },
     {
       "id": "category-5",
@@ -53,7 +53,7 @@
         "zh": "家居用品",
         "si": "ගෘහ භාණ්ඩ"
       },
-      "imagePath": "/assets/home/hero-section/bg1.jpg"
+      "imagePath": "/assets/home/products/bg1.jpg"
     },
     {
       "id": "category-6",
@@ -62,7 +62,7 @@
         "zh": "汽车零部件",
         "si": "වාහන කොටස්"
       },
-      "imagePath": "/assets/home/hero-section/bg1.jpg"
+      "imagePath": "/assets/home/products/bg1.jpg"
     },
     {
       "id": "category-7",
@@ -71,7 +71,7 @@
         "zh": "食品和饮料",
         "si": "ආහාර සහ පානය"
       },
-      "imagePath": "/assets/home/hero-section/bg1.jpg"
+      "imagePath": "/assets/home/products/bg1.jpg"
     }
   ]
 }
