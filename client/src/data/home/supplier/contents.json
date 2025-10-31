@@ -1,13 +1,13 @@
 {
   "heading": {
-    "en": "Suppliers Map",
-    "zh": "供应商地图",
-    "si": "සැපයුම්කරුවන්ගේ සිතියම"
+    "en": "Suppliers Traders Map",
+    "zh": "供应商和贸易商地图",
+    "si": "සැපයුම්කරුවන් වෙළඳුන් සිතියම"
   },
   "description": {
-    "en": "Our interactive supplier map gives you a clear view of our global partnerships, proving how FS Traders connects businesses seamlessly across borders.",
-    "zh": "探索我们遍布全球的广泛可信供应商网络，确保每一个合作关系的质量和可靠性。",
-    "si": "ගුණාත්මකභාවය සහ විශ්වාසනීයභාවය සෑම හවුල්කාරිත්වයකින්ම සහතික කරමින්, ගෝලයේ පුරා අපගේ විශ්වාසනීය සැපයුම්කරුවන්ගේ පුළුල් ජාලය සොයා බලන්න."
+    "en": "how are you who are you good boy",
+    "zh": "你好吗 你是谁 好孩子",
+    "si": "ඔබට කොහොමද ඔබ කවුද හොඳ ළමයා"
   },
   "imagePath": "/assets/home/suppliers/map.jpg"
 }
