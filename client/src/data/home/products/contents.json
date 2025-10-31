@@ -53,7 +53,7 @@
         "zh": "家居用品",
         "si": "ගෘහ භාණ්ඩ"
       },
-      "imagePath": "/assets/home/products/bg1.jpg"
+      "imagePath": "/assets/home/products/bg.jpg"
     },
     {
       "id": "category-6",
@@ -62,7 +62,7 @@
         "zh": "汽车零部件",
         "si": "වාහන කොටස්"
       },
-      "imagePath": "/assets/home/products/bg1.jpg"
+      "imagePath": "/assets/home/products/bg.jpg"
     },
     {
       "id": "category-7",
@@ -71,7 +71,7 @@
         "zh": "食品和饮料",
         "si": "ආහාර සහ පානය"
       },
-      "imagePath": "/assets/home/products/bg1.jpg"
+      "imagePath": "/assets/home/products/bg.jpg"
     }
   ]
 }
