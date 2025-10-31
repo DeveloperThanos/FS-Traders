@@ -1,35 +1,35 @@
 {
   "title": {
     "en": "Growth begins with strong connections",
-    "zh": "赋能企业，无限贸易。",
-    "si": "ව්‍යාපාරවලට සීමා රහිතව වෙළඳාම් කිරීමට සවිබල ගැන්වීම."
+    "zh": "增长始于紧密连接",
+    "si": "ශක්තිමත් සබඳතා සමඟ වර්ධනය ආරම්භ වේ"
   },
   "description": {
-    "en": "Our mission is to bridge international businesses with seamless export and import solutions. Every transaction we handle strengthens partnerships and drives global opportunities.",
-    "zh": "我们的使命是为国际企业提供无缝的进出口解决方案。每一笔交易都加强合作关系并推动全球机遇。",
-    "si": "අපගේ මෙහෙවර වන්නේ ජාත්‍යන්තර ව්‍යාපාරවලට අඛණ්ඩ අපනයන සහ ආනයන විසඳුම් සපයීමයි. අප කළ සෑම ගනුදෙනුවක්ම හවුල්කාරිත්වයන් ශක්තිමත් කරමින් ගෝලීය අවස්ථා ධාවනය කරයි."
+    "en": " Every transaction we handle strengthens partnerships and drives global opportunities.",
+    "zh": "我们处理的每笔交易都巩固伙伴关系，并驱动全球机遇。",
+    "si": "අප හසුරුවන සෑම ගනුදෙනුවක්ම හවුල්කාරිත්වයන් ශක්තිමත් කරන අතර ගෝලීය අවස්ථා මෙහෙයවයි."
   },
   "status": [
     {
       "id": "status-1",
-      "count": "50+",
+      "count": "40+",
       "en": "Supplier connections",
       "zh": "供应商连接",
-      "si": "සැපයුම්කරුවන්ගේ සම්බන්ධතා"
+      "si": "සැපයුම්කරු සම්බන්ධතා"
     },
     {
       "id": "status-2",
-      "count": "20+",
-      "en": "Export destinations",
-      "zh": "出口目的地",
-      "si": "අපනයන ගමනාන්ත"
+      "count": "60+",
+      "en": "Years of experience",
+      "zh": "多年的经验",
+      "si": "වසර ගණනක අත්දැකීම්"
     },
     {
       "id": "status-3",
-      "count": "15+",
-      "en": "Years of experience",
-      "zh": "年经验",
-      "si": "අත්දැකීම් වසර"
+      "count": "55+",
+      "en": "Export destinations",
+      "zh": "出口目的地",
+      "si": "අපනයන ගමනාන්ත"
     }
   ]
 }
