@@ -1,40 +1,40 @@
 {
-    "background": {
-        "bg1-path": "/assets/home/hero-section/bg1.jpg",
-        "bg2-path": "/assets/home/hero-section/bg2.jpg",
-        "bg3-path": "/assets/home/hero-section/bg3.jpg",
-        "bg4-path": "/assets/home/hero-section/bg4.jpg"
-    },
-    "heading": {
-        "en": "Your Global Trade Partner",
-        "zh": "您的全球贸易合作伙伴",
-        "si": "ඔබගේ ගෝලීය වෙළඳ අංශයේ හවුල්කාරයා"
-    },
-    "subheading": {
-        "en": "Committed to delivering quality, reliability, and value through world-class import and export operations.",
-        "zh": "致力于通过世界一流的进出口业务提供高质量、可靠性和价值。",
-        "si": "ලෝකප්‍රසිද්ධ ආනයන හා අපනයන මෙහෙයුම් හරහා ගුණාත්මකභාවය, විශ්වාසනීයභාවය සහ අගය ලබාදීමට අප කැපවෙලා සිටිමු."
-    },
-    "btn": {
-        "en": "Explore",
-        "zh": "探索",
-        "si": "අවලෝකනය කරන්න"
-    },
-    "scrolldown": {
-        "en": "Scroll Down",
-        "zh": "向下滚动",
-        "si": "පහලට ස්ක්‍රෝල් කරන්න"
-    },
-    "suppliers-branding": {
-        "branding1-path": "/assets/home/brands/brand1.png",
-        "branding2-path": "/assets/home/brands/brand2.png",
-        "branding3-path": "/assets/home/brands/brand3.png",
-        "branding4-path": "/assets/home/brands/brand4.png",
-        "branding5-path": "/assets/home/brands/brand5.png",
-        "branding6-path": "/assets/home/brands/brand6.png",
-        "branding7-path": "/assets/home/brands/brand7.png",
-        "branding8-path": "/assets/home/brands/brand8.png",
-        "branding9-path": "/assets/home/brands/brand9.png",
-        "branding10-path": "/assets/home/brands/brand10.png"
-    }
+  "background": {
+    "bg1-path": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/home/hero-section/bg1.jpg",
+    "bg2-path": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/home/hero-section/bg2.jpg",
+    "bg3-path": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/home/hero-section/bg3.jpg",
+    "bg4-path": null
+  },
+  "heading": {
+    "en": "Your Global Trade Partner",
+    "zh": "您的全球贸易合作伙伴",
+    "si": "ඔබගේ ගෝලීය වෙළඳ අංශයේ හවුල්කාරයා"
+  },
+  "subheading": {
+    "en": "Committed to delivering quality, reliability, and value through world-class import and export operations.",
+    "zh": "致力于通过世界一流的进出口业务提供高质量、可靠性和价值。",
+    "si": "ලෝකප්‍රසිද්ධ ආනයන හා අපනයන මෙහෙයුම් හරහා ගුණාත්මකභාවය, විශ්වාසනීයභාවය සහ අගය ලබාදීමට අප කැපවෙලා සිටිමු."
+  },
+  "btn": {
+    "en": "Explore",
+    "zh": "探索",
+    "si": "අවලෝකනය කරන්න"
+  },
+  "scrolldown": {
+    "en": "Scroll Down",
+    "zh": "向下滚动",
+    "si": "පහලට ස්ක්‍රෝල් කරන්න"
+  },
+  "suppliers-branding": {
+    "branding1-path": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/home/brands/brand1.png",
+    "branding2-path": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/home/brands/brand2.png",
+    "branding3-path": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/home/brands/brand3.png",
+    "branding4-path": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/home/brands/brand4.png",
+    "branding5-path": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/home/brands/brand5.png",
+    "branding6-path": null,
+    "branding7-path": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/home/brands/brand7.png",
+    "branding8-path": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/home/brands/brand8.png",
+    "branding9-path": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/home/brands/brand9.png",
+    "branding10-path": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/home/brands/brand10.png"
+  }
 }
