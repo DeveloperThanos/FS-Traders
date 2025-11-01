@@ -32,7 +32,7 @@
         "zh": "首席执行官",
         "si": "ප්‍රධාන විධායක නිලධාරී"
       },
-      "imagePath": "/assets/leadership/user-management.png"
+      "imagePath": "/assets/leadership/leader-1-1761991424383.jpg"
     },
     {
       "id": "leader-2",
@@ -46,7 +46,7 @@
         "zh": "首席执行官",
         "si": "ප්‍රධාන විධායක නිලධාරී"
       },
-      "imagePath": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/home/leaderships/sampleImage.png"
+      "imagePath": "/assets/leadership/leader-2-1761991424386.jpg"
     }
   ]
 }
