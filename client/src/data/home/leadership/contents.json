@@ -1,52 +1,52 @@
 {
-    "heading": {
-        "en": "Our Leaders",
-        "zh": "我们的领导团队",
-        "si": "අපගේ නායකයින්"
+  "heading": {
+    "en": "Our Leaders",
+    "zh": "我们的领导团队",
+    "si": "අපගේ නායකයින්"
+  },
+  "title": {
+    "en": "Vision shapes the future of trade.",
+    "zh": "愿景塑造贸易的未来。",
+    "si": "දර්ශනය වෙළඳාමයේ අනාගතය හැඩගන්වයි."
+  },
+  "description": {
+    "en": "Led by industry experts with a deep understanding of international trade, we turn complex global operations into seamless solutions. Our leaders ensure every partnership is built on trust and precision.",
+    "zh": "由深谙国际贸易的行业专家领导，我们将复杂的全球运营转化为无缝的解决方案。我们的领导者确保每一个合作关系都建立在信任与精准的基础上。",
+    "si": "ජාත්‍යන්තර වෙළඳාම පිළිබඳ ගැඹුරු අවබෝධයක් ඇති කාර්ය සාධක විශේෂඥයන් විසින් මෙහෙයවනු ලබන අපි, සංකීර්ණ ගෝලීය මෙහෙයුම් අඛණ්ඩ විසඳුම් බවට පරිවර්තනය කරමු. අපගේ නායකයින් සෑම හවුල්කාරිත්වයක්ම විශ්වාසය සහ නිවැරදිභාවය මත පදනම් වන බව තහවුරු කරයි."
+  },
+  "btn": {
+    "en": "Explore",
+    "zh": "探索",
+    "si": "අවලෝකනය කරන්න"
+  },
+  "leaders": [
+    {
+      "id": "leader-1",
+      "name": {
+        "en": "FS Trader",
+        "zh": "阿尔伯特·弗洛雷斯",
+        "si": "ඇල්බට් ෆ්ලෝරස්"
+      },
+      "role": {
+        "en": "Founder",
+        "zh": "首席执行官",
+        "si": "ප්‍රධාන විධායක නිලධාරී"
+      },
+      "imagePath": "/assets/leadership/leader-1-1761991265630.jpg"
     },
-    "title": {
-        "en": "Vision shapes the future of trade.",
-        "zh": "愿景塑造贸易的未来。",
-        "si": "දර්ශනය වෙළඳාමයේ අනාගතය හැඩගන්වයි."
-    },
-    "description": {
-        "en": "Led by industry experts with a deep understanding of international trade, we turn complex global operations into seamless solutions. Our leaders ensure every partnership is built on trust and precision.",
-        "zh": "由深谙国际贸易的行业专家领导，我们将复杂的全球运营转化为无缝的解决方案。我们的领导者确保每一个合作关系都建立在信任与精准的基础上。",
-        "si": "ජාත්‍යන්තර වෙළඳාම පිළිබඳ ගැඹුරු අවබෝධයක් ඇති කාර්ය සාධක විශේෂඥයන් විසින් මෙහෙයවනු ලබන අපි, සංකීර්ණ ගෝලීය මෙහෙයුම් අඛණ්ඩ විසඳුම් බවට පරිවර්තනය කරමු. අපගේ නායකයින් සෑම හවුල්කාරිත්වයක්ම විශ්වාසය සහ නිවැරදිභාවය මත පදනම් වන බව තහවුරු කරයි."
-    },
-    "btn": {
-        "en": "Explore",
-        "zh": "探索",
-        "si": "අවලෝකනය කරන්න"
-    },
-    "leaders": [
-        {
-            "id": "leader-1",
-            "name": {
-                "en": "FS Trader",
-                "zh": "阿尔伯特·弗洛雷斯",
-                "si": "ඇල්බට් ෆ්ලෝරස්"
-            },
-            "role": {
-                "en": "Founder",
-                "zh": "首席执行官",
-                "si": "ප්‍රධාන විධායක නිලධාරී"
-            },
-            "imagePath": "/assets//home/leaderships/user-management.png"
-        },
-        {
-            "id": "leader-2",
-            "name": {
-                "en": "FS Trader",
-                "zh": "阿尔伯特·弗洛雷斯",
-                "si": "ඇල්බට් ෆ්ලෝරස්"
-            },
-            "role": {
-                "en": "Director",
-                "zh": "首席执行官",
-                "si": "ප්‍රධාන විධායක නිලධාරී"
-            },
-            "imagePath": "/assets/leadership/sampleImage.png"
-        }
-    ]
+    {
+      "id": "leader-2",
+      "name": {
+        "en": "FS Trader",
+        "zh": "阿尔伯特·弗洛雷斯",
+        "si": "ඇල්බට් ෆ්ලෝරස්"
+      },
+      "role": {
+        "en": "Director",
+        "zh": "首席执行官",
+        "si": "ප්‍රධාන විධායක නිලධාරී"
+      },
+      "imagePath": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/home/leaderships/sampleImage.png"
+    }
+  ]
 }
