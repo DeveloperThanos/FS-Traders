@@ -5,7 +5,7 @@
     "si": "අපගේ සැපයුම්කරුවන්"
   },
   "manager": {
-    "imagePath": "/assets/suppliers/Hero.png",
+    "imagePath": "/assets/suppliers/manager-1762084601667.jpg",
     "name": {
       "en": "John Fernando",
       "zh": "约翰·费尔南多",
@@ -38,7 +38,7 @@
       "zh": "我们广泛的供应商网络遍布多个大陆，确保我们在全球范围内采购最优质的产品。",
       "si": "අපගේ පුළුල් සැපයුම්කරුවන්ගේ ජාලය බහු මහාද්වීප ආවරණය කරයි, අපට ලොව පුරා හොඳම නිෂ්පාදන සොයා ගැනීමට සහාය වේ."
     },
-    "imagePath": "/assets/suppliers/map.jpg"
+    "imagePath": "/assets/suppliers/supplierMap-1762084604887.jpg"
   },
   "supplierForm": {
     "heading": {
@@ -151,30 +151,126 @@
           "si": "නිෂ්පාදන"
         },
         "options": {
-          "bigOnion": { "en": "Big Onion", "zh": "大洋葱", "si": "ලොකු ලූනු" },
-          "potato": { "en": "Potato", "zh": "土豆", "si": "අල" },
-          "redOnion": { "en": "Red Onion", "zh": "红洋葱", "si": "රතු ලූනු" },
-          "garlic": { "en": "Garlic", "zh": "大蒜", "si": "සුදුලුනු" },
-          "redSplitLentils": { "en": "Red Split Lentils", "zh": "红扁豆", "si": "රතු පරිප්පු" },
-          "yellowSplitLentils": { "en": "Yellow Split Lentils", "zh": "黄扁豆", "si": "කහ පරිප්පු" },
-          "greenMung": { "en": "Green Mung", "zh": "绿豆", "si": "මුං ඇට" },
-          "urudDhal": { "en": "Urud Dhal", "zh": "黑豆扁豆", "si": "උඬ්ඩ් ඩාල්" },
-          "corianderSeeds": { "en": "Coriander Seeds", "zh": "芫荽籽", "si": "කොත්මල් බීජ" },
-          "cuminSeeds": { "en": "Cumin Seeds", "zh": "孜然籽", "si": "සුදුදු බීජ" },
-          "fennelSeeds": { "en": "Fennel Seeds", "zh": "茴香籽", "si": "මැදිරි බීජ" },
-          "mustardSeeds": { "en": "Mustard Seeds", "zh": "芥菜籽", "si": "අබ බීජ" },
-          "blackPepper": { "en": "Black Pepper", "zh": "黑胡椒", "si": "කලු මිරිස්" },
-          "cinnamon": { "en": "Cinnamon", "zh": "肉桂", "si": "කුරුඳු" },
-          "cardamom": { "en": "Cardamom", "zh": "豆蔻", "si": "එලා" },
-          "cloves": { "en": "Cloves", "zh": "丁香", "si": "කරඹුන" },
-          "ceylonBlackTea": { "en": "Ceylon Black Tea", "zh": "锡兰红茶", "si": "සිලෝන් කළු තේ" },
-          "greenTea": { "en": "Green Tea", "zh": "绿茶", "si": "කොළ තේ" },
-          "whiteTea": { "en": "White Tea", "zh": "白茶", "si": "සුදු තේ" },
-          "oolongTea": { "en": "Oolong Tea", "zh": "乌龙茶", "si": "ඕලොං තේ" },
-          "dessicatedCoconut": { "en": "Desiccated Coconut", "zh": "椰蓉", "si": "පොල් කෙල" },
-          "coconutOil": { "en": "Coconut Oil", "zh": "椰子油", "si": "පොල් තෙල්" },
-          "coconutMilk": { "en": "Coconut Milk", "zh": "椰奶", "si": "පොල් කිරි" },
-          "freshCoconut": { "en": "Fresh Coconut", "zh": "鲜椰子", "si": "තාජා පොල්" }
+          "bigOnion": {
+            "en": "Big Onion",
+            "zh": "大洋葱",
+            "si": "ලොකු ලූනු"
+          },
+          "potato": {
+            "en": "Potato",
+            "zh": "土豆",
+            "si": "අල"
+          },
+          "redOnion": {
+            "en": "Red Onion",
+            "zh": "红洋葱",
+            "si": "රතු ලූනු"
+          },
+          "garlic": {
+            "en": "Garlic",
+            "zh": "大蒜",
+            "si": "සුදුලුනු"
+          },
+          "redSplitLentils": {
+            "en": "Red Split Lentils",
+            "zh": "红扁豆",
+            "si": "රතු පරිප්පු"
+          },
+          "yellowSplitLentils": {
+            "en": "Yellow Split Lentils",
+            "zh": "黄扁豆",
+            "si": "කහ පරිප්පු"
+          },
+          "greenMung": {
+            "en": "Green Mung",
+            "zh": "绿豆",
+            "si": "මුං ඇට"
+          },
+          "urudDhal": {
+            "en": "Urud Dhal",
+            "zh": "黑豆扁豆",
+            "si": "උඬ්ඩ් ඩාල්"
+          },
+          "corianderSeeds": {
+            "en": "Coriander Seeds",
+            "zh": "芫荽籽",
+            "si": "කොත්මල් බීජ"
+          },
+          "cuminSeeds": {
+            "en": "Cumin Seeds",
+            "zh": "孜然籽",
+            "si": "සුදුදු බීජ"
+          },
+          "fennelSeeds": {
+            "en": "Fennel Seeds",
+            "zh": "茴香籽",
+            "si": "මැදිරි බීජ"
+          },
+          "mustardSeeds": {
+            "en": "Mustard Seeds",
+            "zh": "芥菜籽",
+            "si": "අබ බීජ"
+          },
+          "blackPepper": {
+            "en": "Black Pepper",
+            "zh": "黑胡椒",
+            "si": "කලු මිරිස්"
+          },
+          "cinnamon": {
+            "en": "Cinnamon",
+            "zh": "肉桂",
+            "si": "කුරුඳු"
+          },
+          "cardamom": {
+            "en": "Cardamom",
+            "zh": "豆蔻",
+            "si": "එලා"
+          },
+          "cloves": {
+            "en": "Cloves",
+            "zh": "丁香",
+            "si": "කරඹුන"
+          },
+          "ceylonBlackTea": {
+            "en": "Ceylon Black Tea",
+            "zh": "锡兰红茶",
+            "si": "සිලෝන් කළු තේ"
+          },
+          "greenTea": {
+            "en": "Green Tea",
+            "zh": "绿茶",
+            "si": "කොළ තේ"
+          },
+          "whiteTea": {
+            "en": "White Tea",
+            "zh": "白茶",
+            "si": "සුදු තේ"
+          },
+          "oolongTea": {
+            "en": "Oolong Tea",
+            "zh": "乌龙茶",
+            "si": "ඕලොං තේ"
+          },
+          "dessicatedCoconut": {
+            "en": "Desiccated Coconut",
+            "zh": "椰蓉",
+            "si": "පොල් කෙල"
+          },
+          "coconutOil": {
+            "en": "Coconut Oil",
+            "zh": "椰子油",
+            "si": "පොල් තෙල්"
+          },
+          "coconutMilk": {
+            "en": "Coconut Milk",
+            "zh": "椰奶",
+            "si": "පොල් කිරි"
+          },
+          "freshCoconut": {
+            "en": "Fresh Coconut",
+            "zh": "鲜椰子",
+            "si": "තාජා පොල්"
+          }
         }
       }
     },
