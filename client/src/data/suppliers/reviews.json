@@ -90,20 +90,20 @@
       {
         "id": "supplier-review-5",
         "supplierCompanyName": {
-          "en": "Cape Town Exporters",
-          "zh": "开普敦出口商",
-          "si": "කේප් ටවුන් අපනයනකරුවන්"
+          "en": "good",
+          "zh": "好公司",
+          "si": "හොඳ"
         },
         "country": {
           "en": "South Africa",
           "zh": "南非",
           "si": "දකුණු අප්‍රිකාව"
         },
-        "supplierLogoPath": "/assets/logos/cape-town-exporters.png",
+        "supplierLogoPath": "/assets/suppliers/reviews/review-supplier-review-5-1762085527838.jpg",
         "message": {
           "en": "A trustworthy partner for all our export needs.",
-          "zh": "我们所有出口需求的值得信赖的合作伙伴。",
-          "si": "අපගේ සියලුම අපනයන අවශ්‍යතා සඳහා විශ්වාසනීය සහකාරයෙකි."
+          "zh": "一个值得信赖的合作伙伴，满足我们所有的出口需求。",
+          "si": "අපගේ සියලු අපනයන අවශ්‍යතා සඳහා විශ්වාසදායී සහකරුවෙක්."
         }
       },
       {
