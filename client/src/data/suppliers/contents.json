@@ -5,7 +5,7 @@
     "si": "අපගේ සැපයුම්කරුවන්"
   },
   "manager": {
-    "imagePath": "/assets/suppliers/manager-1762084601667.jpg",
+    "imagePath": "/assets/suppliers/manager-1762491604988.jpg",
     "name": {
       "en": "John Fernando",
       "zh": "约翰·费尔南多",
@@ -38,7 +38,7 @@
       "zh": "我们广泛的供应商网络遍布多个大陆，确保我们在全球范围内采购最优质的产品。",
       "si": "අපගේ පුළුල් සැපයුම්කරුවන්ගේ ජාලය බහු මහාද්වීප ආවරණය කරයි, අපට ලොව පුරා හොඳම නිෂ්පාදන සොයා ගැනීමට සහාය වේ."
     },
-    "imagePath": "/assets/suppliers/supplierMap-1762084604887.jpg"
+    "imagePath": "https://raw.githubusercontent.com/DeveloperThanos/FS-Traders/main/client/public/assets/suppliers/supplierMap-1762084604887.jpg"
   },
   "supplierForm": {
     "heading": {
